@@ -19,15 +19,20 @@ st.set_page_config(
 DB_FILE = "question_bank.json"
 CONFIG_FILE = "app_config.json"
 
-# --- स्थायी डेटाबेस एवं API Key हैंडलिंग ---
+# --- स्थायी डेटाबेस एवं API Key हैंडलिंग (फूलाप्रूफ) ---
 def load_db():
     if os.path.exists(DB_FILE):
         try:
             with open(DB_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
+                data = json.load(f)
+                # अगर पुरानी फाइल में सीधा लिस्ट सेव हो, तो उसे डिक्शनरी बना लें
+                if isinstance(data, list):
+                    return {"questions": data}
+                elif isinstance(data, dict) and "questions" in data:
+                    return data
         except Exception:
             pass
-    # डिफ़ॉल्ट शुरुआती डेटा (यदि फ़ाइल न हो)
+    # डिफ़ॉल्ट शुरुआती डेटा
     return {
         "questions": [
             {
@@ -69,7 +74,7 @@ def save_config(config):
         json.dump(config, f, ensure_ascii=False, indent=4)
 
 # इनिशियलाइज़ेशन
-if "db" not in st.session_state:
+if "db" not in st.session_state or not isinstance(st.session_state.db, dict) or "questions" not in st.session_state.db:
     st.session_state.db = load_db()
 
 if "config" not in st.session_state:
@@ -300,4 +305,4 @@ else:
     st.info(f"Total Questions Stored: **{total_q}**")
 
     if st.checkbox("Show Raw JSON Database"):
-        st.json(st.session_state.db)
+        st.json(st.session_state.db)                        
