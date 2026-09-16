@@ -1,383 +1,303 @@
-import streamlit as st
+import io
 import json
 import os
 import random
+import re
 import time
 import requests
+import streamlit as st
+from google import genai
 from pypdf import PdfReader
 
-st.set_page_config(page_title="SSC JE CBT Mock Portal", layout="wide")
+# --- पेज का नाम और कॉन्फ़िगरेशन (Omega) ---
+st.set_page_config(
+    page_title="Omega",
+    page_icon="⚡",
+    layout="wide"
+)
 
 DB_FILE = "question_bank.json"
 CONFIG_FILE = "app_config.json"
 
-# --- डेटाबेस और कॉन्फ़िग हेल्पर ---
+# --- स्थायी डेटाबेस एवं API Key हैंडलिंग ---
 def load_db():
     if os.path.exists(DB_FILE):
         try:
             with open(DB_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                for q in data:
-                    if "subject" not in q:
-                        q["subject"] = "Technical"
-                return data
+                return json.load(f)
         except Exception:
-            return []
-    return []
+            pass
+    # डिफ़ॉल्ट शुरुआती डेटा (यदि फ़ाइल न हो)
+    return {
+        "questions": [
+            {
+                "id": 1,
+                "subject": "Technical (Electrical)",
+                "question": "Which of the following motors has the highest starting torque?",
+                "options": ["Squirrel cage induction motor", "Slip ring induction motor", "Series motor", "Shunt motor"],
+                "answer": "Series motor",
+                "explanation": "DC series motor produces very high starting torque because torque is proportional to the square of armature current (T ∝ Ia²).",
+                "bengali_meaning": "DC series motor-এ starting torque সবথেকে বেশি হয় কারণ এটি armature current-এর square-এর সমানুপাতিক।"
+            },
+            {
+                "id": 2,
+                "subject": "Non-Technical (Reasoning)",
+                "question": "If CAT is coded as 24, how is DOG coded?",
+                "options": ["26", "27", "28", "29"],
+                "answer": "26",
+                "explanation": "Sum of alphabetical positions: C(3) + A(1) + T(20) = 24. Similarly for DOG: D(4) + O(15) + G(7) = 26.",
+                "bengali_meaning": "alphabetical position-গুলির যোগফল করা হয়েছে: C=3, A=1, T=20 যোগ করলে 24 হয়। তেমনি DOG = 4+15+7 = 26।"
+            }
+        ]
+    }
 
 def save_db(data):
     with open(DB_FILE, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(data, f, ensure_ascii=False, indent=4)
 
-def load_saved_key():
+def load_config():
     if os.path.exists(CONFIG_FILE):
         try:
             with open(CONFIG_FILE, "r", encoding="utf-8") as f:
-                return json.load(f).get("api_key", "")
+                return json.load(f)
         except Exception:
-            return ""
-    return ""
+            pass
+    return {"gemini_api_key": ""}
 
-def save_saved_key(key_str):
+def save_config(config):
     with open(CONFIG_FILE, "w", encoding="utf-8") as f:
-        json.dump({"api_key": key_str}, f)
+        json.dump(config, f, ensure_ascii=False, indent=4)
 
-# --- जेमिनी एपीआई सवाल पार्सर ---
-def parse_raw_text_with_gemini(raw_text, api_key, subject="Technical"):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
-    headers = {"Content-Type": "application/json"}
-    prompt = f"""
-Extract all multiple-choice questions from the following text and return STRICTLY a JSON array of objects.
-Each object must have these exact keys:
-- "question": "The question text in English"
-- "options": ["Option A", "Option B", "Option C", "Option D"] (Array of 4 options in English)
-- "correct_option": "Exact string of the correct option matching one of the options"
-- "bengali_meaning": "Precise and helpful Bengali translation or meaning hint for the question"
-- "subject": "{subject}"
+# इनिशियलाइज़ेशन
+if "db" not in st.session_state:
+    st.session_state.db = load_db()
 
-Do NOT include any markdown formatting, backticks, or extra text. Output only valid JSON.
-Text to parse:
-{raw_text}
-"""
-    payload = {"contents": [{"parts": [{"text": prompt}]}]}
-    response = requests.post(url, headers=headers, json=payload, timeout=60)
-    
-    if response.status_code == 200:
-        res_data = response.json()
-        generated_text = res_data["candidates"][0]["content"]["parts"][0]["text"].strip()
-        if generated_text.startswith("```"):
-            generated_text = generated_text.strip("`")
-            if generated_text.startswith("json"):
-                generated_text = generated_text[4:].strip()
-        return json.loads(generated_text)
-    elif response.status_code == 429:
-        st.error("API Quota Exhausted (429)! फ़्री लिमिट पूरी हो चुकी है। कृपया सीधे question_bank.json में सवाल जोड़ें।")
-        return None
-    else:
-        st.error(f"API Error {response.status_code}: {response.text}")
-        return None
+if "config" not in st.session_state:
+    st.session_state.config = load_config()
 
-# --- सेशन स्टेट इनिशियलाइज़ेशन ---
-if "api_key" not in st.session_state:
-    st.session_state.api_key = load_saved_key()
+# --- सेशन स्टेट वेरिएबल ---
 if "test_started" not in st.session_state:
     st.session_state.test_started = False
-if "test_submitted" not in st.session_state:
-    st.session_state.test_submitted = False
-if "current_questions" not in st.session_state:
-    st.session_state.current_questions = []
+if "submitted" not in st.session_state:
+    st.session_state.submitted = False
 if "user_answers" not in st.session_state:
     st.session_state.user_answers = {}
+if "test_questions" not in st.session_state:
+    st.session_state.test_questions = []
 if "start_time" not in st.session_state:
     st.session_state.start_time = 0
-if "duration_mins" not in st.session_state:
-    st.session_state.duration_mins = 12
+if "time_limit" not in st.session_state:
+    st.session_state.time_limit = 10  # मिनट
 
-# --- मुख्य यूआई (Tabs Layout) ---
-st.title("⚡ SSC JE CBT Exam Portal")
-
-tab_mock, tab_manage = st.tabs(["📝 Mock Test", "⚙️ Manage & Add Questions"])
+# --- साइडबार मेनू ---
+st.sidebar.title("⚡ Omega Portal")
+menu = st.sidebar.radio("Navigation", ["Take Mock Test", "Manage & Add Questions"])
 
 # ==========================================
-# TAB 1: MOCK TEST
+# 1. MOCK TEST SECTION
 # ==========================================
-with tab_mock:
-    bank = load_db()
+if menu == "Take Mock Test":
+    st.title("🎯 Omega - CBT Mock Test")
+    st.markdown("अपनी तैयारी को परखिए और हर सवाल का सही विश्लेषण देखिए।")
 
-    # टेस्ट शुरू नहीं हुआ है तो सेटअप स्क्रीन दिखाएँ
     if not st.session_state.test_started:
-        st.subheader("🎯 Configure Your Test")
+        st.subheader("⚙️ Test Configuration")
         
-        tech_count = sum(1 for q in bank if q.get("subject") == "Technical")
-        non_tech_count = sum(1 for q in bank if q.get("subject") == "Non-Technical")
+        all_qs = st.session_state.db["questions"]
+        tech_count = sum(1 for q in all_qs if "Technical" in q.get("subject", ""))
+        non_tech_count = len(all_qs) - tech_count
 
         col1, col2 = st.columns(2)
         with col1:
             subject_mode = st.selectbox(
-                "📚 Select Subject Mode:",
-                [
-                    f"Full Mock (Mixed) - {len(bank)} Available",
-                    f"Technical Only - {tech_count} Available",
-                    f"Non-Technical Only - {non_tech_count} Available"
-                ]
+                "Select Subject Mode", 
+                ["Full Mock (Mixed)", "Technical Only", "Electrical", "Non-Technical Only", "Reasoning / GK"]
             )
-        
         with col2:
-            test_mode = st.selectbox(
-                "⏱️ Choose Test Size & Duration:",
-                ["10 Questions (12 Minutes)", "100 Questions (120 Minutes)"]
-            )
-            
-        num_q = 10 if "10 Questions" in test_mode else 100
-        dur_mins = 12 if "12 Minutes" in test_mode else 120
+            num_q = st.slider("Number of Questions", min_value=1, max_value=max(1, len(all_qs)), value=min(10, len(all_qs)))
 
-        # सब्जेक्ट के अनुसार पूल फ़िल्टर
-        if "Technical Only" in subject_mode:
-            pool = [q for q in bank if q.get("subject") == "Technical"]
-        elif "Non-Technical Only" in subject_mode:
-            pool = [q for q in bank if q.get("subject") == "Non-Technical"]
-        else:
-            pool = bank
+        st.markdown(f"📊 *Available Question Bank:* Total = {len(all_qs)} | Technical = {tech_count} | Non-Tech = {non_tech_count}")
 
-        if st.button("🚀 Start Mock Test", type="primary", use_container_width=True):
-            if len(pool) == 0:
-                st.error("चयनित विषय में कोई सवाल मौजूद नहीं है! पहले 'Manage & Add Questions' में जाकर सवाल जोड़ें।")
+        if st.button("🚀 Start Test", type="primary"):
+            # फ़िल्टरिंग लॉजिक
+            if "Technical" in subject_mode or "Electrical" in subject_mode:
+                filtered = [q for q in all_qs if "Technical" in q.get("subject", "")]
+            elif "Non-Technical" in subject_mode or "Reasoning" in subject_mode:
+                filtered = [q for q in all_qs if "Non-Technical" in q.get("subject", "")]
             else:
-                selected = random.sample(pool, min(num_q, len(pool)))
-                st.session_state.current_questions = selected
-                st.session_state.user_answers = {i: None for i in range(len(selected))}
-                st.session_state.start_time = time.time()
-                st.session_state.duration_mins = dur_mins
-                st.session_state.test_started = True
-                st.session_state.test_submitted = False
-                st.rerun()
+                filtered = all_qs
 
-    # टेस्ट चालू है
-    elif st.session_state.test_started and not st.session_state.test_submitted:
-        elapsed = time.time() - st.session_state.start_time
-        total_time_sec = st.session_state.duration_mins * 60
-        remaining_sec = max(0, int(total_time_sec - elapsed))
-
-        rem_min = remaining_sec // 60
-        rem_s = remaining_sec % 60
-
-        st.markdown(
-            f"""
-            <div style="background-color:#1e293b; padding:12px; border-radius:8px; display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
-                <span style="color:#38bdf8; font-size:18px; font-weight:bold;">Total Questions: {len(st.session_state.current_questions)}</span>
-                <span style="color:{'#ef4444' if remaining_sec < 180 else '#22c55e'}; font-size:22px; font-weight:bold;">⏱️ {rem_min:02d}:{rem_s:02d}</span>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-
-        if remaining_sec == 0:
-            st.warning("⚠️ Time Over! Test automatically submitted.")
-            st.session_state.test_submitted = True
-            st.rerun()
-
-        for i, q in enumerate(st.session_state.current_questions):
-            subj_tag = q.get("subject", "Technical")
-            tag_color = "#3b82f6" if subj_tag == "Technical" else "#10b981"
-
-            st.markdown(
-                f"""
-                <div style="margin-top:10px; margin-bottom:5px;">
-                    <span style="background-color:{tag_color}; color:white; padding:3px 8px; border-radius:4px; font-size:12px; font-weight:bold;">{subj_tag}</span>
-                    <span style="font-size:16px; font-weight:bold; margin-left:8px;">Q{i+1}. {q['question']}</span>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-            if q.get("bengali_meaning"):
-                with st.expander(f"🇧🇩 প্রশ্ন {i+1} এর বাংলা অর্থ (Show Meaning)"):
-                    st.write(q["bengali_meaning"])
-
-            current_choice = st.session_state.user_answers.get(i, None)
-            default_index = None
-            if current_choice in q["options"]:
-                default_index = q["options"].index(current_choice)
-
-            selected_opt = st.radio(
-                f"Select answer for Q{i+1}:",
-                q["options"],
-                index=default_index,
-                key=f"q_radio_{i}",
-                label_visibility="collapsed"
-            )
-            st.session_state.user_answers[i] = selected_opt
-            st.markdown("---")
-
-        col_sub, col_quit = st.columns([2, 1])
-        with col_sub:
-            if st.button("✅ Final Submit Test", type="primary", use_container_width=True):
-                st.session_state.test_submitted = True
-                st.rerun()
-        with col_quit:
-            if st.button("❌ Quit Test", use_container_width=True):
-                st.session_state.test_started = False
-                st.session_state.test_submitted = False
-                st.session_state.current_questions = []
+            if not filtered:
+                st.warning("⚠️ इस कैटेगरी में कोई सवाल उपलब्ध नहीं है। कृपया पहले सवाल जोड़ें या दूसरा मोड चुनें।")
+            else:
+                selected = random.sample(filtered, min(num_q, len(filtered)))
+                st.session_state.test_questions = selected
                 st.session_state.user_answers = {}
+                st.session_state.submitted = False
+                st.session_state.test_started = True
+                st.session_state.start_time = time.time()
                 st.rerun()
 
-    # ==========================================
-    # टेस्ट सबमिट हो गया - स्कोरकार्ड और मिस्टेक फ़िल्टर
-    # ==========================================
-    elif st.session_state.test_submitted:
-        st.subheader("📊 Your Scorecard & Performance")
+    else:
+        # टेस्ट चालू होने पर स्क्रीन
+        questions = st.session_state.test_questions
+        elapsed_time = int(time.time() - st.session_state.start_time)
+        time_left_sec = (st.session_state.time_limit * 60) - elapsed_time
 
-        correct_count = 0
-        incorrect_count = 0
-        unattempted_count = 0
-
-        for i, q in enumerate(st.session_state.current_questions):
-            ans = st.session_state.user_answers.get(i)
-            if ans is None:
-                unattempted_count += 1
-            elif ans == q["correct_option"]:
-                correct_count += 1
+        col_timer, col_info = st.columns([2, 2])
+        with col_timer:
+            if time_left_sec > 0:
+                mins, secs = divmod(time_left_sec, 60)
+                st.info(f"⏱️ Time Remaining: **{mins:02d}:{secs:02d}**")
             else:
-                incorrect_count += 1
+                st.error("⏰ Time's up!")
+                st.session_state.submitted = True
 
-        total_marks = (correct_count * 1.0) - (incorrect_count * 0.25)
-        max_marks = len(st.session_state.current_questions) * 1.0
-
-        c1, c2, c3, c4 = st.columns(4)
-        c1.metric("Total Marks", f"{total_marks:.2f} / {max_marks:.0f}")
-        c2.metric("✅ Correct (+1.0)", correct_count)
-        c3.metric("❌ Incorrect (-0.25)", incorrect_count)
-        c4.metric("⚪ Unattempted", unattempted_count)
+        with col_info:
+            st.success(f"📝 Active Test Mode | Total Questions: {len(questions)}")
 
         st.markdown("---")
 
-        # गलत सवाल छाँटने का फ़िल्टर
-        st.subheader("🔍 Review & Practice Mistakes")
-        review_filter = st.radio(
-            "Show Questions:",
-            [
-                f"❌ Only Incorrect ({incorrect_count})",
-                f"⚪ Only Unattempted ({unattempted_count})",
-                f"📋 All Questions ({len(st.session_state.current_questions)})"
-            ],
-            horizontal=True
-        )
+        # फॉर्म या इंटरैक्टिव लूप
+        with st.form("mock_test_form"):
+            for idx, q in enumerate(questions):
+                st.markdown(f"### Q{idx+1}: {q['question']}")
+                
+                # विषय का टैग दिखाना
+                subj_tag = q.get("subject", "General")
+                if "Technical" in subj_tag:
+                    st.caption(f"📌 Subject: 🔵 {subj_tag}")
+                else:
+                    st.caption(f"📌 Subject: 🟢 {subj_tag}")
 
-        displayed_any = False
-        for i, q in enumerate(st.session_state.current_questions):
-            user_choice = st.session_state.user_answers.get(i)
-            is_correct = (user_choice == q["correct_option"])
-            subj_tag = q.get("subject", "Technical")
+                # बंगाली मीनिंग हिंट (यदि उपलब्ध हो)
+                if q.get("bengali_meaning"):
+                    st.markdown(f"💡 *Bengali Meaning:* {q['bengali_meaning']}")
 
-            # फ़िल्टर लॉजिक
-            if "Only Incorrect" in review_filter and (user_choice is None or is_correct):
-                continue
-            if "Only Unattempted" in review_filter and user_choice is not None:
-                continue
+                # विकल्प
+                options = q["options"]
+                default_val = st.session_state.user_answers.get(idx, None)
+                
+                choice = st.radio(
+                    f"Choose your answer for Q{idx+1}:",
+                    options,
+                    index=options.index(default_val) if default_val in options else None,
+                    key=f"q_{idx}"
+                )
+                
+                if choice:
+                    st.session_state.user_answers[idx] = choice
 
-            displayed_any = True
-            status_text = "✅ Correct" if is_correct else ("⚪ Unattempted" if user_choice is None else "❌ Wrong")
-            status_color = "#22c55e" if is_correct else ("#94a3b8" if user_choice is None else "#ef4444")
+                st.markdown("---")
 
-            st.markdown(
-                f"""
-                <div style="background-color:#0f172a; border-left: 5px solid {status_color}; padding: 12px; border-radius: 6px; margin-top: 15px;">
-                    <span style="background-color:#334155; color:white; padding:2px 8px; border-radius:3px; font-size:11px; font-weight:bold;">{subj_tag}</span>
-                    <strong style="font-size:16px; margin-left:8px;">Q{i+1}: {q['question']}</strong><br/>
-                    <div style="margin-top:8px;">
-                        <span style="color:{status_color}; font-weight:bold;">Your Choice: {user_choice if user_choice else 'Not Attempted'}</span> | 
-                        <span style="color:#22c55e; font-weight:bold;">Correct Answer: {q['correct_option']}</span>
-                    </div>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-            if q.get("bengali_meaning"):
-                st.caption(f"🇧🇩 বাংলা অর্থ: {q['bengali_meaning']}")
-
-        if not displayed_any:
-            if "Only Incorrect" in review_filter:
-                st.success("🎉 शाबाश! आपका एक भी सवाल गलत नहीं हुआ!")
-            elif "Only Unattempted" in review_filter:
-                st.info("आपने सारे सवाल हल किए थे, कोई भी सवाल छोड़ा नहीं था।")
-
-        st.markdown("<br/>", unsafe_allow_html=True)
-        if st.button("🔄 Take Another Test", type="primary", use_container_width=True):
-            st.session_state.test_started = False
-            st.session_state.test_submitted = False
-            st.session_state.current_questions = []
-            st.session_state.user_answers = {}
-            st.rerun()
-
-# ==========================================
-# TAB 2: MANAGE & ADD QUESTIONS
-# ==========================================
-with tab_manage:
-    st.subheader("🔑 Gemini API Settings")
-    
-    col_k1, col_k2 = st.columns([3, 1])
-    with col_k1:
-        new_key = st.text_input("Enter Gemini API Key:", value=st.session_state.api_key, type="password", placeholder="AIzaSy...")
-    with col_k2:
-        st.markdown("<div style='margin-top:28px;'></div>", unsafe_allow_html=True)
-        if st.button("💾 Save Key", use_container_width=True):
-            if new_key.strip():
-                st.session_state.api_key = new_key.strip()
-                save_saved_key(new_key.strip())
-                st.success("Key Saved!")
+            submit_btn = st.form_submit_button("📤 Submit Test", type="primary")
+            if submit_btn:
+                st.session_state.submitted = True
                 st.rerun()
 
-    st.markdown("---")
-    st.subheader("📥 Add Questions to Bank")
+        # अगर सबमिट हो चुका है या टाइम खत्म हो गया है, तो रिजल्ट दिखाएं
+        if st.session_state.submitted:
+            st.header("📊 Test Results & Analysis")
+            
+            score = 0
+            incorrect_list = []
 
-    selected_subject_to_add = st.radio(
-        "🏷️ Choose Subject for New Questions:",
-        ["Technical", "Non-Technical"],
-        horizontal=True
+            for idx, q in enumerate(questions):
+                user_ans = st.session_state.user_answers.get(idx, "Not Answered")
+                correct_ans = q["answer"]
+
+                if user_ans == correct_ans:
+                    score += 1
+                    st.markdown(f"✅ **Q{idx+1}: {q['question']}**")
+                    st.markdown(f"Your Answer: `{user_ans}` (Correct)")
+                else:
+                    incorrect_list.append((idx, q, user_ans))
+                    st.markdown(f"❌ **Q{idx+1}: {q['question']}**")
+                    st.markdown(f"Your Answer: `{user_ans}` | Correct Answer: `{correct_ans}`")
+                
+                if q.get("explanation"):
+                    st.markdown(f"💡 *Explanation:* {q['explanation']}")
+                st.markdown("---")
+
+            st.subheader(f"🎯 Final Score: {score} / {len(questions)}")
+
+            # --- Mistake Review Filter (Only Incorrect) ---
+            if incorrect_list:
+                st.markdown("### ⚠️ Mistakes Review (Only Incorrect)")
+                for idx, q, user_ans in incorrect_list:
+                    with st.expander(f"Review Q{idx+1}: {q['question']}"):
+                        st.markdown(f"❌ **Your Answer:** {user_ans}")
+                        st.markdown(f"✅ **Correct Answer:** {q['answer']}")
+                        if q.get("explanation"):
+                            st.markdown(f"💡 **Explanation:** {q['explanation']}")
+                        if q.get("bengali_meaning"):
+                            st.markdown(f"💡 **Bengali Meaning:** {q['bengali_meaning']}")
+
+            if st.button("🔄 Take Another Test"):
+                st.session_state.test_started = False
+                st.session_state.submitted = False
+                st.session_state.user_answers = {}
+                st.rerun()
+
+# ==========================================
+# 2. MANAGE & ADD QUESTIONS SECTION
+# ==========================================
+else:
+    st.title("🛠️ Omega - Question Bank Manager")
+    st.markdown("यहाँ से आप नए सवाल जोड़ सकते हैं और क्वेश्चन बैंक को मैनेज कर सकते हैं।")
+
+    # API Key इनपुट
+    api_key_input = st.text_input(
+        "Gemini API Key (Required for AI features)",
+        value=st.session_state.config.get("gemini_api_key", ""),
+        type="password"
     )
-
-    pdf_file = st.file_uploader("Upload Question PDF (Optional):", type=["pdf"])
-    raw_input_text = st.text_area("Or Paste Raw Text of Questions directly:", height=150, placeholder="Paste questions here...")
-
-    if st.button("⚙️ Process & Add to Bank", type="primary", use_container_width=True):
-        if not st.session_state.api_key:
-            st.error("कृपया पहले ऊपर अपनी Gemini API Key दर्ज करें!")
-        else:
-            full_text = ""
-            if pdf_file is not None:
-                try:
-                    reader = PdfReader(pdf_file)
-                    for p in reader.pages:
-                        full_text += p.extract_text() or ""
-                except Exception as e:
-                    st.error(f"PDF पढ़ने में त्रुटि: {e}")
-
-            if raw_input_text.strip():
-                full_text += "\n" + raw_input_text.strip()
-
-            if not full_text.strip():
-                st.warning("कृपया टेक्स्ट पेस्ट करें या PDF अपलोड करें!")
-            else:
-                with st.spinner(f"AI सवालों को {selected_subject_to_add} फ़ॉर्मेट में प्रोसेस कर रहा है..."):
-                    extracted = parse_raw_text_with_gemini(full_text, st.session_state.api_key, selected_subject_to_add)
-                    if extracted and isinstance(extracted, list):
-                        current_db = load_db()
-                        current_db.extend(extracted)
-                        save_db(current_db)
-                        st.success(f"सफलतापूर्वक {len(extracted)} नए सवाल ({selected_subject_to_add}) बैंक में जोड़ दिए गए!")
-                        time.sleep(1)
-                        st.rerun()
+    if st.button("Save API Key"):
+        st.session_state.config["gemini_api_key"] = api_key_input
+        save_config(st.session_state.config)
+        st.success("API Key saved securely!")
 
     st.markdown("---")
-    current_stored = load_db()
-    st.write(f"📚 **Total Stored Questions:** {len(current_stored)}")
-    t_cnt = sum(1 for q in current_stored if q.get("subject") == "Technical")
-    nt_cnt = sum(1 for q in current_stored if q.get("subject") == "Non-Technical")
-    st.caption(f"⚡ Technical: **{t_cnt}** | 🧠 Non-Technical: **{nt_cnt}**")
+    st.subheader("➕ Add New Question Manually")
 
-    if st.button("🗑️ Reset / Clear Bank", help="सारे सवाल मिटा देगा"):
-        save_db([])
-        st.warning("क्वेश्चन बैंक खाली कर दिया गया।")
-        st.rerun()
+    with st.form("add_question_form"):
+        new_subject = st.selectbox("Subject Category", ["Technical (Electrical)", "Non-Technical (Reasoning)", "Non-Technical (General Knowledge)"])
+        new_q_text = st.text_area("Question Text")
+        
+        col_op1, col_op2 = st.columns(2)
+        with col_op1:
+            op1 = st.text_input("Option A")
+            op2 = st.text_input("Option B")
+        with col_op2:
+            op3 = st.text_input("Option C")
+            op4 = st.text_input("Option D")
+
+        correct_op = st.selectbox("Correct Option", [op1, op2, op3, op4])
+        explanation = st.text_area("Explanation")
+        bengali_meaning = st.text_input("Bengali Meaning Hint (Optional)")
+
+        add_submitted = st.form_submit_button("📥 Add Question to Bank")
+        if add_submitted:
+            if not new_q_text or not correct_op:
+                st.error("Please fill in the question and correct option!")
+            else:
+                new_item = {
+                    "id": len(st.session_state.db["questions"]) + 1,
+                    "subject": new_subject,
+                    "question": new_q_text,
+                    "options": [op1, op2, op3, op4],
+                    "answer": correct_op,
+                    "explanation": explanation,
+                    "bengali_meaning": bengali_meaning
+                }
+                st.session_state.db["questions"].append(new_item)
+                save_db(st.session_state.db)
+                st.success("🎉 Question added successfully to Omega Database!")
+
+    st.markdown("---")
+    st.subheader("📚 Current Question Bank Statistics")
+    total_q = len(st.session_state.db["questions"])
+    st.info(f"Total Questions Stored: **{total_q}**")
+
+    if st.checkbox("Show Raw JSON Database"):
+        st.json(st.session_state.db)                    
