@@ -94,7 +94,7 @@ Raw Text:
 {extracted_text[:15000]}
 """
                         resp = client.models.generate_content(
-                            model='gemini-3.6-flash',
+                            model='gemini-2.0-flash',
                             contents=prompt
                         )
                         clean_json = resp.text.strip().removeprefix("```json").removesuffix("```").strip()
