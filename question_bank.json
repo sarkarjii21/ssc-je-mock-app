@@ -54,4 +54,424 @@
     "correct_option": "Linear and bilateral",
     "bengali_meaning": "সুপারপজিশন উপপাদ্য কেবলমাত্র কোন ধরনের বর্তনীর জন্য প্রযোজ্য?"
   }
-]
+][
+  {
+    "question": "Kirchhoff's Current Law (KCL) at a junction is based on the law of conservation of:",
+    "options": ["Energy", "Momentum", "Charge", "Mass"],
+    "correct_option": "Charge",
+    "bengali_meaning": "জংশনে কার্শফের কারেন্ট সূত্র (KCL) কিসের সংরক্ষণ নীতির ওপর ভিত্তি করে?"
+  },
+  {
+    "question": "Which of the following elements is a non-linear element?",
+    "options": ["Resistor", "Diode", "Inductor", "Capacitor"],
+    "correct_option": "Diode",
+    "bengali_meaning": "নিচের কোনটি একটি নন-লিনিয়ার (অ-রৈখিক) উপাদান?"
+  },
+  {
+    "question": "An ideal voltage source has:",
+    "options": ["Zero internal resistance", "Infinite internal resistance", "Large internal conductance", "Finite non-zero resistance"],
+    "correct_option": "Zero internal resistance",
+    "bengali_meaning": "একটি আদর্শ ভোল্টেজ উৎসের অভ্যন্তরীণ রোধ কত?"
+  },
+  {
+    "question": "The internal resistance of an ideal current source is:",
+    "options": ["Zero", "Small", "Infinite", "Negative"],
+    "correct_option": "Infinite",
+    "bengali_meaning": "একটি আদর্শ কারেন্ট উৎসের অভ্যন্তরীণ রোধ কত?"
+  },
+  {
+    "question": "Superposition theorem is valid only for circuits that are:",
+    "options": ["Non-linear and bilateral", "Linear and bilateral", "Linear and unilateral", "Non-linear and unilateral"],
+    "correct_option": "Linear and bilateral",
+    "bengali_meaning": "সুপারপজিশন উপপাদ্য কেবলমাত্র কোন ধরনের বর্তনীর জন্য প্রযোজ্য?"
+  },
+  {
+    "question": "The unit of magnetic reluctance is:",
+    "options": ["Henry", "Weber / Ampere-turn", "Ampere-turn / Weber (A-t/Wb)", "Ampere / meter"],
+    "correct_option": "Ampere-turn / Weber (A-t/Wb)",
+    "bengali_meaning": "চৌম্বকীয় রিলাকট্যান্সের (Reluctance) একক কী?"
+  },
+  {
+    "question": "In a purely capacitive AC circuit, the current:",
+    "options": ["Lags voltage by 90°", "Leads voltage by 90°", "Is in phase with voltage", "Leads voltage by 180°"],
+    "correct_option": "Leads voltage by 90°",
+    "bengali_meaning": "একটি বিশুদ্ধ ক্যাপাসিটিভ এসি বর্তনীতে কারেন্ট ভোল্টেজের তুলনায় কী অবস্থানে থাকে?"
+  },
+  {
+    "question": "Under the condition of resonance in a series RLC circuit, the power factor is:",
+    "options": ["Zero lagging", "Zero leading", "Unity", "0.8 lagging"],
+    "correct_option": "Unity",
+    "bengali_meaning": "শ্রেণী RLC রেজোন্যান্স অবস্থায় পাওয়ার ফ্যাক্টর কত হয়?"
+  },
+  {
+    "question": "The form factor of a pure sinusoidal alternating wave is:",
+    "options": ["1.0", "1.11", "1.414", "0.707"],
+    "correct_option": "1.11",
+    "bengali_meaning": "বিশুদ্ধ সাইনুসয়েডাল তরঙ্গের ফর্ম ফ্যাক্টর (Form factor) কত?"
+  },
+  {
+    "question": "The core of a transformer is laminated in order to reduce:",
+    "options": ["Hysteresis loss", "Eddy current loss", "Copper loss", "Stray load loss"],
+    "correct_option": "Eddy current loss",
+    "bengali_meaning": "ট্রান্সফরমারের কোর ল্যামিনেট করার মূল কারণ কী কমানো?"
+  },
+  {
+    "question": "An open-circuit test on a single-phase transformer is primarily conducted to determine:",
+    "options": ["Copper loss", "Equivalent winding resistance", "Core loss (Iron loss)", "Total leakage reactance"],
+    "correct_option": "Core loss (Iron loss)",
+    "bengali_meaning": "একক ফেজ ট্রান্সফরমারে ওপেন-সার্কিট টেস্ট মূলত কী নির্ণয়ের জন্য করা হয়?"
+  },
+  {
+    "question": "In a DC generator, the actual function of the commutator is to:",
+    "options": ["Collect current from brushes", "Convert internal AC to external DC", "Reduce armature reaction", "Increase generated EMF"],
+    "correct_option": "Convert internal AC to external DC",
+    "bengali_meaning": "ডিসি জেনারেটরে কমিউটেটরের আসল কাজ কী?"
+  },
+  {
+    "question": "Which DC motor should NEVER be started on no-load?",
+    "options": ["DC Shunt Motor", "DC Series Motor", "Cumulative Compound Motor", "Differentially Compound Motor"],
+    "correct_option": "DC Series Motor",
+    "bengali_meaning": "কোন ডিসি মোটরকে কখনো নো-লোড অবস্থায় চালু করা উচিত নয়?"
+  },
+  {
+    "question": "In a 3-phase induction motor, when the rotor is at standstill (blocked rotor), the slip (s) is equal to:",
+    "options": ["0", "0.5", "1", "∞"],
+    "correct_option": "1",
+    "bengali_meaning": "৩-ফেজ ইন্ডাকশন মোটরের রটার স্থির (ব্লকড রটার) অবস্থায় স্লিপ (s) কত?"
+  },
+  {
+    "question": "A PMMC (Permanent Magnet Moving Coil) instrument can measure:",
+    "options": ["Only AC quantities", "Only DC quantities", "Both AC and DC quantities", "Pulsating AC only"],
+    "correct_option": "Only DC quantities",
+    "bengali_meaning": "PMMC যন্ত্র শুধুমাত্র কোন রাশি পরিমাপ করতে পারে?"
+  },
+  {
+    "question": "To convert a moving coil galvanometer into an ammeter, we connect:",
+    "options": ["A high resistance in series", "A low resistance in series", "A low resistance in parallel (shunt)", "A high resistance in parallel"],
+    "correct_option": "A low resistance in parallel (shunt)",
+    "bengali_meaning": "গ্যালভানোমিটারকে অ্যামিটারে রূপান্তর করতে কী সংযোগ করতে হয়?"
+  },
+  {
+    "question": "In a two-wattmeter method of 3-phase power measurement, if one wattmeter reads zero, the power factor of the load is:",
+    "options": ["1.0", "0.866", "0.5", "0"],
+    "correct_option": "0.5",
+    "bengali_meaning": "দুই-ওয়াটমিটার পদ্ধতিতে একটির পাঠ শূন্য হলে পাওয়ার ফ্যাক্টর কত?"
+  },
+  {
+    "question": "The primary reason for bundle conductors in high-voltage transmission lines is to:",
+    "options": ["Increase line resistance", "Reduce corona loss and radio interference", "Reduce line capacitance", "Make mechanical stringing easier"],
+    "correct_option": "Reduce corona loss and radio interference",
+    "bengali_meaning": "উচ্চ ভোল্টেজ লাইনে বান্ডেল কন্ডাক্টর ব্যবহারের মূল কারণ কী?"
+  },
+  {
+    "question": "Skin effect in a conductor increases with an increase in:",
+    "options": ["Supply frequency", "Conductor diameter", "Permeability of conductor material", "All of the above"],
+    "correct_option": "All of the above",
+    "bengali_meaning": "পরিবাহীতে স্কিন এফেক্ট কিসের বৃদ্ধির সাথে বৃদ্ধি পায়?"
+  },
+  {
+    "question": "The Buchholz relay is used for the protection of:",
+    "options": ["Transmission lines", "Alternators against overcurrent", "Oil-immersed transformers against internal faults", "Synchronous motors against hunting"],
+    "correct_option": "Oil-immersed transformers against internal faults",
+    "bengali_meaning": "বুখহোলজ রিলে মূলত কোনটির সুরক্ষায় ব্যবহৃত হয়?"
+  },
+  {
+    "question": "Kirchhoff's Voltage Law (KVL) is based on the principle of conservation of:",
+    "options": ["Charge", "Energy", "Momentum", "Magnetic flux"],
+    "correct_option": "Energy",
+    "bengali_meaning": "কার্শফের ভোল্টেজ সূত্র (KVL) কিসের সংরক্ষণ নীতির ওপর ভিত্তি করে?"
+  },
+  {
+    "question": "A bilateral circuit is defined as a circuit whose characteristics:",
+    "options": ["Depend on the direction of current", "Are independent of the direction of current flow", "Change with changes in temperature only", "Remain non-linear under all conditions"],
+    "correct_option": "Are independent of the direction of current flow",
+    "bengali_meaning": "বাইলেটারাল (দ্বিমুখী) সার্কিট বলতে কী বোঝায়?"
+  },
+  {
+    "question": "The maximum power transfer theorem states that power transferred to the load is maximum when load resistance (R_L) equals:",
+    "options": ["(R_th / 2)", "2 R_th", "R_th", "Zero"],
+    "correct_option": "R_th",
+    "bengali_meaning": "সর্বোচ্চ ক্ষমতা স্থানান্তরের জন্য লোড রোধ কত হওয়া প্রয়োজন?"
+  },
+  {
+    "question": "The reciprocal of magnetic reluctance is known as:",
+    "options": ["Susceptance", "Permeance", "Conductance", "Retentivity"],
+    "correct_option": "Permeance",
+    "bengali_meaning": "চৌম্বকীয় রিলাকট্যান্সের বিপরীত রাশিকে কী বলা হয়?"
+  },
+  {
+    "question": "In an AC circuit containing only a pure inductor, the phase angle between voltage and current is:",
+    "options": ["Current leads voltage by 90°", "Current lags voltage by 90°", "Current and voltage are in phase", "Current lags voltage by 180°"],
+    "correct_option": "Current lags voltage by 90°",
+    "bengali_meaning": "বিশুদ্ধ ইন্ডাকটিভ সার্কিটে ভোল্টেজ ও কারেন্টের মধ্যে ফেজ পার্থক্য কত?"
+  },
+  {
+    "question": "In a parallel resonant circuit (tank circuit), the impedance at resonant frequency is:",
+    "options": ["Minimum", "Maximum", "Zero", "Inductive only"],
+    "correct_option": "Maximum",
+    "bengali_meaning": "সমান্তরাল রেজোন্যান্স সার্কিটে রেজোন্যান্স কম্পাঙ্কে ইম্পিডেন্স কত হয়?"
+  },
+  {
+    "question": "The peak factor (crest factor) of a standard sinusoidal waveform is:",
+    "options": ["1.11", "0.707", "1.414", "2.0"],
+    "correct_option": "1.414",
+    "bengali_meaning": "সাইন তরঙ্গের পিক ফ্যাক্টর (Crest factor) কত?"
+  },
+  {
+    "question": "The primary and secondary windings of an ordinary two-winding transformer are linked:",
+    "options": ["Conductively only", "Magnetically only", "Electrostatically only", "Mechanically only"],
+    "correct_option": "Magnetically only",
+    "bengali_meaning": "সাধারণ দুই-ওয়াইন্ডিং ট্রান্সফরমারের ওয়াইন্ডিংগুলো কীভাবে যুক্ত থাকে?"
+  },
+  {
+    "question": "In an auto-transformer, power is transferred from primary to secondary:",
+    "options": ["Only conductively", "Only inductively", "Both conductively and inductively", "Neither conductively nor inductively"],
+    "correct_option": "Both conductively and inductively",
+    "bengali_meaning": "অটোট্রান্সফরমারে ক্ষমতা কীভাবে স্থানান্তরিত হয়?"
+  },
+  {
+    "question": "The short-circuit (SC) test on a transformer gives information primarily regarding:",
+    "options": ["Core loss and magnetizing current", "Equivalent copper loss at rated current", "Hysteresis loss only", "Insulation resistance"],
+    "correct_option": "Equivalent copper loss at rated current",
+    "bengali_meaning": "ট্রান্সফরমারের শর্ট-সার্কিট (SC) টেস্ট মূলত কী ক্ষতি পরিমাপ করে?"
+  },
+  {
+    "question": "In a DC machine, dummy coils are used in the armature winding to:",
+    "options": ["Increase the generated EMF", "Provide mechanical balance to the rotor", "Improve commutation", "Reduce eddy current loss"],
+    "correct_option": "Provide mechanical balance to the rotor",
+    "bengali_meaning": "ডিসি মেশিনের আর্মেচারে ডামি কয়েল কেন ব্যবহার করা হয়?"
+  },
+  {
+    "question": "Interpoles in a DC machine are connected in:",
+    "options": ["Series with the armature winding", "Parallel with the armature winding", "Series with the shunt field winding", "Parallel with the field poles"],
+    "correct_option": "Series with the armature winding",
+    "bengali_meaning": "ডিসি মেশিনে ইন্টারপোল কীভাবে যুক্ত থাকে?"
+  },
+  {
+    "question": "A 3-phase induction motor operates on the principle of:",
+    "options": ["Self-induction only", "Mutual induction through a rotating magnetic field", "Electrostatic attraction", "Variable reluctance"],
+    "correct_option": "Mutual induction through a rotating magnetic field",
+    "bengali_meaning": "৩-ফেজ ইন্ডাকশন মোটর কোন নীতিতে কাজ করে?"
+  },
+  {
+    "question": "If two phases of the supply to a 3-phase induction motor are interchanged, the motor will:",
+    "options": ["Continue running in the same direction", "Run in the reverse direction", "Burn immediately", "Stop and refuse to start"],
+    "correct_option": "Run in the reverse direction",
+    "bengali_meaning": "৩-ফেজ সরবরাহের দুটি ফেজ পরস্পর বদল করলে মোটরের ঘূর্ণন কী হবে?"
+  },
+  {
+    "question": "A synchronous motor can operate at:",
+    "options": ["Lagging power factor only", "Leading power factor only", "Unity power factor only", "Lagging, leading, and unity power factors"],
+    "correct_option": "Lagging, leading, and unity power factors",
+    "bengali_meaning": "একটি সিঙ্ক্রোনাস মোটর কোন পাওয়ার ফ্যাক্টরে চলতে পারে?"
+  },
+  {
+    "question": "Which type of instrument exhibits a non-linear (cramped at lower end) scale?",
+    "options": ["PMMC instrument", "Moving Iron (MI) instrument", "DC Potentiometer", "D'Arsonval galvanometer"],
+    "correct_option": "Moving Iron (MI) instrument",
+    "bengali_meaning": "কোন মিটারের স্কেল নন-লিনিয়ার বা ক্র্যাম্পড (দাবানো) হয়?"
+  },
+  {
+    "question": "To convert a moving coil galvanometer into a voltmeter, one must connect:",
+    "options": ["A high resistance in series", "A low resistance in parallel", "A low resistance in series", "A high resistance in parallel"],
+    "correct_option": "A high resistance in series",
+    "bengali_meaning": "গ্যালভানোমিটারকে ভোল্টমিটারে রূপান্তর করতে কী যুক্ত করতে হয়?"
+  },
+  {
+    "question": "The creeping phenomenon occurs most commonly in:",
+    "options": ["PMMC ammeters", "Induction-type energy meters", "Dynanometer wattmeters", "Meggers"],
+    "correct_option": "Induction-type energy meters",
+    "bengali_meaning": "ক্রিপিং (ধীর ঘূর্ণন) ত্রুটি কোন মিটারে দেখা যায়?"
+  },
+  {
+    "question": "The Ferranti effect in long transmission lines under no-load or light-load condition causes:",
+    "options": ["Receiving-end voltage to be greater than sending-end voltage", "Sending-end voltage to be greater than receiving-end voltage", "Receiving-end voltage to become zero", "Line current to become zero"],
+    "correct_option": "Receiving-end voltage to be greater than sending-end voltage",
+    "bengali_meaning": "ফেরান্টি এফেক্টের কারণে ট্রান্সমিশন লাইনে কী ঘটে?"
+  },
+  {
+    "question": "The color of silica gel in a transformer breather under dry (active) condition is:",
+    "options": ["Pink", "Blue", "White", "Brown"],
+    "correct_option": "Blue",
+    "bengali_meaning": "শুষ্ক অবস্থায় ট্রান্সফরমারের সিলিকা জেলের রঙ কেমন থাকে?"
+  },
+  {
+    "question": "The superposition theorem is based on the concept of:",
+    "options": ["Duality", "Linearity", "Reciprocity", "Non-linearity"],
+    "correct_option": "Linearity",
+    "bengali_meaning": "সুপারপজিশন উপপাদ্য কোন ধারণার ওপর ভিত্তি করে প্রতিষ্ঠিত?"
+  },
+  {
+    "question": "The property of a material that opposes the creation of magnetic flux in it is known as:",
+    "options": ["Permeance", "Reluctance", "Conductance", "Inductance"],
+    "correct_option": "Reluctance",
+    "bengali_meaning": "পদার্থের যে ধর্ম চৌম্বক ফ্লাক্স তৈরিতে বাধা দেয় তাকে কী বলে?"
+  },
+  {
+    "question": "The time constant of a series R-L circuit is given by:",
+    "options": ["R/L", "L/R", "R * L", "1/(R * L)"],
+    "correct_option": "L/R",
+    "bengali_meaning": "শ্রেণী R-L বর্তনীর টাইম কনস্ট্যান্ট (Time constant) কত?"
+  },
+  {
+    "question": "The time constant of a series R-C circuit is given by:",
+    "options": ["R/C", "C/R", "R * C", "1/(R * C)"],
+    "correct_option": "R * C",
+    "bengali_meaning": "শ্রেণী R-C বর্তনীর টাইম কনস্ট্যান্ট কত?"
+  },
+  {
+    "question": "In a pure inductive circuit, the active power (P) consumed is:",
+    "options": ["Maximum", "Zero", "V * I", "Negative"],
+    "correct_option": "Zero",
+    "bengali_meaning": "বিশুদ্ধ ইন্ডাকটিভ বর্তনীতে ব্যয়িত সক্রিয় ক্ষমতা (Active power) কত?"
+  },
+  {
+    "question": "Under the condition of electrical resonance in a series R-L-C circuit, the circuit impedance is:",
+    "options": ["Purely inductive", "Purely capacitive", "Purely resistive and minimum", "Maximum"],
+    "correct_option": "Purely resistive and minimum",
+    "bengali_meaning": "শ্রেণী R-L-C রেজোন্যান্সে বর্তনীর ইম্পিডেন্স কেমন হয়?"
+  },
+  {
+    "question": "In an ideal transformer, the efficiency is considered to be:",
+    "options": ["80%", "90%", "98%", "100%"],
+    "correct_option": "100%",
+    "bengali_meaning": "আদর্শ ট্রান্সফরমারের দক্ষতা কত ধরা হয়?"
+  },
+  {
+    "question": "Transformer core laminations are insulated from each other by a thin layer of:",
+    "options": ["Cotton", "Varnish", "Mica", "Paper tape"],
+    "correct_option": "Varnish",
+    "bengali_meaning": "ট্রান্সফরমার কোর ল্যামিনেশনগুলো পরস্পরের থেকে কী দিয়ে অন্তরীত থাকে?"
+  },
+  {
+    "question": "In a transformer, the frequency of the secondary voltage compared to the primary voltage is:",
+    "options": ["Double", "Half", "Exactly the same", "Dependent on turns ratio"],
+    "correct_option": "Exactly the same",
+    "bengali_meaning": "ট্রান্সফরমারে সেকেন্ডারি ভোল্টেজের কম্পাঙ্ক প্রাইমারির তুলনায় কেমন হয়?"
+  },
+  {
+    "question": "The direction of rotation of a DC motor can be reversed by:",
+    "options": ["Reversing supply terminals only", "Reversing either field or armature terminals", "Reversing both field and armature terminals simultaneously", "Reducing supply voltage"],
+    "correct_option": "Reversing either field or armature terminals",
+    "bengali_meaning": "ডিসি মোটরের ঘূর্ণনের দিক কীভাবে উল্টানো যায়?"
+  },
+  {
+    "question": "The torque developed by a DC series motor is directly proportional to:",
+    "options": ["Armature current (Ia)", "Square of armature current (Ia^2) before saturation", "Field resistance", "Back EMF"],
+    "correct_option": "Square of armature current (Ia^2) before saturation",
+    "bengali_meaning": "ডিসি সিরিজ মোটরের টর্ক আর্মেচার কারেন্টের সাথে কীভাবে সম্পর্কিত?"
+  },
+  {
+    "question": "For starting a 3-phase squirrel cage induction motor, which starter applies reduced voltage to the stator windings?",
+    "options": ["Direct-On-Line (DOL) starter", "Star-Delta starter", "Rotor resistance starter", "Knife switch starter"],
+    "correct_option": "Star-Delta starter",
+    "bengali_meaning": "কোন স্টার্টার ৩-ফেজ মোটরের স্ট্যাটরে হ্রাসকৃত ভোল্টেজ প্রয়োগ করে?"
+  },
+  {
+    "question": "A synchronous motor is:",
+    "options": ["Self-starting at full load", "Self-starting at no load", "Not self-starting", "Started only by reversing phases"],
+    "correct_option": "Not self-starting",
+    "bengali_meaning": "একটি সিঙ্ক্রোনাস মোটর নিজে থেকে চালু হতে পারে কি?"
+  },
+  {
+    "question": "The damping torque in a PMMC instrument is provided by:",
+    "options": ["Air friction damping", "Fluid friction damping", "Eddy current damping", "Gravity control"],
+    "correct_option": "Eddy current damping",
+    "bengali_meaning": "PMMC যন্ত্রে ড্যাম্পিং টর্ক কীভাবে তৈরি করা হয়?"
+  },
+  {
+    "question": "Moving iron (MI) instruments can be used for:",
+    "options": ["DC measurements only", "AC measurements only", "Both AC and DC measurements", "High-frequency RF only"],
+    "correct_option": "Both AC and DC measurements",
+    "bengali_meaning": "মুভিং আয়রন (MI) যন্ত্র কোন রাশি পরিমাপে ব্যবহৃত হয়?"
+  },
+  {
+    "question": "Megger is an instrument primarily used for measuring:",
+    "options": ["Low resistances (below 1 ohm)", "Medium resistances (1 ohm to 100 k-ohm)", "Very high insulation resistances", "Inductance of coils"],
+    "correct_option": "Very high insulation resistances",
+    "bengali_meaning": "মেগার (Megger) মূলত কী পরিমাপ করতে ব্যবহৃত হয়?"
+  },
+  {
+    "question": "In a 3-phase balanced system, the neutral wire carries a current equal to:",
+    "options": ["Full phase current", "Three times phase current", "Zero", "Line current divided by sqrt(3)"],
+    "correct_option": "Zero",
+    "bengali_meaning": "একটি ৩-ফেজ ব্যালান্সড ব্যবস্থায় নিউট্রাল তারে কারেন্ট কত থাকে?"
+  },
+  {
+    "question": "Surge impedance of an overhead transmission line is typically in the range of:",
+    "options": ["40 ohm to 60 ohm", "100 ohm to 200 ohm", "400 ohm to 600 ohm", "1000 ohm to 2000 ohm"],
+    "correct_option": "400 ohm to 600 ohm",
+    "bengali_meaning": "ওভারহেড লাইনের সার্জ ইম্পিডেন্স সাধারণত কত ওহম হয়?"
+  },
+  {
+    "question": "The primary function of a fuse in an electrical circuit is to provide protection against:",
+    "options": ["Under-voltage", "Short-circuit and severe overcurrent", "Reverse current", "Open circuits"],
+    "correct_option": "Short-circuit and severe overcurrent",
+    "bengali_meaning": "বৈদ্যুতিক বর্তনীতে ফিউজের মূল কাজ কীসের বিরুদ্ধে সুরক্ষা দেওয়া?"
+  },
+  {
+    "question": "What happens to the resistance of a pure semiconductor material (like Silicon or Germanium) when its temperature increases?",
+    "options": ["Increases", "Decreases (Negative Temperature Coefficient)", "Remains constant", "Becomes zero immediately"],
+    "correct_option": "Decreases (Negative Temperature Coefficient)",
+    "bengali_meaning": "উষ্ণতা বাড়লে বিশুদ্ধ অর্ধপরিবাহীর (যেমন সিলিকন) রোধের কী পরিবর্তন হয়?"
+  },
+  {
+    "question": "Thevenin's theorem replaces an active linear network across two terminals with:",
+    "options": ["A single current source in parallel with a resistance", "A single voltage source in series with a resistance", "A single voltage source in parallel with a resistance", "An ideal voltage source only"],
+    "correct_option": "A single voltage source in series with a resistance",
+    "bengali_meaning": "থেভেনিনের উপপাদ্য যেকোনো রৈখিক বর্তনীকে কিসে রূপান্তর করে?"
+  },
+  {
+    "question": "Norton's equivalent resistance (RN) is related to Thevenin's equivalent resistance (Rth) by:",
+    "options": ["RN = 1 / Rth", "RN = Rth", "RN = 2 * Rth", "RN = Rth / 2"],
+    "correct_option": "RN = Rth",
+    "bengali_meaning": "নর্টনের রোধ (RN) এবং থেভেনিনের রোধের (Rth) সম্পর্ক কী?"
+  },
+  {
+    "question": "In a magnetic circuit, the equivalent of electric current (I) is:",
+    "options": ["Reluctance", "Magnetic Flux (Phi)", "Magnetomotive force (MMF)", "Permeability"],
+    "correct_option": "Magnetic Flux (Phi)",
+    "bengali_meaning": "চৌম্বক বর্তনীতে বৈদ্যুতিক কারেন্টের সমতুল্য রাশি কোনটি?"
+  },
+  {
+    "question": "If the length of a wire is doubled and its cross-sectional area is halved, its new resistance will be:",
+    "options": ["Same as initial", "Doubled", "4 times the initial value", "1/4 of initial value"],
+    "correct_option": "4 times the initial value",
+    "bengali_meaning": "তারের দৈর্ঘ্য দ্বিগুণ এবং প্রস্থচ্ছেদ অর্ধেক করলে রোধ কত গুণ হবে?"
+  },
+  {
+    "question": "In a balanced Star (Y) connected 3-phase load, the relationship between Line voltage (VL) and Phase voltage (Vph) is:",
+    "options": ["VL = Vph", "VL = sqrt(3) * Vph", "VL = Vph / sqrt(3)", "VL = 3 * Vph"],
+    "correct_option": "VL = sqrt(3) * Vph",
+    "bengali_meaning": "ব্যালান্সড স্টার (Y) সংযোগে লাইন ভোল্টেজ ও ফেজ ভোল্টেজের সম্পর্ক কী?"
+  },
+  {
+    "question": "In a balanced Delta connected 3-phase load, the relationship between Line current (IL) and Phase current (Iph) is:",
+    "options": ["IL = Iph", "IL = sqrt(3) * Iph", "IL = Iph / sqrt(3)", "IL = 3 * Iph"],
+    "correct_option": "IL = sqrt(3) * Iph",
+    "bengali_meaning": "ব্যালান্সড ডেল্টা সংযোগে লাইন কারেন্ট ও ফেজ কারেন্টের সম্পর্ক কী?"
+  },
+  {
+    "question": "The primary purpose of a conservator tank in an oil-cooled power transformer is to:",
+    "options": ["Cool down the oil directly via forced draft", "Accommodate expansion and contraction of oil due to temperature variation", "Trap incoming air moisture", "Prevent short circuit between windings"],
+    "correct_option": "Accommodate expansion and contraction of oil due to temperature variation",
+    "bengali_meaning": "ট্রান্সফরমারে কনজারভেটর ট্যাঙ্কের মূল কাজ কী?"
+  },
+  {
+    "question": "When the secondary of a current transformer (CT) is in service, it must NEVER be:",
+    "options": ["Short-circuited", "Kept open-circuited", "Connected to an ammeter", "Earthed"],
+    "correct_option": "Kept open-circuited",
+    "bengali_meaning": "কারেন্ট ট্রান্সফরমারের (CT) সেকেন্ডারি কখনো কী রাখা উচিত নয়?"
+  },
+  {
+    "question": "In a DC generator, the emf generated in the armature conductors is fundamentally:",
+    "options": ["Alternating (AC)", "Direct (DC)", "Pulsating DC only", "High-frequency radio wave"],
+    "correct_option": "Alternating (AC)",
+    "bengali_meaning": "ডিসি জেনারেটরের আর্মেচারে মূলত কোন ধরনের বিদ্যুৎ উৎপন্ন হয়?"
+  },
+  {
+    "question": "Which DC motor has the highest starting torque?",
+    "options": ["DC Shunt motor", "DC Series motor", "Differentially compounded motor", "Cumulative compound motor"],
+    "correct_option": "DC Series motor",
+    "bengali_meaning": "কোন ডিসি মোটরের স্টার্টিং টর্ক সবচেয়ে বেশি?"
+  },
