@@ -9,10 +9,10 @@ import streamlit as st
 from google import genai
 from pypdf import PdfReader
 
-# --- पेज का नाम और कॉन्फ़िगरेशन (Omega) ---
+# --- पेज का नाम, लोगो और कॉन्फ़िगरेशन (Omega) ---
 st.set_page_config(
     page_title="Omega",
-    page_icon="⚡",
+    page_icon="Untitled47_20260917013309.png",
     layout="wide"
 )
 
@@ -300,4 +300,4 @@ else:
     st.info(f"Total Questions Stored: **{total_q}**")
 
     if st.checkbox("Show Raw JSON Database"):
-        st.json(st.session_state.db)                    
+        st.json(st.session_state.db)
