@@ -1,4 +1,4 @@
-    import streamlit as st
+import streamlit as st
 from google import genai
 from pypdf import PdfReader
 import io
