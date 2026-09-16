@@ -1,77 +1,123 @@
+import io
+import json
+import os
+import random
+import re
+import requests
 import streamlit as st
 from google import genai
 from pypdf import PdfReader
-import io
-import json
-import requests
-import re
 
 st.set_page_config(page_title="SSC JE CBT Mock Portal", layout="wide")
 
-# Session state initialization
-if "question_bank" not in st.session_state:
-    st.session_state.question_bank = []
-if "test_active" not in st.session_state:
+DB_FILE = "question_bank.json"
+CONFIG_FILE = "app_config.json"
+
+# --- स्थायी डेटाबेस एवं API Key हैंडलिंग ---
+def load_db():
+    if os.path.exists(DB_FILE):
+        try:
+            with open(DB_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return []
+    return []
+
+def save_db(data):
+    with open(DB_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+def load_saved_key():
+    if os.path.exists(CONFIG_FILE):
+        try:
+            with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+                return json.load(f).get("api_key", "")
+        except Exception:
+            return ""
+    return ""
+
+def save_saved_key(key_str):
+    with open(CONFIG_FILE, "w", encoding="utf-8") as f:
+        json.dump({"api_key": key_str}, f)
+
+# --- सेशन स्टेट इनिशियलाइज़ेशन ---
+if 'question_bank' not in st.session_state:
+    st.session_state.question_bank = load_db()
+if 'saved_api_key' not in st.session_state:
+    st.session_state.saved_api_key = load_saved_key()
+if 'test_active' not in st.session_state:
     st.session_state.test_active = False
-if "curr_idx" not in st.session_state:
+if 'active_test_questions' not in st.session_state:
+    st.session_state.active_test_questions = []
+if 'curr_idx' not in st.session_state:
     st.session_state.curr_idx = 0
-if "user_answers" not in st.session_state:
+if 'user_answers' not in st.session_state:
     st.session_state.user_answers = {}
 
-# Function to download PDF from Google Drive public link
-def get_pdf_from_drive(drive_url):
-    file_id_match = re.search(r"/d/([a-zA-Z0-9_-]+)", drive_url) or re.search(r"id=([a-zA-Z0-9_-]+)", drive_url)
-    if not file_id_match:
-        return None
-    file_id = file_id_match.group(1)
-    download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
-    session = requests.Session()
-    response = session.get(download_url, stream=True)
-    for k, v in response.cookies.items():
-        if k.startswith("download_warning"):
-            response = session.get(f"{download_url}&confirm={v}", stream=True)
-            break
-    if response.status_code == 200:
-        return io.BytesIO(response.content)
-    return None
-
-# Sidebar - Question Bank Manager
+# --- साइडबार: सेटिंग्स और प्रश्न बैंक ---
 with st.sidebar:
-    st.header("📂 Question Bank Manager")
-    api_key = st.text_input("Gemini API Key", type="password")
+    st.title("⚙️ Portal Settings")
     
-    st.subheader("Add Questions")
-    drive_link = st.text_input("Google Drive PDF Link")
-    raw_text_input = st.text_area("Or Paste Text Directly (from PDF/Google Lens)", height=120)
-    
+    # API Key मैनेजमेंट (हमेशा सेव, बदलने या मिटाने का विकल्प)
+    if not st.session_state.saved_api_key:
+        input_key = st.text_input("Enter Gemini API Key", type="password")
+        if st.button("Save API Key Permanently"):
+            if input_key.strip():
+                save_saved_key(input_key.strip())
+                st.session_state.saved_api_key = input_key.strip()
+                st.success("API Key saved permanently!")
+                st.rerun()
+    else:
+        st.success("✅ Gemini API Key is Saved")
+        col_k1, col_k2 = st.columns(2)
+        with col_k1:
+            if st.button("Change Key"):
+                st.session_state.saved_api_key = ""
+                st.rerun()
+        with col_k2:
+            if st.button("Remove Key"):
+                save_saved_key("")
+                st.session_state.saved_api_key = ""
+                st.warning("API Key removed.")
+                st.rerun()
+
+    st.markdown("---")
+    st.subheader("➕ Add Questions")
+    gdrive_link = st.text_input("Google Drive PDF Link")
+    raw_text_input = st.text_area("Or Paste Text (Hindi/English)", height=120)
+
     if st.button("Process & Add to Bank"):
-        if not api_key:
-            st.error("Please enter your Gemini API Key first!")
+        active_key = st.session_state.saved_api_key
+        if not active_key:
+            st.error("Please save your Gemini API Key first.")
         else:
             extracted_text = ""
-            
-            # Case 1: Google Drive link provided
-            if drive_link.strip():
-                with st.spinner("Downloading and reading PDF from Google Drive..."):
-                    pdf_bytes = get_pdf_from_drive(drive_link.strip())
-                    if pdf_bytes:
-                        try:
-                            reader = PdfReader(pdf_bytes)
-                            for page in reader.pages[:15]:
-                                extracted_text += page.extract_text() or ""
-                        except Exception as e:
-                            st.error(f"Error reading PDF: {e}")
-                    else:
-                        st.error("Could not fetch file. Make sure Drive link permission is set to 'Anyone with the link'.")
+            if gdrive_link:
+                file_id_match = re.search(r'[-\w]{25,}', gdrive_link)
+                if file_id_match:
+                    file_id = file_id_match.group(0)
+                    download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
+                    try:
+                        with st.spinner("Downloading PDF from Drive..."):
+                            resp = requests.get(download_url)
+                            if resp.status_code == 200:
+                                reader = PdfReader(io.BytesIO(resp.content))
+                                for page in reader.pages[:15]:
+                                    t = page.extract_text()
+                                    if t:
+                                        extracted_text += t + "\n"
+                            else:
+                                st.error("Drive download failed. Ensure link is public.")
+                    except Exception as e:
+                        st.error(f"Download Error: {e}")
 
-            # Case 2: Raw text directly pasted
             if raw_text_input.strip():
                 extracted_text += "\n" + raw_text_input.strip()
 
             if extracted_text.strip():
                 with st.spinner("Processing questions via Gemini AI..."):
                     try:
-                        client = genai.Client(api_key=api_key)
+                        client = genai.Client(api_key=active_key)
                         prompt = f"""
 You are an SSC JE exam expert. Extract all multiple-choice questions from this raw text.
 Rules:
@@ -97,60 +143,83 @@ Raw Text:
                             model='gemini-3.6-flash',
                             contents=prompt
                         )
-                        clean_json = resp.text.strip().removeprefix("```json").removesuffix("```").strip()
-                        new_questions = json.loads(clean_json)
-                        
-                        if isinstance(new_questions, list):
-                            st.session_state.question_bank.extend(new_questions)
-                            st.success(f"Added {len(new_questions)} questions successfully!")
+                        clean_json = resp.text.strip().removeprefix("```json").removeprefix("```").removesuffix("```").strip()
+                        new_q = json.loads(clean_json)
+
+                        if isinstance(new_q, list):
+                            st.session_state.question_bank.extend(new_q)
+                            save_db(st.session_state.question_bank)
+                            st.success(f"Added {len(new_q)} questions permanently!")
+                            st.rerun()
                     except Exception as e:
                         st.error(f"AI Processing failed: {e}")
             else:
                 st.warning("Please provide a valid Drive link or paste text.")
 
     st.markdown("---")
-    st.write(f"📚 **Total Questions in Bank:** {len(st.session_state.question_bank)}")
+    st.write(f"💾 **Permanent Bank:** {len(st.session_state.question_bank)} questions")
+    if len(st.session_state.question_bank) > 0:
+        if st.button("🗑️ Delete All Stored Questions"):
+            st.session_state.question_bank = []
+            save_db([])
+            st.session_state.test_active = False
+            st.rerun()
 
-# Main Test Interface
+# --- मुख्य CBT टेस्ट इंटरफेस ---
 st.title("⚡ SSC JE CBT Mock Test Portal")
 
-if len(st.session_state.question_bank) == 0:
-    st.info("Question Bank is empty. Add questions from sidebar using Google Drive link or direct text.")
+total_available = len(st.session_state.question_bank)
+
+if total_available == 0:
+    st.info("Question bank is empty. Add questions from the sidebar to start.")
 else:
     if not st.session_state.test_active:
-        if st.button("Start Test"):
+        st.subheader("Select Mock Test Mode")
+        test_mode = st.radio("Choose number of random questions:", ["10 Questions Mock", "100 Questions Mock"])
+        
+        target_count = 10 if test_mode == "10 Questions Mock" else 100
+        
+        if st.button(f"🚀 Start Mock Test ({target_count} Questions)"):
+            selected_count = min(target_count, total_available)
+            st.session_state.active_test_questions = random.sample(st.session_state.question_bank, selected_count)
             st.session_state.test_active = True
             st.session_state.curr_idx = 0
             st.session_state.user_answers = {}
             st.rerun()
+            
     else:
-        q_idx = st.session_state.curr_idx
-        q_data = st.session_state.question_bank[q_idx]
+        test_list = st.session_state.active_test_questions
+        idx = st.session_state.curr_idx
+        q_data = test_list[idx]
 
-        st.subheader(f"Question {q_idx + 1} of {len(st.session_state.question_bank)}")
-        st.write(f"**{q_data.get('question')}**")
-        st.caption(f"💡 বাংলা অর্থ: {q_data.get('bengali_meaning', '')}")
+        st.subheader(f"Question {idx + 1} of {len(test_list)}")
+        st.write(f"**{q_data['question']}**")
+        st.caption(f"🧭 {q_data.get('bengali_meaning', '')}")
 
+        current_selection = st.session_state.user_answers.get(idx)
         selected = st.radio(
             "Select Answer:",
-            q_data.get("options", []),
-            index=None if q_idx not in st.session_state.user_answers else q_data.get("options", []).index(st.session_state.user_answers[q_idx]) if st.session_state.user_answers[q_idx] in q_data.get("options", []) else None,
-            key=f"q_{q_idx}"
+            q_data['options'],
+            index=q_data['options'].index(current_selection) if current_selection in q_data['options'] else None,
+            key=f"active_q_{idx}"
         )
         if selected:
-            st.session_state.user_answers[q_idx] = selected
+            st.session_state.user_answers[idx] = selected
 
-        col1, col2 = st.columns(2)
+        col1, col2, col3 = st.columns(3)
         with col1:
-            if st.button("Previous") and q_idx > 0:
+            if idx > 0 and st.button("⬅️ Previous"):
                 st.session_state.curr_idx -= 1
                 st.rerun()
         with col2:
-            if st.button("Next") and q_idx < len(st.session_state.question_bank) - 1:
+            if idx < len(test_list) - 1 and st.button("Next ➡️"):
                 st.session_state.curr_idx += 1
                 st.rerun()
-
-        if st.button("End Test & Submit"):
-            st.session_state.test_active = False
-            correct_cnt = sum(1 for i, q in enumerate(st.session_state.question_bank) if st.session_state.user_answers.get(i) == q.get("correct_option"))
-            st.success(f"Test Completed! Score: {correct_cnt} / {len(st.session_state.question_bank)}")
+        with col3:
+            if st.button("✅ Submit Test"):
+                score = sum(1 for i, q in enumerate(test_list) if st.session_state.user_answers.get(i) == q['correct_option'])
+                st.success(f"Test Finished! Your Score: {score} / {len(test_list)}")
+                if st.button("Back to Home"):
+                    st.session_state.test_active = False
+                    st.rerun()
+        
