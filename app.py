@@ -9,11 +9,11 @@ import streamlit as st
 from google import genai
 from pypdf import PdfReader
 
-# --- पेज का नाम, लोगो और कॉन्फ़िगरेशन (Centered Layout for Mobile Perfection) ---
+# --- पेज का नाम, लोगो और कॉन्फ़िगरेशन (Omega) ---
 st.set_page_config(
     page_title="Omega",
     page_icon="Untitled47_20260917013309.png",
-    layout="centered"
+    layout="wide"
 )
 
 DB_FILE = "question_bank.json"
@@ -24,18 +24,15 @@ def load_db():
     if os.path.exists(DB_FILE):
         try:
             with open(DB_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                if isinstance(data, list):
-                    return {"questions": data}
-                elif isinstance(data, dict) and "questions" in data:
-                    return data
+                return json.load(f)
         except Exception:
             pass
+    # डिफ़ॉल्ट शुरुआती डेटा (यदि फ़ाइल न हो)
     return {
         "questions": [
             {
                 "id": 1,
-                "subject": "Electrical Engineering",
+                "subject": "Technical (Electrical)",
                 "question": "Which of the following motors has the highest starting torque?",
                 "options": ["Squirrel cage induction motor", "Slip ring induction motor", "Series motor", "Shunt motor"],
                 "answer": "Series motor",
@@ -44,7 +41,7 @@ def load_db():
             },
             {
                 "id": 2,
-                "subject": "Reasoning",
+                "subject": "Non-Technical (Reasoning)",
                 "question": "If CAT is coded as 24, how is DOG coded?",
                 "options": ["26", "27", "28", "29"],
                 "answer": "26",
@@ -71,7 +68,8 @@ def save_config(config):
     with open(CONFIG_FILE, "w", encoding="utf-8") as f:
         json.dump(config, f, ensure_ascii=False, indent=4)
 
-if "db" not in st.session_state or not isinstance(st.session_state.db, dict) or "questions" not in st.session_state.db:
+# इनिशियलाइज़ेशन
+if "db" not in st.session_state:
     st.session_state.db = load_db()
 
 if "config" not in st.session_state:
@@ -89,7 +87,7 @@ if "test_questions" not in st.session_state:
 if "start_time" not in st.session_state:
     st.session_state.start_time = 0
 if "time_limit" not in st.session_state:
-    st.session_state.time_limit = 10
+    st.session_state.time_limit = 10  # मिनट
 
 # --- साइडबार मेनू ---
 st.sidebar.title("⚡ Omega Portal")
@@ -106,24 +104,31 @@ if menu == "Take Mock Test":
         st.subheader("⚙️ Test Configuration")
         
         all_qs = st.session_state.db["questions"]
-        
-        # डायनामिक सब्जेक्ट्स निकालना
-        available_subjects = list(set([q.get("subject", "General") for q in all_qs]))
-        subject_options = ["Full Mock (Mixed)"] + available_subjects
+        tech_count = sum(1 for q in all_qs if "Technical" in q.get("subject", ""))
+        non_tech_count = len(all_qs) - tech_count
 
-        subject_mode = st.selectbox("Select Subject Mode", subject_options)
-        num_q = st.slider("Number of Questions", min_value=1, max_value=max(1, len(all_qs)), value=min(10, len(all_qs)))
+        col1, col2 = st.columns(2)
+        with col1:
+            subject_mode = st.selectbox(
+                "Select Subject Mode", 
+                ["Full Mock (Mixed)", "Technical Only", "Electrical", "Non-Technical Only", "Reasoning / GK"]
+            )
+        with col2:
+            num_q = st.slider("Number of Questions", min_value=1, max_value=max(1, len(all_qs)), value=min(10, len(all_qs)))
 
-        st.markdown(f"📊 *Available Question Bank:* Total = {len(all_qs)}")
+        st.markdown(f"📊 *Available Question Bank:* Total = {len(all_qs)} | Technical = {tech_count} | Non-Tech = {non_tech_count}")
 
         if st.button("🚀 Start Test", type="primary"):
-            if subject_mode == "Full Mock (Mixed)":
-                filtered = all_qs
+            # फ़िल्टरिंग लॉजिक
+            if "Technical" in subject_mode or "Electrical" in subject_mode:
+                filtered = [q for q in all_qs if "Technical" in q.get("subject", "")]
+            elif "Non-Technical" in subject_mode or "Reasoning" in subject_mode:
+                filtered = [q for q in all_qs if "Non-Technical" in q.get("subject", "")]
             else:
-                filtered = [q for q in all_qs if q.get("subject") == subject_mode]
+                filtered = all_qs
 
             if not filtered:
-                st.warning("⚠️ इस कैटेगरी में कोई सवाल उपलब्ध नहीं है।")
+                st.warning("⚠️ इस कैटेगरी में कोई सवाल उपलब्ध नहीं है। कृपया पहले सवाल जोड़ें या दूसरा मोड चुनें।")
             else:
                 selected = random.sample(filtered, min(num_q, len(filtered)))
                 st.session_state.test_questions = selected
@@ -134,28 +139,42 @@ if menu == "Take Mock Test":
                 st.rerun()
 
     else:
+        # टेस्ट चालू होने पर स्क्रीन
         questions = st.session_state.test_questions
         elapsed_time = int(time.time() - st.session_state.start_time)
         time_left_sec = (st.session_state.time_limit * 60) - elapsed_time
 
-        if time_left_sec > 0:
-            mins, secs = divmod(time_left_sec, 60)
-            st.info(f"⏱️ Time Remaining: **{mins:02d}:{secs:02d}**")
-        else:
-            st.error("⏰ Time's up!")
-            st.session_state.submitted = True
+        col_timer, col_info = st.columns([2, 2])
+        with col_timer:
+            if time_left_sec > 0:
+                mins, secs = divmod(time_left_sec, 60)
+                st.info(f"⏱️ Time Remaining: **{mins:02d}:{secs:02d}**")
+            else:
+                st.error("⏰ Time's up!")
+                st.session_state.submitted = True
 
-        st.success(f"📝 Active Test Mode | Total Questions: {len(questions)}")
+        with col_info:
+            st.success(f"📝 Active Test Mode | Total Questions: {len(questions)}")
+
         st.markdown("---")
 
+        # फॉर्म या इंटरैक्टिव लूप
         with st.form("mock_test_form"):
             for idx, q in enumerate(questions):
                 st.markdown(f"### Q{idx+1}: {q['question']}")
-                st.caption(f"📌 Subject: {q.get('subject', 'General')}")
+                
+                # विषय का टैग दिखाना
+                subj_tag = q.get("subject", "General")
+                if "Technical" in subj_tag:
+                    st.caption(f"📌 Subject: 🔵 {subj_tag}")
+                else:
+                    st.caption(f"📌 Subject: 🟢 {subj_tag}")
 
+                # बंगाली मीनिंग हिंट (यदि उपलब्ध हो)
                 if q.get("bengali_meaning"):
                     st.markdown(f"💡 *Bengali Meaning:* {q['bengali_meaning']}")
 
+                # विकल्प
                 options = q["options"]
                 default_val = st.session_state.user_answers.get(idx, None)
                 
@@ -176,6 +195,7 @@ if menu == "Take Mock Test":
                 st.session_state.submitted = True
                 st.rerun()
 
+        # अगर सबमिट हो चुका है या टाइम खत्म हो गया है, तो रिजल्ट दिखाएं
         if st.session_state.submitted:
             st.header("📊 Test Results & Analysis")
             
@@ -201,6 +221,7 @@ if menu == "Take Mock Test":
 
             st.subheader(f"🎯 Final Score: {score} / {len(questions)}")
 
+            # --- Mistake Review Filter (Only Incorrect) ---
             if incorrect_list:
                 st.markdown("### ⚠️ Mistakes Review (Only Incorrect)")
                 for idx, q, user_ans in incorrect_list:
@@ -225,6 +246,7 @@ else:
     st.title("🛠️ Omega - Question Bank Manager")
     st.markdown("यहाँ से आप नए सवाल जोड़ सकते हैं और क्वेश्चन बैंक को मैनेज कर सकते हैं।")
 
+    # API Key इनपुट
     api_key_input = st.text_input(
         "Gemini API Key (Required for AI features)",
         value=st.session_state.config.get("gemini_api_key", ""),
@@ -239,15 +261,18 @@ else:
     st.subheader("➕ Add New Question Manually")
 
     with st.form("add_question_form"):
-        new_subject = st.selectbox("Subject Category", ["Electrical Engineering", "Reasoning", "General Knowledge", "Non-Technical"])
+        new_subject = st.selectbox("Subject Category", ["Technical (Electrical)", "Non-Technical (Reasoning)", "Non-Technical (General Knowledge)"])
         new_q_text = st.text_area("Question Text")
         
-        op1 = st.text_input("Option A")
-        op2 = st.text_input("Option B")
-        op3 = st.text_input("Option C")
-        op4 = st.text_input("Option D")
+        col_op1, col_op2 = st.columns(2)
+        with col_op1:
+            op1 = st.text_input("Option A")
+            op2 = st.text_input("Option B")
+        with col_op2:
+            op3 = st.text_input("Option C")
+            op4 = st.text_input("Option D")
 
-        correct_op = st.selectbox("Correct Option", [op1, op2, op3, op4] if op1 or op2 else ["Option A", "Option B"])
+        correct_op = st.selectbox("Correct Option", [op1, op2, op3, op4])
         explanation = st.text_area("Explanation")
         bengali_meaning = st.text_input("Bengali Meaning Hint (Optional)")
 
