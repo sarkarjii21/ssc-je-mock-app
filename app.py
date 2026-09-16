@@ -56,7 +56,7 @@ st.title("⚡ SSC JE CBT Mock Test Portal")
 with st.sidebar:
     st.header("📂 Question Bank Manager")
     api_key = st.text_input("Gemini API Key", type="password")
-    uploaded_files = st.file_uploader("Upload SSC JE PDFs (Hindi/English)", type=["pdf"], accept_multiple_files=True)
+    uploaded_files = st.file_uploader("Upload SSC JE PDFs (Hindi/English)", accept_multiple_files=True)
     
     if uploaded_files and api_key and st.button("Process & Add to Bank"):
         total_added = 0
