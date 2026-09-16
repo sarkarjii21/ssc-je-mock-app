@@ -1,4 +1,4 @@
-import io
+import streamlit as st
 import json
 import os
 import random
@@ -6,7 +6,7 @@ import time
 import requests
 from pypdf import PdfReader
 
-# --- यहाँ आपका नया नाम और गोल लोगो सेट कर दिया गया है ---
+# --- पेज कॉन्फ़िगरेशन (Omega नाम और गोल लोगो) ---
 st.set_page_config(
     page_title="Omega",
     page_icon="Untitled47_20260917013309.png",
@@ -109,7 +109,6 @@ tab_mock, tab_manage = st.tabs(["📝 Mock Test", "⚙️ Manage & Add Questions
 with tab_mock:
     bank = load_db()
 
-    # टेस्ट शुरू नहीं हुआ है तो सेटअप स्क्रीन दिखाएँ
     if not st.session_state.test_started:
         st.subheader("🎯 Configure Your Test")
         
@@ -136,7 +135,6 @@ with tab_mock:
         num_q = 10 if "10 Questions" in test_mode else 100
         dur_mins = 12 if "12 Minutes" in test_mode else 120
 
-        # सब्जेक्ट के अनुसार पूल फ़िल्टर
         if "Technical Only" in subject_mode:
             pool = [q for q in bank if q.get("subject") == "Technical"]
         elif "Non-Technical Only" in subject_mode:
@@ -157,7 +155,6 @@ with tab_mock:
                 st.session_state.test_submitted = False
                 st.rerun()
 
-    # टेस्ट चालू है
     elif st.session_state.test_started and not st.session_state.test_submitted:
         elapsed = time.time() - st.session_state.start_time
         total_time_sec = st.session_state.duration_mins * 60
@@ -227,9 +224,6 @@ with tab_mock:
                 st.session_state.user_answers = {}
                 st.rerun()
 
-    # ==========================================
-    # टेस्ट सबमिट हो गया - स्कोरकार्ड और मिस्टेक फ़िल्टर
-    # ==========================================
     elif st.session_state.test_submitted:
         st.subheader("📊 Your Scorecard & Performance")
 
@@ -257,7 +251,6 @@ with tab_mock:
 
         st.markdown("---")
 
-        # गलत सवाल छाँटने का फ़िल्टर
         st.subheader("🔍 Review & Practice Mistakes")
         review_filter = st.radio(
             "Show Questions:",
@@ -275,14 +268,12 @@ with tab_mock:
             is_correct = (user_choice == q["correct_option"])
             subj_tag = q.get("subject", "Technical")
 
-            # फ़िल्टर लॉजिक
             if "Only Incorrect" in review_filter and (user_choice is None or is_correct):
                 continue
             if "Only Unattempted" in review_filter and user_choice is not None:
                 continue
 
             displayed_any = True
-            status_text = "✅ Correct" if is_correct else ("⚪ Unattempted" if user_choice is None else "❌ Wrong")
             status_color = "#22c55e" if is_correct else ("#94a3b8" if user_choice is None else "#ef4444")
 
             st.markdown(
