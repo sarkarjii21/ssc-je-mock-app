@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Kirchhoff's Current Law (KCL) at a junction is based on the law of conservation of:",
+    "options": [
+      "Energy",
+      "Momentum",
+      "Charge",
+      "Mass"
+    ],
+    "correct_option": "Charge",
+    "bengali_meaning": "জংশনে কার্শফের কারেন্ট সূত্র (KCL) কিসের সংরক্ষণ নীতির ওপর ভিত্তি করে?"
+  },
+  {
+    "question": "Which of the following elements is a non-linear element?",
+    "options": [
+      "Resistor",
+      "Diode",
+      "Inductor",
+      "Capacitor"
+    ],
+    "correct_option": "Diode",
+    "bengali_meaning": "নিচের কোনটি একটি নন-লিনিয়ার (অ-রৈখিক) উপাদান?"
+  },
+  {
+    "question": "An ideal voltage source has:",
+    "options": [
+      "Zero internal resistance",
+      "Infinite internal resistance",
+      "Large internal conductance",
+      "Finite non-zero resistance"
+    ],
+    "correct_option": "Zero internal resistance",
+    "bengali_meaning": "একটি আদর্শ ভোল্টেজ উৎসের অভ্যন্তরীণ রোধ কত?"
+  },
+  {
+    "question": "The internal resistance of an ideal current source is:",
+    "options": [
+      "Zero",
+      "Small",
+      "Infinite",
+      "Negative"
+    ],
+    "correct_option": "Infinite",
+    "bengali_meaning": "একটি আদর্শ কারেন্ট উৎসের অভ্যন্তরীণ রোধ কত?"
+  },
+  {
+    "question": "Superposition theorem is valid only for circuits that are:",
+    "options": [
+      "Non-linear and bilateral",
+      "Linear and bilateral",
+      "Linear and unilateral",
+      "Non-linear and unilateral"
+    ],
+    "correct_option": "Linear and bilateral",
+    "bengali_meaning": "সুপারপজিশন উপপাদ্য কেবলমাত্র কোন ধরনের বর্তনীর জন্য প্রযোজ্য?"
+  }
+]
