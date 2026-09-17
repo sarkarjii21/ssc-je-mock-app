@@ -1300,657 +1300,603 @@
     "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Kirchhoff's Current Law (KCL) at a junction is based on the law of conservation of:",
-    "options": ["Energy", "Momentum", "Charge", "Mass"],
-    "correct_option": "Charge",
-    "bengali_meaning": "জংশনে কার্শফের কারেন্ট সূত্র (KCL) কিসের সংরক্ষণ নীতির ওপর ভিত্তি করে?"
+    "opt1": "Energy",
+    "opt2": "Momentum",
+    "opt3": "Charge",
+    "opt4": "Mass",
+    "answer": "Charge",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Which of the following elements is a non-linear element?",
-    "options": ["Resistor", "Diode", "Inductor", "Capacitor"],
-    "correct_option": "Diode",
-    "bengali_meaning": "নিচের কোনটি একটি নন-লিনিয়ার (অ-রৈখিক) উপাদান?"
+    "opt1": "Resistor",
+    "opt2": "Diode",
+    "opt3": "Inductor",
+    "opt4": "Capacitor",
+    "answer": "Diode",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "An ideal voltage source has:",
-    "options": ["Zero internal resistance", "Infinite internal resistance", "Large internal conductance", "Finite non-zero resistance"],
-    "correct_option": "Zero internal resistance",
-    "bengali_meaning": "একটি আদর্শ ভোল্টেজ উৎসের অভ্যন্তরীণ রোধ কত?"
+    "opt1": "Zero internal resistance",
+    "opt2": "Infinite internal resistance",
+    "opt3": "Large internal conductance",
+    "opt4": "Finite non-zero resistance",
+    "answer": "Zero internal resistance",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The internal resistance of an ideal current source is:",
-    "options": ["Zero", "Small", "Infinite", "Negative"],
-    "correct_option": "Infinite",
-    "bengali_meaning": "একটি আদর্শ কারেন্ট উৎসের অভ্যন্তরীণ রোধ কত?"
+    "opt1": "Zero",
+    "opt2": "Small",
+    "opt3": "Infinite",
+    "opt4": "Negative",
+    "answer": "Infinite",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Superposition theorem is valid only for circuits that are:",
-    "options": ["Non-linear and bilateral", "Linear and bilateral", "Linear and unilateral", "Non-linear and unilateral"],
-    "correct_option": "Linear and bilateral",
-    "bengali_meaning": "সুপারপজিশন উপপাদ্য কেবলমাত্র কোন ধরনের বর্তনীর জন্য প্রযোজ্য?"
+    "opt1": "Non-linear and bilateral",
+    "opt2": "Linear and bilateral",
+    "opt3": "Linear and unilateral",
+    "opt4": "Non-linear and unilateral",
+    "answer": "Linear and bilateral",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The unit of magnetic reluctance is:",
-    "options": ["Henry", "Weber / Ampere-turn", "Ampere-turn / Weber (A-t/Wb)", "Ampere / meter"],
-    "correct_option": "Ampere-turn / Weber (A-t/Wb)",
-    "bengali_meaning": "চৌম্বকীয় রিলাকট্যান্সের (Reluctance) একক কী?"
+    "opt1": "Henry",
+    "opt2": "Weber / Ampere-turn",
+    "opt3": "Ampere-turn / Weber (A-t/Wb)",
+    "opt4": "Ampere / meter",
+    "answer": "Ampere-turn / Weber (A-t/Wb)",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a purely capacitive AC circuit, the current:",
-    "options": ["Lags voltage by 90°", "Leads voltage by 90°", "Is in phase with voltage", "Leads voltage by 180°"],
-    "correct_option": "Leads voltage by 90°",
-    "bengali_meaning": "একটি বিশুদ্ধ ক্যাপাসিটিভ এসি বর্তনীতে কারেন্ট ভোল্টেজের তুলনায় কী অবস্থানে থাকে?"
+    "opt1": "Lags voltage by 90°",
+    "opt2": "Leads voltage by 90°",
+    "opt3": "Is in phase with voltage",
+    "opt4": "Leads voltage by 180°",
+    "answer": "Leads voltage by 90°",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Under the condition of resonance in a series RLC circuit, the power factor is:",
-    "options": ["Zero lagging", "Zero leading", "Unity", "0.8 lagging"],
-    "correct_option": "Unity",
-    "bengali_meaning": "শ্রেণী RLC রেজোন্যান্স অবস্থায় পাওয়ার ফ্যাক্টর কত হয়?"
+    "opt1": "Zero lagging",
+    "opt2": "Zero leading",
+    "opt3": "Unity",
+    "opt4": "0.8 lagging",
+    "answer": "Unity",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The form factor of a pure sinusoidal alternating wave is:",
-    "options": ["1.0", "1.11", "1.414", "0.707"],
-    "correct_option": "1.11",
-    "bengali_meaning": "বিশুদ্ধ সাইনুসয়েডাল তরঙ্গের ফর্ম ফ্যাক্টর (Form factor) কত?"
+    "opt1": "1.0",
+    "opt2": "1.11",
+    "opt3": "1.414",
+    "opt4": "0.707",
+    "answer": "1.11",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The core of a transformer is laminated in order to reduce:",
-    "options": ["Hysteresis loss", "Eddy current loss", "Copper loss", "Stray load loss"],
-    "correct_option": "Eddy current loss",
-    "bengali_meaning": "ট্রান্সফরমারের কোর ল্যামিনেট করার মূল কারণ কী কমানো?"
+    "opt1": "Hysteresis loss",
+    "opt2": "Eddy current loss",
+    "opt3": "Copper loss",
+    "opt4": "Stray load loss",
+    "answer": "Eddy current loss",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "An open-circuit test on a single-phase transformer is primarily conducted to determine:",
-    "options": ["Copper loss", "Equivalent winding resistance", "Core loss (Iron loss)", "Total leakage reactance"],
-    "correct_option": "Core loss (Iron loss)",
-    "bengali_meaning": "একক ফেজ ট্রান্সফরমারে ওপেন-সার্কিট টেস্ট মূলত কী নির্ণয়ের জন্য করা হয়?"
+    "opt1": "Copper loss",
+    "opt2": "Equivalent winding resistance",
+    "opt3": "Core loss (Iron loss)",
+    "opt4": "Total leakage reactance",
+    "answer": "Core loss (Iron loss)",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a DC generator, the actual function of the commutator is to:",
-    "options": ["Collect current from brushes", "Convert internal AC to external DC", "Reduce armature reaction", "Increase generated EMF"],
-    "correct_option": "Convert internal AC to external DC",
-    "bengali_meaning": "ডিসি জেনারেটরে কমিউটেটরের আসল কাজ কী?"
+    "opt1": "Collect current from brushes",
+    "opt2": "Convert internal AC to external DC",
+    "opt3": "Reduce armature reaction",
+    "opt4": "Increase generated EMF",
+    "answer": "Convert internal AC to external DC",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Which DC motor should NEVER be started on no-load?",
-    "options": ["DC Shunt Motor", "DC Series Motor", "Cumulative Compound Motor", "Differentially Compound Motor"],
-    "correct_option": "DC Series Motor",
-    "bengali_meaning": "কোন ডিসি মোটরকে কখনো নো-লোড অবস্থায় চালু করা উচিত নয়?"
+    "opt1": "DC Shunt Motor",
+    "opt2": "DC Series Motor",
+    "opt3": "Cumulative Compound Motor",
+    "opt4": "Differentially Compound Motor",
+    "answer": "DC Series Motor",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a 3-phase induction motor, when the rotor is at standstill (blocked rotor), the slip (s) is equal to:",
-    "options": ["0", "0.5", "1", "∞"],
-    "correct_option": "1",
-    "bengali_meaning": "৩-ফেজ ইন্ডাকশন মোটরের রটার স্থির (ব্লকড রটার) অবস্থায় স্লিপ (s) কত?"
+    "opt1": "0",
+    "opt2": "0.5",
+    "opt3": "1",
+    "opt4": "∞",
+    "answer": "1",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "A PMMC (Permanent Magnet Moving Coil) instrument can measure:",
-    "options": ["Only AC quantities", "Only DC quantities", "Both AC and DC quantities", "Pulsating AC only"],
-    "correct_option": "Only DC quantities",
-    "bengali_meaning": "PMMC যন্ত্র শুধুমাত্র কোন রাশি পরিমাপ করতে পারে?"
+    "opt1": "Only AC quantities",
+    "opt2": "Only DC quantities",
+    "opt3": "Both AC and DC quantities",
+    "opt4": "Pulsating AC only",
+    "answer": "Only DC quantities",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "To convert a moving coil galvanometer into an ammeter, we connect:",
-    "options": ["A high resistance in series", "A low resistance in series", "A low resistance in parallel (shunt)", "A high resistance in parallel"],
-    "correct_option": "A low resistance in parallel (shunt)",
-    "bengali_meaning": "গ্যালভানোমিটারকে অ্যামিটারে রূপান্তর করতে কী সংযোগ করতে হয়?"
+    "opt1": "A high resistance in series",
+    "opt2": "A low resistance in series",
+    "opt3": "A low resistance in parallel (shunt)",
+    "opt4": "A high resistance in parallel",
+    "answer": "A low resistance in parallel (shunt)",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a two-wattmeter method of 3-phase power measurement, if one wattmeter reads zero, the power factor of the load is:",
-    "options": ["1.0", "0.866", "0.5", "0"],
-    "correct_option": "0.5",
-    "bengali_meaning": "দুই-ওয়াটমিটার পদ্ধতিতে একটির পাঠ শূন্য হলে পাওয়ার ফ্যাক্টর কত?"
+    "opt1": "1.0",
+    "opt2": "0.866",
+    "opt3": "0.5",
+    "opt4": "0",
+    "answer": "0.5",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The primary reason for bundle conductors in high-voltage transmission lines is to:",
-    "options": ["Increase line resistance", "Reduce corona loss and radio interference", "Reduce line capacitance", "Make mechanical stringing easier"],
-    "correct_option": "Reduce corona loss and radio interference",
-    "bengali_meaning": "উচ্চ ভোল্টেজ লাইনে বান্ডেল কন্ডাক্টর ব্যবহারের মূল কারণ কী?"
+    "opt1": "Increase line resistance",
+    "opt2": "Reduce corona loss and radio interference",
+    "opt3": "Reduce line capacitance",
+    "opt4": "Make mechanical stringing easier",
+    "answer": "Reduce corona loss and radio interference",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Skin effect in a conductor increases with an increase in:",
-    "options": ["Supply frequency", "Conductor diameter", "Permeability of conductor material", "All of the above"],
-    "correct_option": "All of the above",
-    "bengali_meaning": "পরিবাহীতে স্কিন এফেক্ট কিসের বৃদ্ধির সাথে বৃদ্ধি পায়?"
+    "opt1": "Supply frequency",
+    "opt2": "Conductor diameter",
+    "opt3": "Permeability of conductor material",
+    "opt4": "All of the above",
+    "answer": "All of the above",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The Buchholz relay is used for the protection of:",
-    "options": ["Transmission lines", "Alternators against overcurrent", "Oil-immersed transformers against internal faults", "Synchronous motors against hunting"],
-    "correct_option": "Oil-immersed transformers against internal faults",
-    "bengali_meaning": "বুখহোলজ রিলে মূলত কোনটির সুরক্ষায় ব্যবহৃত হয়?"
+    "opt1": "Transmission lines",
+    "opt2": "Alternators against overcurrent",
+    "opt3": "Oil-immersed transformers against internal faults",
+    "opt4": "Synchronous motors against hunting",
+    "answer": "Oil-immersed transformers against internal faults",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Kirchhoff's Voltage Law (KVL) is based on the principle of conservation of:",
-    "options": ["Charge", "Energy", "Momentum", "Magnetic flux"],
-    "correct_option": "Energy",
-    "bengali_meaning": "কার্শফের ভোল্টেজ সূত্র (KVL) কিসের সংরক্ষণ নীতির ওপর ভিত্তি করে?"
+    "opt1": "Charge",
+    "opt2": "Energy",
+    "opt3": "Momentum",
+    "opt4": "Magnetic flux",
+    "answer": "Energy",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "A bilateral circuit is defined as a circuit whose characteristics:",
-    "options": ["Depend on the direction of current", "Are independent of the direction of current flow", "Change with changes in temperature only", "Remain non-linear under all conditions"],
-    "correct_option": "Are independent of the direction of current flow",
-    "bengali_meaning": "বাইলেটারাল (দ্বিমুখী) সার্কিট বলতে কী বোঝায়?"
+    "opt1": "Depend on the direction of current",
+    "opt2": "Are independent of the direction of current flow",
+    "opt3": "Change with changes in temperature only",
+    "opt4": "Remain non-linear under all conditions",
+    "answer": "Are independent of the direction of current flow",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The maximum power transfer theorem states that power transferred to the load is maximum when load resistance (R_L) equals:",
-    "options": ["(R_th / 2)", "2 R_th", "R_th", "Zero"],
-    "correct_option": "R_th",
-    "bengali_meaning": "সর্বোচ্চ ক্ষমতা স্থানান্তরের জন্য লোড রোধ কত হওয়া প্রয়োজন?"
+    "opt1": "(R_th / 2)",
+    "opt2": "2 R_th",
+    "opt3": "R_th",
+    "opt4": "Zero",
+    "answer": "R_th",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The reciprocal of magnetic reluctance is known as:",
-    "options": ["Susceptance", "Permeance", "Conductance", "Retentivity"],
-    "correct_option": "Permeance",
-    "bengali_meaning": "চৌম্বকীয় রিলাকট্যান্সের বিপরীত রাশিকে কী বলা হয়?"
+    "opt1": "Susceptance",
+    "opt2": "Permeance",
+    "opt3": "Conductance",
+    "opt4": "Retentivity",
+    "answer": "Permeance",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In an AC circuit containing only a pure inductor, the phase angle between voltage and current is:",
-    "options": ["Current leads voltage by 90°", "Current lags voltage by 90°", "Current and voltage are in phase", "Current lags voltage by 180°"],
-    "correct_option": "Current lags voltage by 90°",
-    "bengali_meaning": "বিশুদ্ধ ইন্ডাকটিভ সার্কিটে ভোল্টেজ ও কারেন্টের মধ্যে ফেজ পার্থক্য কত?"
+    "opt1": "Current leads voltage by 90°",
+    "opt2": "Current lags voltage by 90°",
+    "opt3": "Current and voltage are in phase",
+    "opt4": "Current lags voltage by 180°",
+    "answer": "Current lags voltage by 90°",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a parallel resonant circuit (tank circuit), the impedance at resonant frequency is:",
-    "options": ["Minimum", "Maximum", "Zero", "Inductive only"],
-    "correct_option": "Maximum",
-    "bengali_meaning": "সমান্তরাল রেজোন্যান্স সার্কিটে রেজোন্যান্স কম্পাঙ্কে ইম্পিডেন্স কত হয়?"
+    "opt1": "Minimum",
+    "opt2": "Maximum",
+    "opt3": "Zero",
+    "opt4": "Inductive only",
+    "answer": "Maximum",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The peak factor (crest factor) of a standard sinusoidal waveform is:",
-    "options": ["1.11", "0.707", "1.414", "2.0"],
-    "correct_option": "1.414",
-    "bengali_meaning": "সাইন তরঙ্গের পিক ফ্যাক্টর (Crest factor) কত?"
+    "opt1": "1.11",
+    "opt2": "0.707",
+    "opt3": "1.414",
+    "opt4": "2.0",
+    "answer": "1.414",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The primary and secondary windings of an ordinary two-winding transformer are linked:",
-    "options": ["Conductively only", "Magnetically only", "Electrostatically only", "Mechanically only"],
-    "correct_option": "Magnetically only",
-    "bengali_meaning": "সাধারণ দুই-ওয়াইন্ডিং ট্রান্সফরমারের ওয়াইন্ডিংগুলো কীভাবে যুক্ত থাকে?"
+    "opt1": "Conductively only",
+    "opt2": "Magnetically only",
+    "opt3": "Electrostatically only",
+    "opt4": "Mechanically only",
+    "answer": "Magnetically only",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In an auto-transformer, power is transferred from primary to secondary:",
-    "options": ["Only conductively", "Only inductively", "Both conductively and inductively", "Neither conductively nor inductively"],
-    "correct_option": "Both conductively and inductively",
-    "bengali_meaning": "অটোট্রান্সফরমারে ক্ষমতা কীভাবে স্থানান্তরিত হয়?"
+    "opt1": "Only conductively",
+    "opt2": "Only inductively",
+    "opt3": "Both conductively and inductively",
+    "opt4": "Neither conductively nor inductively",
+    "answer": "Both conductively and inductively",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The short-circuit (SC) test on a transformer gives information primarily regarding:",
-    "options": ["Core loss and magnetizing current", "Equivalent copper loss at rated current", "Hysteresis loss only", "Insulation resistance"],
-    "correct_option": "Equivalent copper loss at rated current",
-    "bengali_meaning": "ট্রান্সফরমারের শর্ট-সার্কিট (SC) টেস্ট মূলত কী ক্ষতি পরিমাপ করে?"
+    "opt1": "Core loss and magnetizing current",
+    "opt2": "Equivalent copper loss at rated current",
+    "opt3": "Hysteresis loss only",
+    "opt4": "Insulation resistance",
+    "answer": "Equivalent copper loss at rated current",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a DC machine, dummy coils are used in the armature winding to:",
-    "options": ["Increase the generated EMF", "Provide mechanical balance to the rotor", "Improve commutation", "Reduce eddy current loss"],
-    "correct_option": "Provide mechanical balance to the rotor",
-    "bengali_meaning": "ডিসি মেশিনের আর্মেচারে ডামি কয়েল কেন ব্যবহার করা হয়?"
+    "opt1": "Increase the generated EMF",
+    "opt2": "Provide mechanical balance to the rotor",
+    "opt3": "Improve commutation",
+    "opt4": "Reduce eddy current loss",
+    "answer": "Provide mechanical balance to the rotor",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Interpoles in a DC machine are connected in:",
-    "options": ["Series with the armature winding", "Parallel with the armature winding", "Series with the shunt field winding", "Parallel with the field poles"],
-    "correct_option": "Series with the armature winding",
-    "bengali_meaning": "ডিসি মেশিনে ইন্টারপোল কীভাবে যুক্ত থাকে?"
+    "opt1": "Series with the armature winding",
+    "opt2": "Parallel with the armature winding",
+    "opt3": "Series with the shunt field winding",
+    "opt4": "Parallel with the field poles",
+    "answer": "Series with the armature winding",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "A 3-phase induction motor operates on the principle of:",
-    "options": ["Self-induction only", "Mutual induction through a rotating magnetic field", "Electrostatic attraction", "Variable reluctance"],
-    "correct_option": "Mutual induction through a rotating magnetic field",
-    "bengali_meaning": "৩-ফেজ ইন্ডাকশন মোটর কোন নীতিতে কাজ করে?"
+    "opt1": "Self-induction only",
+    "opt2": "Mutual induction through a rotating magnetic field",
+    "opt3": "Electrostatic attraction",
+    "opt4": "Variable reluctance",
+    "answer": "Mutual induction through a rotating magnetic field",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "If two phases of the supply to a 3-phase induction motor are interchanged, the motor will:",
-    "options": ["Continue running in the same direction", "Run in the reverse direction", "Burn immediately", "Stop and refuse to start"],
-    "correct_option": "Run in the reverse direction",
-    "bengali_meaning": "৩-ফেজ সরবরাহের দুটি ফেজ পরস্পর বদল করলে মোটরের ঘূর্ণন কী হবে?"
+    "opt1": "Continue running in the same direction",
+    "opt2": "Run in the reverse direction",
+    "opt3": "Burn immediately",
+    "opt4": "Stop and refuse to start",
+    "answer": "Run in the reverse direction",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "A synchronous motor can operate at:",
-    "options": ["Lagging power factor only", "Leading power factor only", "Unity power factor only", "Lagging, leading, and unity power factors"],
-    "correct_option": "Lagging, leading, and unity power factors",
-    "bengali_meaning": "একটি সিঙ্ক্রোনাস মোটর কোন পাওয়ার ফ্যাক্টরে চলতে পারে?"
+    "opt1": "Lagging power factor only",
+    "opt2": "Leading power factor only",
+    "opt3": "Unity power factor only",
+    "opt4": "Lagging, leading, and unity power factors",
+    "answer": "Lagging, leading, and unity power factors",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Which type of instrument exhibits a non-linear (cramped at lower end) scale?",
-    "options": ["PMMC instrument", "Moving Iron (MI) instrument", "DC Potentiometer", "D'Arsonval galvanometer"],
-    "correct_option": "Moving Iron (MI) instrument",
-    "bengali_meaning": "কোন মিটারের স্কেল নন-লিনিয়ার বা ক্র্যাম্পড (দাবানো) হয়?"
+    "opt1": "PMMC instrument",
+    "opt2": "Moving Iron (MI) instrument",
+    "opt3": "DC Potentiometer",
+    "opt4": "D'Arsonval galvanometer",
+    "answer": "Moving Iron (MI) instrument",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "To convert a moving coil galvanometer into a voltmeter, one must connect:",
-    "options": ["A high resistance in series", "A low resistance in parallel", "A low resistance in series", "A high resistance in parallel"],
-    "correct_option": "A high resistance in series",
-    "bengali_meaning": "গ্যালভানোমিটারকে ভোল্টমিটারে রূপান্তর করতে কী যুক্ত করতে হয়?"
+    "opt1": "A high resistance in series",
+    "opt2": "A low resistance in parallel",
+    "opt3": "A low resistance in series",
+    "opt4": "A high resistance in parallel",
+    "answer": "A high resistance in series",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The creeping phenomenon occurs most commonly in:",
-    "options": ["PMMC ammeters", "Induction-type energy meters", "Dynanometer wattmeters", "Meggers"],
-    "correct_option": "Induction-type energy meters",
-    "bengali_meaning": "ক্রিপিং (ধীর ঘূর্ণন) ত্রুটি কোন মিটারে দেখা যায়?"
+    "opt1": "PMMC ammeters",
+    "opt2": "Induction-type energy meters",
+    "opt3": "Dynanometer wattmeters",
+    "opt4": "Meggers",
+    "answer": "Induction-type energy meters",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The Ferranti effect in long transmission lines under no-load or light-load condition causes:",
-    "options": ["Receiving-end voltage to be greater than sending-end voltage", "Sending-end voltage to be greater than receiving-end voltage", "Receiving-end voltage to become zero", "Line current to become zero"],
-    "correct_option": "Receiving-end voltage to be greater than sending-end voltage",
-    "bengali_meaning": "ফেরান্টি এফেক্টের কারণে ট্রান্সমিশন লাইনে কী ঘটে?"
+    "opt1": "Receiving-end voltage to be greater than sending-end voltage",
+    "opt2": "Sending-end voltage to be greater than receiving-end voltage",
+    "opt3": "Receiving-end voltage to become zero",
+    "opt4": "Line current to become zero",
+    "answer": "Receiving-end voltage to be greater than sending-end voltage",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The color of silica gel in a transformer breather under dry (active) condition is:",
-    "options": ["Pink", "Blue", "White", "Brown"],
-    "correct_option": "Blue",
-    "bengali_meaning": "শুষ্ক অবস্থায় ট্রান্সফরমারের সিলিকা জেলের রঙ কেমন থাকে?"
+    "opt1": "Pink",
+    "opt2": "Blue",
+    "opt3": "White",
+    "opt4": "Brown",
+    "answer": "Blue",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The superposition theorem is based on the concept of:",
-    "options": ["Duality", "Linearity", "Reciprocity", "Non-linearity"],
-    "correct_option": "Linearity",
-    "bengali_meaning": "সুপারপজিশন উপপাদ্য কোন ধারণার ওপর ভিত্তি করে প্রতিষ্ঠিত?"
+    "opt1": "Duality",
+    "opt2": "Linearity",
+    "opt3": "Reciprocity",
+    "opt4": "Non-linearity",
+    "answer": "Linearity",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The property of a material that opposes the creation of magnetic flux in it is known as:",
-    "options": ["Permeance", "Reluctance", "Conductance", "Inductance"],
-    "correct_option": "Reluctance",
-    "bengali_meaning": "পদার্থের যে ধর্ম চৌম্বক ফ্লাক্স তৈরিতে বাধা দেয় তাকে কী বলে?"
+    "opt1": "Permeance",
+    "opt2": "Reluctance",
+    "opt3": "Conductance",
+    "opt4": "Inductance",
+    "answer": "Reluctance",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The time constant of a series R-L circuit is given by:",
-    "options": ["R/L", "L/R", "R * L", "1/(R * L)"],
-    "correct_option": "L/R",
-    "bengali_meaning": "শ্রেণী R-L বর্তনীর টাইম কনস্ট্যান্ট (Time constant) কত?"
+    "opt1": "R/L",
+    "opt2": "L/R",
+    "opt3": "R * L",
+    "opt4": "1/(R * L)",
+    "answer": "L/R",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The time constant of a series R-C circuit is given by:",
-    "options": ["R/C", "C/R", "R * C", "1/(R * C)"],
-    "correct_option": "R * C",
-    "bengali_meaning": "শ্রেণী R-C বর্তনীর টাইম কনস্ট্যান্ট কত?"
+    "opt1": "R/C",
+    "opt2": "C/R",
+    "opt3": "R * C",
+    "opt4": "1/(R * C)",
+    "answer": "R * C",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a pure inductive circuit, the active power (P) consumed is:",
-    "options": ["Maximum", "Zero", "V * I", "Negative"],
-    "correct_option": "Zero",
-    "bengali_meaning": "বিশুদ্ধ ইন্ডাকটিভ বর্তনীতে ব্যয়িত সক্রিয় ক্ষমতা (Active power) কত?"
+    "opt1": "Maximum",
+    "opt2": "Zero",
+    "opt3": "V * I",
+    "opt4": "Negative",
+    "answer": "Zero",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Under the condition of electrical resonance in a series R-L-C circuit, the circuit impedance is:",
-    "options": ["Purely inductive", "Purely capacitive", "Purely resistive and minimum", "Maximum"],
-    "correct_option": "Purely resistive and minimum",
-    "bengali_meaning": "শ্রেণী R-L-C রেজোন্যান্সে বর্তনীর ইম্পিডেন্স কেমন হয়?"
+    "opt1": "Purely inductive",
+    "opt2": "Purely capacitive",
+    "opt3": "Purely resistive and minimum",
+    "opt4": "Maximum",
+    "answer": "Purely resistive and minimum",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In an ideal transformer, the efficiency is considered to be:",
-    "options": ["80%", "90%", "98%", "100%"],
-    "correct_option": "100%",
-    "bengali_meaning": "আদর্শ ট্রান্সফরমারের দক্ষতা কত ধরা হয়?"
+    "opt1": "80%",
+    "opt2": "90%",
+    "opt3": "98%",
+    "opt4": "100%",
+    "answer": "100%",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Transformer core laminations are insulated from each other by a thin layer of:",
-    "options": ["Cotton", "Varnish", "Mica", "Paper tape"],
-    "correct_option": "Varnish",
-    "bengali_meaning": "ট্রান্সফরমার কোর ল্যামিনেশনগুলো পরস্পরের থেকে কী দিয়ে অন্তরীত থাকে?"
+    "opt1": "Cotton",
+    "opt2": "Varnish",
+    "opt3": "Mica",
+    "opt4": "Paper tape",
+    "answer": "Varnish",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a transformer, the frequency of the secondary voltage compared to the primary voltage is:",
-    "options": ["Double", "Half", "Exactly the same", "Dependent on turns ratio"],
-    "correct_option": "Exactly the same",
-    "bengali_meaning": "ট্রান্সফরমারে সেকেন্ডারি ভোল্টেজের কম্পাঙ্ক প্রাইমারির তুলনায় কেমন হয়?"
+    "opt1": "Double",
+    "opt2": "Half",
+    "opt3": "Exactly the same",
+    "opt4": "Dependent on turns ratio",
+    "answer": "Exactly the same",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The direction of rotation of a DC motor can be reversed by:",
-    "options": ["Reversing supply terminals only", "Reversing either field or armature terminals", "Reversing both field and armature terminals simultaneously", "Reducing supply voltage"],
-    "correct_option": "Reversing either field or armature terminals",
-    "bengali_meaning": "ডিসি মোটরের ঘূর্ণনের দিক কীভাবে উল্টানো যায়?"
+    "opt1": "Reversing supply terminals only",
+    "opt2": "Reversing either field or armature terminals",
+    "opt3": "Reversing both field and armature terminals simultaneously",
+    "opt4": "Reducing supply voltage",
+    "answer": "Reversing either field or armature terminals",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The torque developed by a DC series motor is directly proportional to:",
-    "options": ["Armature current (Ia)", "Square of armature current (Ia^2) before saturation", "Field resistance", "Back EMF"],
-    "correct_option": "Square of armature current (Ia^2) before saturation",
-    "bengali_meaning": "ডিসি সিরিজ মোটরের টর্ক আর্মেচার কারেন্টের সাথে কীভাবে সম্পর্কিত?"
+    "opt1": "Armature current (Ia)",
+    "opt2": "Square of armature current (Ia^2) before saturation",
+    "opt3": "Field resistance",
+    "opt4": "Back EMF",
+    "answer": "Square of armature current (Ia^2) before saturation",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "For starting a 3-phase squirrel cage induction motor, which starter applies reduced voltage to the stator windings?",
-    "options": ["Direct-On-Line (DOL) starter", "Star-Delta starter", "Rotor resistance starter", "Knife switch starter"],
-    "correct_option": "Star-Delta starter",
-    "bengali_meaning": "কোন স্টার্টার ৩-ফেজ মোটরের স্ট্যাটরে হ্রাসকৃত ভোল্টেজ প্রয়োগ করে?"
+    "opt1": "Direct-On-Line (DOL) starter",
+    "opt2": "Star-Delta starter",
+    "opt3": "Rotor resistance starter",
+    "opt4": "Knife switch starter",
+    "answer": "Star-Delta starter",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "A synchronous motor is:",
-    "options": ["Self-starting at full load", "Self-starting at no load", "Not self-starting", "Started only by reversing phases"],
-    "correct_option": "Not self-starting",
-    "bengali_meaning": "একটি সিঙ্ক্রোনাস মোটর নিজে থেকে চালু হতে পারে কি?"
+    "opt1": "Self-starting at full load",
+    "opt2": "Self-starting at no load",
+    "opt3": "Not self-starting",
+    "opt4": "Started only by reversing phases",
+    "answer": "Not self-starting",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The damping torque in a PMMC instrument is provided by:",
-    "options": ["Air friction damping", "Fluid friction damping", "Eddy current damping", "Gravity control"],
-    "correct_option": "Eddy current damping",
-    "bengali_meaning": "PMMC যন্ত্রে ড্যাম্পিং টর্ক কীভাবে তৈরি করা হয়?"
+    "opt1": "Air friction damping",
+    "opt2": "Fluid friction damping",
+    "opt3": "Eddy current damping",
+    "opt4": "Gravity control",
+    "answer": "Eddy current damping",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Moving iron (MI) instruments can be used for:",
-    "options": ["DC measurements only", "AC measurements only", "Both AC and DC measurements", "High-frequency RF only"],
-    "correct_option": "Both AC and DC measurements",
-    "bengali_meaning": "মুভিং আয়রন (MI) যন্ত্র কোন রাশি পরিমাপে ব্যবহৃত হয়?"
+    "opt1": "DC measurements only",
+    "opt2": "AC measurements only",
+    "opt3": "Both AC and DC measurements",
+    "opt4": "High-frequency RF only",
+    "answer": "Both AC and DC measurements",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Megger is an instrument primarily used for measuring:",
-    "options": ["Low resistances (below 1 ohm)", "Medium resistances (1 ohm to 100 k-ohm)", "Very high insulation resistances", "Inductance of coils"],
-    "correct_option": "Very high insulation resistances",
-    "bengali_meaning": "মেগার (Megger) মূলত কী পরিমাপ করতে ব্যবহৃত হয়?"
+    "opt1": "Low resistances (below 1 ohm)",
+    "opt2": "Medium resistances (1 ohm to 100 k-ohm)",
+    "opt3": "Very high insulation resistances",
+    "opt4": "Inductance of coils",
+    "answer": "Very high insulation resistances",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a 3-phase balanced system, the neutral wire carries a current equal to:",
-    "options": ["Full phase current", "Three times phase current", "Zero", "Line current divided by sqrt(3)"],
-    "correct_option": "Zero",
-    "bengali_meaning": "একটি ৩-ফেজ ব্যালান্সড ব্যবস্থায় নিউট্রাল তারে কারেন্ট কত থাকে?"
+    "opt1": "Full phase current",
+    "opt2": "Three times phase current",
+    "opt3": "Zero",
+    "opt4": "Line current divided by sqrt(3)",
+    "answer": "Zero",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Surge impedance of an overhead transmission line is typically in the range of:",
-    "options": ["40 ohm to 60 ohm", "100 ohm to 200 ohm", "400 ohm to 600 ohm", "1000 ohm to 2000 ohm"],
-    "correct_option": "400 ohm to 600 ohm",
-    "bengali_meaning": "ওভারহেড লাইনের সার্জ ইম্পিডেন্স সাধারণত কত ওহম হয়?"
+    "opt1": "40 ohm to 60 ohm",
+    "opt2": "100 ohm to 200 ohm",
+    "opt3": "400 ohm to 600 ohm",
+    "opt4": "1000 ohm to 2000 ohm",
+    "answer": "400 ohm to 600 ohm",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The primary function of a fuse in an electrical circuit is to provide protection against:",
-    "options": ["Under-voltage", "Short-circuit and severe overcurrent", "Reverse current", "Open circuits"],
-    "correct_option": "Short-circuit and severe overcurrent",
-    "bengali_meaning": "বৈদ্যুতিক বর্তনীতে ফিউজের মূল কাজ কীসের বিরুদ্ধে সুরক্ষা দেওয়া?"
+    "opt1": "Under-voltage",
+    "opt2": "Short-circuit and severe overcurrent",
+    "opt3": "Reverse current",
+    "opt4": "Open circuits",
+    "answer": "Short-circuit and severe overcurrent",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "An AC circuit draws an active power of 300 W and a reactive power of 400 VAR. What is the apparent power S of the circuit?",
-    "options": ["700 VA", "500 VA", "100 VA", "350 VA"],
-    "correct_option": "500 VA"
-  },
-  {
-    "question": "An electrical load takes an apparent power of 1300 VA and has an active power consumption of 1200 W. The reactive power Q supplied to the load is:",
-    "options": ["100 VAR", "2500 VAR", "500 VAR", "600 VAR"],
-    "correct_option": "500 VAR"
-  },
-  {
-    "question": "In a series R-L circuit, the active power is 60 W and the apparent power is 100 VA. The power factor of the circuit is:",
-    "options": ["0.6 lagging", "0.8 lagging", "0.6 leading", "0.8 leading"],
-    "correct_option": "0.6 lagging"
-  },
-  {
-    "question": "A series R-C circuit has R = 8 Ω and XC = 6 Ω. The power factor of the circuit is:",
-    "options": ["0.6 lagging", "0.8 lagging", "0.6 leading", "0.8 leading"],
-    "correct_option": "0.8 leading"
-  },
-  {
-    "question": "A single-phase circuit operating at 200 V draws a current of 5 A at 0.8 power factor lagging. The active power P consumed is:",
-    "options": ["1000 W", "800 W", "600 W", "500 W"],
-    "correct_option": "800 W"
-  },
-  {
-    "question": "For the same circuit (V = 200 V, I = 5 A, p.f. = 0.8 lagging), the reactive power Q is:",
-    "options": ["800 VAR", "600 VAR", "1000 VAR", "400 VAR"],
-    "correct_option": "600 VAR"
-  },
-  {
-    "question": "An industrial load has an apparent power rating of 10 kVA with a lagging power factor of 0.6. The reactive power Q is:",
-    "options": ["6 kVAR", "8 kVAR", "4 kVAR", "10 kVAR"],
-    "correct_option": "8 kVAR"
-  },
-  {
-    "question": "A series circuit has R = 15 Ω and total net reactance X = 20 Ω. The circuit power factor is:",
-    "options": ["0.75", "0.60", "0.80", "0.85"],
-    "correct_option": "0.60"
-  },
-  {
-    "question": "In a series RLC circuit at resonance, the phase angle between voltage and current is:",
-    "options": ["90°", "45°", "0°", "180°"],
-    "correct_option": "0°"
-  },
-  {
-    "question": "The power factor of an RLC series circuit operating at resonance is:",
-    "options": ["Zero", "0.5 lagging", "0.8 leading", "Unity (1.0)"],
-    "correct_option": "Unity (1.0)"
-  },
-  {
-    "question": "An R-L circuit with R = 24 Ω and XL = 7 Ω is connected to a supply. The circuit power factor is approximately:",
-    "options": ["0.96 lagging", "0.70 lagging", "0.28 lagging", "0.50 lagging"],
-    "correct_option": "0.96 lagging"
-  },
-  {
-    "question": "If an AC circuit draws a total current of 10 A at 0.6 power factor lagging, its active current component (I cos φ) is:",
-    "options": ["8 A", "6 A", "10 A", "4 A"],
-    "correct_option": "6 A"
-  },
-  {
-    "question": "For the circuit (I = 10 A, p.f. = 0.6 lagging), the reactive (wattless) current component (I sin φ) is:",
-    "options": ["6 A", "8 A", "4 A", "2 A"],
-    "correct_option": "8 A"
-  },
-  {
-    "question": "In an AC circuit, the ratio of active power to apparent power (P/S) represents:",
-    "options": ["Form factor", "Peak factor", "Power factor", "Quality factor"],
-    "correct_option": "Power factor"
-  },
-  {
-    "question": "A circuit consumes 40 W and has an impedance with R = 10 Ω and Z = 20 Ω. The apparent power S is:",
-    "options": ["40 VA", "80 VA", "160 VA", "20 VA"],
-    "correct_option": "80 VA"
-  },
-  {
-    "question": "A pure capacitor is connected across an AC voltage source. The active power consumed by the capacitor is:",
-    "options": ["VI", "V^2/XC", "0 W", "Infinity"],
-    "correct_option": "0 W"
-  },
-  {
-    "question": "A coil draws 5 A from a 100 V DC source. When connected to a 100 V, 50 Hz AC source, it draws 4 A. The reactance XL of the coil is:",
-    "options": ["20 Ω", "25 Ω", "15 Ω", "5 Ω"],
-    "correct_option": "15 Ω"
-  },
-  {
-    "question": "In a series circuit, VR = 80 V across the resistor and VL = 60 V across the inductor. The total source voltage V is:",
-    "options": ["140 V", "100 V", "20 V", "70 V"],
-    "correct_option": "100 V"
-  },
-  {
-    "question": "In a series RLC circuit, VR = 120 V, VL = 160 V, and VC = 70 V. The supply voltage V is:",
-    "options": ["350 V", "150 V", "210 V", "250 V"],
-    "correct_option": "150 V"
-  },
-  {
-    "question": "A load of (6 + j8) Ω is connected across a 100 V AC supply. The total active power P dissipated is:",
-    "options": ["600 W", "800 W", "1000 W", "100 W"],
-    "correct_option": "600 W"
-  },
-  {
-    "question": "An inductor of L = 0.1 H and a capacitor of C = 10 µF are connected in series. The resonant angular frequency ω0 is:",
-    "options": ["100 rad/s", "314 rad/s", "1000 rad/s", "10,000 rad/s"],
-    "correct_option": "1000 rad/s"
-  },
-  {
-    "question": "A series RLC circuit has L = 0.4 H and C = 40 µF. The resonant angular frequency ω0 is:",
-    "options": ["250 rad/s", "500 rad/s", "100 rad/s", "1000 rad/s"],
-    "correct_option": "250 rad/s"
-  },
-  {
-    "question": "In a series RLC circuit, if both L and C are doubled, the resonant frequency f0 becomes:",
-    "options": ["Doubled", "Halved", "Quadrupled", "Remains unchanged"],
-    "correct_option": "Halved"
-  },
-  {
-    "question": "If the inductance L in a series resonant circuit is quadrupled (4L) while C is kept constant, the resonant frequency:",
-    "options": ["Doubles", "Halves", "Quadruples", "Becomes one-fourth"],
-    "correct_option": "Halves"
-  },
-  {
-    "question": "A series RLC circuit has R = 10 Ω, L = 100 mH, and C = 10 µF. The Quality factor (Q-factor) of the circuit is:",
-    "options": ["10", "100", "1", "0.1"],
-    "correct_option": "10"
-  },
-  {
-    "question": "In a series RLC circuit, the voltages across elements are VR = 40 V, VL = 100 V, and VC = 70 V. The supply voltage is:",
-    "options": ["210 V", "50 V", "70 V", "110 V"],
-    "correct_option": "50 V"
-  },
-  {
-    "question": "At frequencies below the resonant frequency, a series RLC circuit behaves as a:",
-    "options": ["Purely resistive circuit", "Inductive circuit", "Capacitive circuit", "Non-linear circuit"],
-    "correct_option": "Capacitive circuit"
-  },
-  {
-    "question": "At frequencies above the resonant frequency, a series RLC circuit behaves as a:",
-    "options": ["Capacitive circuit", "Inductive circuit", "Purely resistive circuit", "Open circuit"],
-    "correct_option": "Inductive circuit"
-  },
-  {
-    "question": "A circuit has R = 16 Ω and impedance Z = 20 Ω. What is the reactive factor (sin φ)?",
-    "options": ["0.8", "0.6", "0.75", "0.5"],
-    "correct_option": "0.6"
-  },
-  {
-    "question": "A parallel RLC circuit at resonance has:",
-    "options": ["Minimum impedance and maximum current", "Maximum impedance and minimum current", "Zero impedance", "Infinite current"],
-    "correct_option": "Maximum impedance and minimum current"
-  },
-  {
-    "question": "In a series RLC circuit, R = 5 Ω, L = 0.2 H, and C = 5 µF. The resonant angular frequency ω0 is:",
-    "options": ["500 rad/s", "1000 rad/s", "2000 rad/s", "100 rad/s"],
-    "correct_option": "1000 rad/s"
-  },
-  {
-    "question": "An alternating voltage v(t) = 100 sin(ωt) produces a current i(t) = 10 sin(ωt - 60°). The active power consumed is:",
-    "options": ["1000 W", "500 W", "250 W", "125 W"],
-    "correct_option": "250 W"
-  },
-  {
-    "question": "For Vm = 100 V, Im = 10 A, φ = 60°, the apparent power S is:",
-    "options": ["1000 VA", "500 VA", "707 VA", "250 VA"],
-    "correct_option": "500 VA"
-  },
-  {
-    "question": "An AC circuit has Z = (9 + j12) Ω. The power factor of this circuit is:",
-    "options": ["0.6 lagging", "0.8 lagging", "0.75 lagging", "0.6 leading"],
-    "correct_option": "0.6 lagging"
-  },
-  {
-    "question": "An AC circuit has Z = (20 - j15) Ω. The power factor of this circuit is:",
-    "options": ["0.6 leading", "0.8 leading", "0.8 lagging", "0.75 lagging"],
-    "correct_option": "0.8 leading"
-  },
-  {
-    "question": "A series circuit has R = 10 Ω and draws an apparent power of 250 VA when a current of 4 A flows through it. The power factor is:",
-    "options": ["0.64", "0.80", "0.40", "0.50"],
-    "correct_option": "0.64"
-  },
-  {
-    "question": "In a series resonant circuit, the bandwidth is given by the relation:",
-    "options": ["R/L", "L/R", "R/(2πL)", "ω0 · Q"],
-    "correct_option": "R/(2πL)"
-  },
-  {
-    "question": "A series RLC circuit with R = 2 Ω, L = 1 mH, and C = 0.1 µF has a resonant angular frequency ω0 = 100,000 rad/s. The circuit bandwidth in rad/s is:",
-    "options": ["2000 rad/s", "1000 rad/s", "500 rad/s", "200 rad/s"],
-    "correct_option": "2000 rad/s"
-  },
-  {
-    "question": "The voltage across a series RLC circuit at resonance is 10 V. If the quality factor Q = 25, the voltage across the inductor VL at resonance is:",
-    "options": ["10 V", "2.5 V", "250 V", "0.4 V"],
-    "correct_option": "250 V"
-  },
-  {
-    "question": "An AC voltage v(t) = 200√2 sin(314t) V is connected across a series combination of R = 30 Ω and XL = 40 Ω. The RMS value of current is:",
-    "options": ["2.82 A", "4.0 A", "5.65 A", "6.66 A"],
-    "correct_option": "4.0 A"
-  },
-  {
-    "question": "A load of 8 kW operates at 0.8 power factor lagging from a 200 V line. The line current is:",
-    "options": ["40 A", "50 A", "32 A", "25 A"],
-    "correct_option": "50 A"
-  },
-  {
-    "question": "If an alternating current is expressed as i(t) = 3 + 4 sin(ωt) A, its effective (RMS) value is:",
-    "options": ["5 A", "√17 A", "7 A", "3.5 A"],
-    "correct_option": "√17 A"
-  },
-  {
-    "question": "Two currents are given by i1 = 10 sin(ωt) A and i2 = 10 sin(ωt - 90°) A. The RMS value of the total resultant current (i1 + i2) is:",
-    "options": ["20 A", "14.14 A", "10 A", "0 A"],
-    "correct_option": "10 A"
-  },
-  {
-    "question": "An inductor coil has an impedance of 10 Ω and a power factor of 0.8 lagging. The inductive reactance XL of the coil is:",
-    "options": ["8 Ω", "6 Ω", "2 Ω", "10 Ω"],
-    "correct_option": "6 Ω"
-  },
-  {
-    "question": "A capacitive branch has Z = 25 Ω and resistance R = 7 Ω. What is the capacitive reactance XC?",
-    "options": ["18 Ω", "24 Ω", "32 Ω", "12 Ω"],
-    "correct_option": "24 Ω"
-  },
-  {
-    "question": "In a parallel circuit, Branch 1 draws (6 + j8) A and Branch 2 draws (6 - j8) A. The total current drawn from the supply is:",
-    "options": ["12 A", "16 A", "20 A", "0 A"],
-    "correct_option": "12 A"
-  },
-  {
-    "question": "The power factor of the combined circuit (total current = 12 A with zero imaginary part) is:",
-    "options": ["0.6 lagging", "0.8 leading", "Unity (1.0)", "Zero"],
-    "correct_option": "Unity (1.0)"
-  },
-  {
-    "question": "An AC source of 100 V is applied to a series circuit of R = 60 Ω and XC = 80 Ω. The reactive power Q is:",
-    "options": ["60 VAR", "80 VAR", "100 VAR", "140 VAR"],
-    "correct_option": "80 VAR"
-  },
-  {
-    "question": "In an RLC series circuit, the maximum voltage magnification across the inductor at resonance depends directly on:",
-    "options": ["Supply voltage", "Bandwidth", "Quality factor (Q)", "Resonant frequency"],
-    "correct_option": "Quality factor (Q)"
-  },
-  {
-    "question": "A circuit draws an active power of 1200 W and an apparent power of 1500 VA. The reactive factor (sin φ) of the circuit is:",
-    "options": ["0.8", "0.6", "0.75", "0.5"],
-    "correct_option": "0.6"
-  },
-  {
-    "question": "The resonant frequency of an LC circuit is 1000 Hz. If both L and C are quadrupled (4L and 4C), the new resonant frequency will be:",
-    "options": ["4000 Hz", "2000 Hz", "500 Hz", "250 Hz"],
-    "correct_option": "250 Hz"
-  },
-  {
-    "question": "A coil having resistance R = 15 Ω and inductance L = 0.2 H is connected to a 50 Hz AC line. The impedance Z is approximately:",
-    "options": ["15 Ω", "62.8 Ω", "64.6 Ω", "77.8 Ω"],
-    "correct_option": "64.6 Ω"
-  },
-  {
-    "question": "A series RLC circuit has a quality factor Q = 50 and a resonant frequency of 100 kHz. The bandwidth of the circuit is:",
-    "options": ["2 kHz", "5 kHz", "50 kHz", "0.5 kHz"],
-    "correct_option": "2 kHz"
-  },
-  {
-    "question": "An AC load has a complex power S = (800 + j600) VA. What is the power factor?",
-    "options": ["0.8 lagging", "0.6 lagging", "0.8 leading", "0.6 leading"],
-    "correct_option": "0.8 lagging"
-  },
-  {
-    "question": "For the complex power S = (1200 - j500) VA, the nature of the power factor is:",
-    "options": ["Lagging", "Leading", "Unity", "Zero"],
-    "correct_option": "Leading"
-  },
-  {
-    "question": "In an AC circuit, the voltage and current are given by v(t) = 100 sin(ωt + 30°) V and i(t) = 5 sin(ωt - 30°) A. The power factor is:",
-    "options": ["0.5 lagging", "0.866 lagging", "0.5 leading", "0.866 leading"],
-    "correct_option": "0.5 lagging"
-  },
-  {
-    "question": "For Vm = 100 V, Im = 5 A, φ = 60°, the average power consumed is:",
-    "options": ["250 W", "125 W", "500 W", "216.5 W"],
-    "correct_option": "125 W"
-  },
-  {
-    "question": "A resistor R = 40 Ω and an inductor XL = 30 Ω are connected in parallel across a 120 V source. The total active power consumed is:",
-    "options": ["288 W", "360 W", "480 W", "120 W"],
-    "correct_option": "360 W"
-  },
-  {
-    "question": "In a series RLC circuit, at the half-power frequencies, the current magnitude is:",
-    "options": ["Equal to the maximum current I0", "Half of the maximum current (0.5 I0)", "1/√2 times the maximum current (0.707 I0)", "Twice the maximum current (2 I0)"],
-    "correct_option": "1/√2 times the maximum current (0.707 I0)"
-  },
-  {
-    "question": "The power factor of a series RLC circuit at half-power frequencies is:",
-    "options": ["1.0", "0.707", "0.5", "Zero"],
-    "correct_option": "0.707"
+    "opt1": "700 VA",
+    "opt2": "500 VA",
+    "opt3": "100 VA",
+    "opt4": "350 VA",
+    "answer": "500 VA",
+    "image_path": null
   }
 ]
