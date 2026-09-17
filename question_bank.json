@@ -1,1444 +1,1302 @@
 [
   {
+    "subject": "Electrical Engineering",
     "question": "Kirchhoff's Current Law (KCL) at a junction is based on the law of conservation of:",
-    "options": ["Energy", "Momentum", "Charge", "Mass"],
-    "correct_option": "Charge",
-    "bengali_meaning": "জংশনে কার্শফের কারেন্ট সূত্র (KCL) কিসের সংরক্ষণ নীতির ওপর ভিত্তি করে?"
+    "opt1": "Energy",
+    "opt2": "Momentum",
+    "opt3": "Charge",
+    "opt4": "Mass",
+    "answer": "Charge",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Which of the following elements is a non-linear element?",
-    "options": ["Resistor", "Diode", "Inductor", "Capacitor"],
-    "correct_option": "Diode",
-    "bengali_meaning": "নিচের কোনটি একটি নন-লিনিয়ার (অ-রৈখিক) উপাদান?"
+    "opt1": "Resistor",
+    "opt2": "Diode",
+    "opt3": "Inductor",
+    "opt4": "Capacitor",
+    "answer": "Diode",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "An ideal voltage source has:",
-    "options": ["Zero internal resistance", "Infinite internal resistance", "Large internal conductance", "Finite non-zero resistance"],
-    "correct_option": "Zero internal resistance",
-    "bengali_meaning": "একটি আদর্শ ভোল্টেজ উৎসের অভ্যন্তরীণ রোধ কত?"
+    "opt1": "Zero internal resistance",
+    "opt2": "Infinite internal resistance",
+    "opt3": "Large internal conductance",
+    "opt4": "Finite non-zero resistance",
+    "answer": "Zero internal resistance",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The internal resistance of an ideal current source is:",
-    "options": ["Zero", "Small", "Infinite", "Negative"],
-    "correct_option": "Infinite",
-    "bengali_meaning": "একটি আদর্শ কারেন্ট উৎসের অভ্যন্তরীণ রোধ কত?"
+    "opt1": "Zero",
+    "opt2": "Small",
+    "opt3": "Infinite",
+    "opt4": "Negative",
+    "answer": "Infinite",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Superposition theorem is valid only for circuits that are:",
-    "options": ["Non-linear and bilateral", "Linear and bilateral", "Linear and unilateral", "Non-linear and unilateral"],
-    "correct_option": "Linear and bilateral",
-    "bengali_meaning": "সুপারপজিশন উপপাদ্য কেবলমাত্র কোন ধরনের বর্তনীর জন্য প্রযোজ্য?"
+    "opt1": "Non-linear and bilateral",
+    "opt2": "Linear and bilateral",
+    "opt3": "Linear and unilateral",
+    "opt4": "Non-linear and unilateral",
+    "answer": "Linear and bilateral",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The unit of magnetic reluctance is:",
-    "options": ["Henry", "Weber / Ampere-turn", "Ampere-turn / Weber (A-t/Wb)", "Ampere / meter"],
-    "correct_option": "Ampere-turn / Weber (A-t/Wb)",
-    "bengali_meaning": "চৌম্বকীয় রিলাকট্যান্সের (Reluctance) একক কী?"
+    "opt1": "Henry",
+    "opt2": "Weber / Ampere-turn",
+    "opt3": "Ampere-turn / Weber (A-t/Wb)",
+    "opt4": "Ampere / meter",
+    "answer": "Ampere-turn / Weber (A-t/Wb)",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a purely capacitive AC circuit, the current:",
-    "options": ["Lags voltage by 90°", "Leads voltage by 90°", "Is in phase with voltage", "Leads voltage by 180°"],
-    "correct_option": "Leads voltage by 90°",
-    "bengali_meaning": "একটি বিশুদ্ধ ক্যাপাসিটিভ এসি বর্তনীতে কারেন্ট ভোল্টেজের তুলনায় কী অবস্থানে থাকে?"
+    "opt1": "Lags voltage by 90°",
+    "opt2": "Leads voltage by 90°",
+    "opt3": "Is in phase with voltage",
+    "opt4": "Leads voltage by 180°",
+    "answer": "Leads voltage by 90°",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Under the condition of resonance in a series RLC circuit, the power factor is:",
-    "options": ["Zero lagging", "Zero leading", "Unity", "0.8 lagging"],
-    "correct_option": "Unity",
-    "bengali_meaning": "শ্রেণী RLC রেজোন্যান্স অবস্থায় পাওয়ার ফ্যাক্টর কত হয়?"
+    "opt1": "Zero lagging",
+    "opt2": "Zero leading",
+    "opt3": "Unity",
+    "opt4": "0.8 lagging",
+    "answer": "Unity",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The form factor of a pure sinusoidal alternating wave is:",
-    "options": ["1.0", "1.11", "1.414", "0.707"],
-    "correct_option": "1.11",
-    "bengali_meaning": "বিশুদ্ধ সাইনুসয়েডাল তরঙ্গের ফর্ম ফ্যাক্টর (Form factor) কত?"
+    "opt1": "1.0",
+    "opt2": "1.11",
+    "opt3": "1.414",
+    "opt4": "0.707",
+    "answer": "1.11",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The core of a transformer is laminated in order to reduce:",
-    "options": ["Hysteresis loss", "Eddy current loss", "Copper loss", "Stray load loss"],
-    "correct_option": "Eddy current loss",
-    "bengali_meaning": "ট্রান্সফরমারের কোর ল্যামিনেট করার মূল কারণ কী কমানো?"
+    "opt1": "Hysteresis loss",
+    "opt2": "Eddy current loss",
+    "opt3": "Copper loss",
+    "opt4": "Stray load loss",
+    "answer": "Eddy current loss",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "An open-circuit test on a single-phase transformer is primarily conducted to determine:",
-    "options": ["Copper loss", "Equivalent winding resistance", "Core loss (Iron loss)", "Total leakage reactance"],
-    "correct_option": "Core loss (Iron loss)",
-    "bengali_meaning": "একক ফেজ ট্রান্সফরমারে ওপেন-সার্কিট টেস্ট মূলত কী নির্ণয়ের জন্য করা হয়?"
+    "opt1": "Copper loss",
+    "opt2": "Equivalent winding resistance",
+    "opt3": "Core loss (Iron loss)",
+    "opt4": "Total leakage reactance",
+    "answer": "Core loss (Iron loss)",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a DC generator, the actual function of the commutator is to:",
-    "options": ["Collect current from brushes", "Convert internal AC to external DC", "Reduce armature reaction", "Increase generated EMF"],
-    "correct_option": "Convert internal AC to external DC",
-    "bengali_meaning": "ডিসি জেনারেটরে কমিউটেটরের আসল কাজ কী?"
+    "opt1": "Collect current from brushes",
+    "opt2": "Convert internal AC to external DC",
+    "opt3": "Reduce armature reaction",
+    "opt4": "Increase generated EMF",
+    "answer": "Convert internal AC to external DC",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Which DC motor should NEVER be started on no-load?",
-    "options": ["DC Shunt Motor", "DC Series Motor", "Cumulative Compound Motor", "Differentially Compound Motor"],
-    "correct_option": "DC Series Motor",
-    "bengali_meaning": "কোন ডিসি মোটরকে কখনো নো-লোড অবস্থায় চালু করা উচিত নয়?"
+    "opt1": "DC Shunt Motor",
+    "opt2": "DC Series Motor",
+    "opt3": "Cumulative Compound Motor",
+    "opt4": "Differentially Compound Motor",
+    "answer": "DC Series Motor",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a 3-phase induction motor, when the rotor is at standstill (blocked rotor), the slip (s) is equal to:",
-    "options": ["0", "0.5", "1", "∞"],
-    "correct_option": "1",
-    "bengali_meaning": "৩-ফেজ ইন্ডাকশন মোটরের রটার স্থির (ব্লকড রটার) অবস্থায় স্লিপ (s) কত?"
+    "opt1": "0",
+    "opt2": "0.5",
+    "opt3": "1",
+    "opt4": "∞",
+    "answer": "1",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "A PMMC (Permanent Magnet Moving Coil) instrument can measure:",
-    "options": ["Only AC quantities", "Only DC quantities", "Both AC and DC quantities", "Pulsating AC only"],
-    "correct_option": "Only DC quantities",
-    "bengali_meaning": "PMMC যন্ত্র শুধুমাত্র কোন রাশি পরিমাপ করতে পারে?"
+    "opt1": "Only AC quantities",
+    "opt2": "Only DC quantities",
+    "opt3": "Both AC and DC quantities",
+    "opt4": "Pulsating AC only",
+    "answer": "Only DC quantities",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "To convert a moving coil galvanometer into an ammeter, we connect:",
-    "options": ["A high resistance in series", "A low resistance in series", "A low resistance in parallel (shunt)", "A high resistance in parallel"],
-    "correct_option": "A low resistance in parallel (shunt)",
-    "bengali_meaning": "গ্যালভানোমিটারকে অ্যামিটারে রূপান্তর করতে কী সংযোগ করতে হয়?"
+    "opt1": "A high resistance in series",
+    "opt2": "A low resistance in series",
+    "opt3": "A low resistance in parallel (shunt)",
+    "opt4": "A high resistance in parallel",
+    "answer": "A low resistance in parallel (shunt)",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a two-wattmeter method of 3-phase power measurement, if one wattmeter reads zero, the power factor of the load is:",
-    "options": ["1.0", "0.866", "0.5", "0"],
-    "correct_option": "0.5",
-    "bengali_meaning": "দুই-ওয়াটমিটার পদ্ধতিতে একটির পাঠ শূন্য হলে পাওয়ার ফ্যাক্টর কত?"
+    "opt1": "1.0",
+    "opt2": "0.866",
+    "opt3": "0.5",
+    "opt4": "0",
+    "answer": "0.5",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The primary reason for bundle conductors in high-voltage transmission lines is to:",
-    "options": ["Increase line resistance", "Reduce corona loss and radio interference", "Reduce line capacitance", "Make mechanical stringing easier"],
-    "correct_option": "Reduce corona loss and radio interference",
-    "bengali_meaning": "উচ্চ ভোল্টেজ লাইনে বান্ডেল কন্ডাক্টর ব্যবহারের মূল কারণ কী?"
+    "opt1": "Increase line resistance",
+    "opt2": "Reduce corona loss and radio interference",
+    "opt3": "Reduce line capacitance",
+    "opt4": "Make mechanical stringing easier",
+    "answer": "Reduce corona loss and radio interference",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Skin effect in a conductor increases with an increase in:",
-    "options": ["Supply frequency", "Conductor diameter", "Permeability of conductor material", "All of the above"],
-    "correct_option": "All of the above",
-    "bengali_meaning": "পরিবাহীতে স্কিন এফেক্ট কিসের বৃদ্ধির সাথে বৃদ্ধি পায়?"
+    "opt1": "Supply frequency",
+    "opt2": "Conductor diameter",
+    "opt3": "Permeability of conductor material",
+    "opt4": "All of the above",
+    "answer": "All of the above",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The Buchholz relay is used for the protection of:",
-    "options": ["Transmission lines", "Alternators against overcurrent", "Oil-immersed transformers against internal faults", "Synchronous motors against hunting"],
-    "correct_option": "Oil-immersed transformers against internal faults",
-    "bengali_meaning": "বুখহোলজ রিলে মূলত কোনটির সুরক্ষায় ব্যবহৃত হয়?"
+    "opt1": "Transmission lines",
+    "opt2": "Alternators against overcurrent",
+    "opt3": "Oil-immersed transformers against internal faults",
+    "opt4": "Synchronous motors against hunting",
+    "answer": "Oil-immersed transformers against internal faults",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Kirchhoff's Voltage Law (KVL) is based on the principle of conservation of:",
-    "options": ["Charge", "Energy", "Momentum", "Magnetic flux"],
-    "correct_option": "Energy",
-    "bengali_meaning": "কার্শফের ভোল্টেজ সূত্র (KVL) কিসের সংরক্ষণ নীতির ওপর ভিত্তি করে?"
+    "opt1": "Charge",
+    "opt2": "Energy",
+    "opt3": "Momentum",
+    "opt4": "Magnetic flux",
+    "answer": "Energy",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "A bilateral circuit is defined as a circuit whose characteristics:",
-    "options": ["Depend on the direction of current", "Are independent of the direction of current flow", "Change with changes in temperature only", "Remain non-linear under all conditions"],
-    "correct_option": "Are independent of the direction of current flow",
-    "bengali_meaning": "বাইলেটারাল (দ্বিমুখী) সার্কিট বলতে কী বোঝায়?"
+    "opt1": "Depend on the direction of current",
+    "opt2": "Are independent of the direction of current flow",
+    "opt3": "Change with changes in temperature only",
+    "opt4": "Remain non-linear under all conditions",
+    "answer": "Are independent of the direction of current flow",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The maximum power transfer theorem states that power transferred to the load is maximum when load resistance (R_L) equals:",
-    "options": ["(R_th / 2)", "2 R_th", "R_th", "Zero"],
-    "correct_option": "R_th",
-    "bengali_meaning": "সর্বোচ্চ ক্ষমতা স্থানান্তরের জন্য লোড রোধ কত হওয়া প্রয়োজন?"
+    "opt1": "(R_th / 2)",
+    "opt2": "2 R_th",
+    "opt3": "R_th",
+    "opt4": "Zero",
+    "answer": "R_th",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The reciprocal of magnetic reluctance is known as:",
-    "options": ["Susceptance", "Permeance", "Conductance", "Retentivity"],
-    "correct_option": "Permeance",
-    "bengali_meaning": "চৌম্বকীয় রিলাকট্যান্সের বিপরীত রাশিকে কী বলা হয়?"
+    "opt1": "Susceptance",
+    "opt2": "Permeance",
+    "opt3": "Conductance",
+    "opt4": "Retentivity",
+    "answer": "Permeance",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In an AC circuit containing only a pure inductor, the phase angle between voltage and current is:",
-    "options": ["Current leads voltage by 90°", "Current lags voltage by 90°", "Current and voltage are in phase", "Current lags voltage by 180°"],
-    "correct_option": "Current lags voltage by 90°",
-    "bengali_meaning": "বিশুদ্ধ ইন্ডাকটিভ সার্কিটে ভোল্টেজ ও কারেন্টের মধ্যে ফেজ পার্থক্য কত?"
+    "opt1": "Current leads voltage by 90°",
+    "opt2": "Current lags voltage by 90°",
+    "opt3": "Current and voltage are in phase",
+    "opt4": "Current lags voltage by 180°",
+    "answer": "Current lags voltage by 90°",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a parallel resonant circuit (tank circuit), the impedance at resonant frequency is:",
-    "options": ["Minimum", "Maximum", "Zero", "Inductive only"],
-    "correct_option": "Maximum",
-    "bengali_meaning": "সমান্তরাল রেজোন্যান্স সার্কিটে রেজোন্যান্স কম্পাঙ্কে ইম্পিডেন্স কত হয়?"
+    "opt1": "Minimum",
+    "opt2": "Maximum",
+    "opt3": "Zero",
+    "opt4": "Inductive only",
+    "answer": "Maximum",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The peak factor (crest factor) of a standard sinusoidal waveform is:",
-    "options": ["1.11", "0.707", "1.414", "2.0"],
-    "correct_option": "1.414",
-    "bengali_meaning": "সাইন তরঙ্গের পিক ফ্যাক্টর (Crest factor) কত?"
+    "opt1": "1.11",
+    "opt2": "0.707",
+    "opt3": "1.414",
+    "opt4": "2.0",
+    "answer": "1.414",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The primary and secondary windings of an ordinary two-winding transformer are linked:",
-    "options": ["Conductively only", "Magnetically only", "Electrostatically only", "Mechanically only"],
-    "correct_option": "Magnetically only",
-    "bengali_meaning": "সাধারণ দুই-ওয়াইন্ডিং ট্রান্সফরমারের ওয়াইন্ডিংগুলো কীভাবে যুক্ত থাকে?"
+    "opt1": "Conductively only",
+    "opt2": "Magnetically only",
+    "opt3": "Electrostatically only",
+    "opt4": "Mechanically only",
+    "answer": "Magnetically only",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In an auto-transformer, power is transferred from primary to secondary:",
-    "options": ["Only conductively", "Only inductively", "Both conductively and inductively", "Neither conductively nor inductively"],
-    "correct_option": "Both conductively and inductively",
-    "bengali_meaning": "অটোট্রান্সফরমারে ক্ষমতা কীভাবে স্থানান্তরিত হয়?"
+    "opt1": "Only conductively",
+    "opt2": "Only inductively",
+    "opt3": "Both conductively and inductively",
+    "opt4": "Neither conductively nor inductively",
+    "answer": "Both conductively and inductively",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The short-circuit (SC) test on a transformer gives information primarily regarding:",
-    "options": ["Core loss and magnetizing current", "Equivalent copper loss at rated current", "Hysteresis loss only", "Insulation resistance"],
-    "correct_option": "Equivalent copper loss at rated current",
-    "bengali_meaning": "ট্রান্সফরমারের শর্ট-সার্কিট (SC) টেস্ট মূলত কী ক্ষতি পরিমাপ করে?"
+    "opt1": "Core loss and magnetizing current",
+    "opt2": "Equivalent copper loss at rated current",
+    "opt3": "Hysteresis loss only",
+    "opt4": "Insulation resistance",
+    "answer": "Equivalent copper loss at rated current",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a DC machine, dummy coils are used in the armature winding to:",
-    "options": ["Increase the generated EMF", "Provide mechanical balance to the rotor", "Improve commutation", "Reduce eddy current loss"],
-    "correct_option": "Provide mechanical balance to the rotor",
-    "bengali_meaning": "ডিসি মেশিনের আর্মেচারে ডামি কয়েল কেন ব্যবহার করা হয়?"
+    "opt1": "Increase the generated EMF",
+    "opt2": "Provide mechanical balance to the rotor",
+    "opt3": "Improve commutation",
+    "opt4": "Reduce eddy current loss",
+    "answer": "Provide mechanical balance to the rotor",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Interpoles in a DC machine are connected in:",
-    "options": ["Series with the armature winding", "Parallel with the armature winding", "Series with the shunt field winding", "Parallel with the field poles"],
-    "correct_option": "Series with the armature winding",
-    "bengali_meaning": "ডিসি মেশিনে ইন্টারপোল কীভাবে যুক্ত থাকে?"
+    "opt1": "Series with the armature winding",
+    "opt2": "Parallel with the armature winding",
+    "opt3": "Series with the shunt field winding",
+    "opt4": "Parallel with the field poles",
+    "answer": "Series with the armature winding",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "A 3-phase induction motor operates on the principle of:",
-    "options": ["Self-induction only", "Mutual induction through a rotating magnetic field", "Electrostatic attraction", "Variable reluctance"],
-    "correct_option": "Mutual induction through a rotating magnetic field",
-    "bengali_meaning": "৩-ফেজ ইন্ডাকশন মোটর কোন নীতিতে কাজ করে?"
+    "opt1": "Self-induction only",
+    "opt2": "Mutual induction through a rotating magnetic field",
+    "opt3": "Electrostatic attraction",
+    "opt4": "Variable reluctance",
+    "answer": "Mutual induction through a rotating magnetic field",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "If two phases of the supply to a 3-phase induction motor are interchanged, the motor will:",
-    "options": ["Continue running in the same direction", "Run in the reverse direction", "Burn immediately", "Stop and refuse to start"],
-    "correct_option": "Run in the reverse direction",
-    "bengali_meaning": "৩-ফেজ সরবরাহের দুটি ফেজ পরস্পর বদল করলে মোটরের ঘূর্ণন কী হবে?"
+    "opt1": "Continue running in the same direction",
+    "opt2": "Run in the reverse direction",
+    "opt3": "Burn immediately",
+    "opt4": "Stop and refuse to start",
+    "answer": "Run in the reverse direction",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "A synchronous motor can operate at:",
-    "options": ["Lagging power factor only", "Leading power factor only", "Unity power factor only", "Lagging, leading, and unity power factors"],
-    "correct_option": "Lagging, leading, and unity power factors",
-    "bengali_meaning": "একটি সিঙ্ক্রোনাস মোটর কোন পাওয়ার ফ্যাক্টরে চলতে পারে?"
+    "opt1": "Lagging power factor only",
+    "opt2": "Leading power factor only",
+    "opt3": "Unity power factor only",
+    "opt4": "Lagging, leading, and unity power factors",
+    "answer": "Lagging, leading, and unity power factors",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Which type of instrument exhibits a non-linear (cramped at lower end) scale?",
-    "options": ["PMMC instrument", "Moving Iron (MI) instrument", "DC Potentiometer", "D'Arsonval galvanometer"],
-    "correct_option": "Moving Iron (MI) instrument",
-    "bengali_meaning": "কোন মিটারের স্কেল নন-লিনিয়ার বা ক্র্যাম্পড (দাবানো) হয়?"
+    "opt1": "PMMC instrument",
+    "opt2": "Moving Iron (MI) instrument",
+    "opt3": "DC Potentiometer",
+    "opt4": "D'Arsonval galvanometer",
+    "answer": "Moving Iron (MI) instrument",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "To convert a moving coil galvanometer into a voltmeter, one must connect:",
-    "options": ["A high resistance in series", "A low resistance in parallel", "A low resistance in series", "A high resistance in parallel"],
-    "correct_option": "A high resistance in series",
-    "bengali_meaning": "গ্যালভানোমিটারকে ভোল্টমিটারে রূপান্তর করতে কী যুক্ত করতে হয়?"
+    "opt1": "A high resistance in series",
+    "opt2": "A low resistance in parallel",
+    "opt3": "A low resistance in series",
+    "opt4": "A high resistance in parallel",
+    "answer": "A high resistance in series",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The creeping phenomenon occurs most commonly in:",
-    "options": ["PMMC ammeters", "Induction-type energy meters", "Dynanometer wattmeters", "Meggers"],
-    "correct_option": "Induction-type energy meters",
-    "bengali_meaning": "ক্রিপিং (ধীর ঘূর্ণন) ত্রুটি কোন মিটারে দেখা যায়?"
+    "opt1": "PMMC ammeters",
+    "opt2": "Induction-type energy meters",
+    "opt3": "Dynanometer wattmeters",
+    "opt4": "Meggers",
+    "answer": "Induction-type energy meters",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The Ferranti effect in long transmission lines under no-load or light-load condition causes:",
-    "options": ["Receiving-end voltage to be greater than sending-end voltage", "Sending-end voltage to be greater than receiving-end voltage", "Receiving-end voltage to become zero", "Line current to become zero"],
-    "correct_option": "Receiving-end voltage to be greater than sending-end voltage",
-    "bengali_meaning": "ফেরান্টি এফেক্টের কারণে ট্রান্সমিশন লাইনে কী ঘটে?"
+    "opt1": "Receiving-end voltage to be greater than sending-end voltage",
+    "opt2": "Sending-end voltage to be greater than receiving-end voltage",
+    "opt3": "Receiving-end voltage to become zero",
+    "opt4": "Line current to become zero",
+    "answer": "Receiving-end voltage to be greater than sending-end voltage",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The color of silica gel in a transformer breather under dry (active) condition is:",
-    "options": ["Pink", "Blue", "White", "Brown"],
-    "correct_option": "Blue",
-    "bengali_meaning": "শুষ্ক অবস্থায় ট্রান্সফরমারের সিলিকা জেলের রঙ কেমন থাকে?"
+    "opt1": "Pink",
+    "opt2": "Blue",
+    "opt3": "White",
+    "opt4": "Brown",
+    "answer": "Blue",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The superposition theorem is based on the concept of:",
-    "options": ["Duality", "Linearity", "Reciprocity", "Non-linearity"],
-    "correct_option": "Linearity",
-    "bengali_meaning": "সুপারপজিশন উপপাদ্য কোন ধারণার ওপর ভিত্তি করে প্রতিষ্ঠিত?"
+    "opt1": "Duality",
+    "opt2": "Linearity",
+    "opt3": "Reciprocity",
+    "opt4": "Non-linearity",
+    "answer": "Linearity",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The property of a material that opposes the creation of magnetic flux in it is known as:",
-    "options": ["Permeance", "Reluctance", "Conductance", "Inductance"],
-    "correct_option": "Reluctance",
-    "bengali_meaning": "পদার্থের যে ধর্ম চৌম্বক ফ্লাক্স তৈরিতে বাধা দেয় তাকে কী বলে?"
+    "opt1": "Permeance",
+    "opt2": "Reluctance",
+    "opt3": "Conductance",
+    "opt4": "Inductance",
+    "answer": "Reluctance",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The time constant of a series R-L circuit is given by:",
-    "options": ["R/L", "L/R", "R * L", "1/(R * L)"],
-    "correct_option": "L/R",
-    "bengali_meaning": "শ্রেণী R-L বর্তনীর টাইম কনস্ট্যান্ট (Time constant) কত?"
+    "opt1": "R/L",
+    "opt2": "L/R",
+    "opt3": "R * L",
+    "opt4": "1/(R * L)",
+    "answer": "L/R",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The time constant of a series R-C circuit is given by:",
-    "options": ["R/C", "C/R", "R * C", "1/(R * C)"],
-    "correct_option": "R * C",
-    "bengali_meaning": "শ্রেণী R-C বর্তনীর টাইম কনস্ট্যান্ট কত?"
+    "opt1": "R/C",
+    "opt2": "C/R",
+    "opt3": "R * C",
+    "opt4": "1/(R * C)",
+    "answer": "R * C",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a pure inductive circuit, the active power (P) consumed is:",
-    "options": ["Maximum", "Zero", "V * I", "Negative"],
-    "correct_option": "Zero",
-    "bengali_meaning": "বিশুদ্ধ ইন্ডাকটিভ বর্তনীতে ব্যয়িত সক্রিয় ক্ষমতা (Active power) কত?"
+    "opt1": "Maximum",
+    "opt2": "Zero",
+    "opt3": "V * I",
+    "opt4": "Negative",
+    "answer": "Zero",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Under the condition of electrical resonance in a series R-L-C circuit, the circuit impedance is:",
-    "options": ["Purely inductive", "Purely capacitive", "Purely resistive and minimum", "Maximum"],
-    "correct_option": "Purely resistive and minimum",
-    "bengali_meaning": "শ্রেণী R-L-C রেজোন্যান্সে বর্তনীর ইম্পিডেন্স কেমন হয়?"
+    "opt1": "Purely inductive",
+    "opt2": "Purely capacitive",
+    "opt3": "Purely resistive and minimum",
+    "opt4": "Maximum",
+    "answer": "Purely resistive and minimum",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In an ideal transformer, the efficiency is considered to be:",
-    "options": ["80%", "90%", "98%", "100%"],
-    "correct_option": "100%",
-    "bengali_meaning": "আদর্শ ট্রান্সফরমারের দক্ষতা কত ধরা হয়?"
+    "opt1": "80%",
+    "opt2": "90%",
+    "opt3": "98%",
+    "opt4": "100%",
+    "answer": "100%",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Transformer core laminations are insulated from each other by a thin layer of:",
-    "options": ["Cotton", "Varnish", "Mica", "Paper tape"],
-    "correct_option": "Varnish",
-    "bengali_meaning": "ট্রান্সফরমার কোর ল্যামিনেশনগুলো পরস্পরের থেকে কী দিয়ে অন্তরীত থাকে?"
+    "opt1": "Cotton",
+    "opt2": "Varnish",
+    "opt3": "Mica",
+    "opt4": "Paper tape",
+    "answer": "Varnish",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a transformer, the frequency of the secondary voltage compared to the primary voltage is:",
-    "options": ["Double", "Half", "Exactly the same", "Dependent on turns ratio"],
-    "correct_option": "Exactly the same",
-    "bengali_meaning": "ট্রান্সফরমারে সেকেন্ডারি ভোল্টেজের কম্পাঙ্ক প্রাইমারির তুলনায় কেমন হয়?"
+    "opt1": "Double",
+    "opt2": "Half",
+    "opt3": "Exactly the same",
+    "opt4": "Dependent on turns ratio",
+    "answer": "Exactly the same",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The direction of rotation of a DC motor can be reversed by:",
-    "options": ["Reversing supply terminals only", "Reversing either field or armature terminals", "Reversing both field and armature terminals simultaneously", "Reducing supply voltage"],
-    "correct_option": "Reversing either field or armature terminals",
-    "bengali_meaning": "ডিসি মোটরের ঘূর্ণনের দিক কীভাবে উল্টানো যায়?"
+    "opt1": "Reversing supply terminals only",
+    "opt2": "Reversing either field or armature terminals",
+    "opt3": "Reversing both field and armature terminals simultaneously",
+    "opt4": "Reducing supply voltage",
+    "answer": "Reversing either field or armature terminals",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The torque developed by a DC series motor is directly proportional to:",
-    "options": ["Armature current (Ia)", "Square of armature current (Ia^2) before saturation", "Field resistance", "Back EMF"],
-    "correct_option": "Square of armature current (Ia^2) before saturation",
-    "bengali_meaning": "ডিসি সিরিজ মোটরের টর্ক আর্মেচার কারেন্টের সাথে কীভাবে সম্পর্কিত?"
+    "opt1": "Armature current (Ia)",
+    "opt2": "Square of armature current (Ia^2) before saturation",
+    "opt3": "Field resistance",
+    "opt4": "Back EMF",
+    "answer": "Square of armature current (Ia^2) before saturation",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "For starting a 3-phase squirrel cage induction motor, which starter applies reduced voltage to the stator windings?",
-    "options": ["Direct-On-Line (DOL) starter", "Star-Delta starter", "Rotor resistance starter", "Knife switch starter"],
-    "correct_option": "Star-Delta starter",
-    "bengali_meaning": "কোন স্টার্টার ৩-ফেজ মোটরের স্ট্যাটরে হ্রাসকৃত ভোল্টেজ প্রয়োগ করে?"
+    "opt1": "Direct-On-Line (DOL) starter",
+    "opt2": "Star-Delta starter",
+    "opt3": "Rotor resistance starter",
+    "opt4": "Knife switch starter",
+    "answer": "Star-Delta starter",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "A synchronous motor is:",
-    "options": ["Self-starting at full load", "Self-starting at no load", "Not self-starting", "Started only by reversing phases"],
-    "correct_option": "Not self-starting",
-    "bengali_meaning": "একটি সিঙ্ক্রোনাস মোটর নিজে থেকে চালু হতে পারে কি?"
+    "opt1": "Self-starting at full load",
+    "opt2": "Self-starting at no load",
+    "opt3": "Not self-starting",
+    "opt4": "Started only by reversing phases",
+    "answer": "Not self-starting",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The damping torque in a PMMC instrument is provided by:",
-    "options": ["Air friction damping", "Fluid friction damping", "Eddy current damping", "Gravity control"],
-    "correct_option": "Eddy current damping",
-    "bengali_meaning": "PMMC যন্ত্রে ড্যাম্পিং টর্ক কীভাবে তৈরি করা হয়?"
+    "opt1": "Air friction damping",
+    "opt2": "Fluid friction damping",
+    "opt3": "Eddy current damping",
+    "opt4": "Gravity control",
+    "answer": "Eddy current damping",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Moving iron (MI) instruments can be used for:",
-    "options": ["DC measurements only", "AC measurements only", "Both AC and DC measurements", "High-frequency RF only"],
-    "correct_option": "Both AC and DC measurements",
-    "bengali_meaning": "মুভিং আয়রন (MI) যন্ত্র কোন রাশি পরিমাপে ব্যবহৃত হয়?"
+    "opt1": "DC measurements only",
+    "opt2": "AC measurements only",
+    "opt3": "Both AC and DC measurements",
+    "opt4": "High-frequency RF only",
+    "answer": "Both AC and DC measurements",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Megger is an instrument primarily used for measuring:",
-    "options": ["Low resistances (below 1 ohm)", "Medium resistances (1 ohm to 100 k-ohm)", "Very high insulation resistances", "Inductance of coils"],
-    "correct_option": "Very high insulation resistances",
-    "bengali_meaning": "মেগার (Megger) মূলত কী পরিমাপ করতে ব্যবহৃত হয়?"
+    "opt1": "Low resistances (below 1 ohm)",
+    "opt2": "Medium resistances (1 ohm to 100 k-ohm)",
+    "opt3": "Very high insulation resistances",
+    "opt4": "Inductance of coils",
+    "answer": "Very high insulation resistances",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a 3-phase balanced system, the neutral wire carries a current equal to:",
-    "options": ["Full phase current", "Three times phase current", "Zero", "Line current divided by sqrt(3)"],
-    "correct_option": "Zero",
-    "bengali_meaning": "একটি ৩-ফেজ ব্যালান্সড ব্যবস্থায় নিউট্রাল তারে কারেন্ট কত থাকে?"
+    "opt1": "Full phase current",
+    "opt2": "Three times phase current",
+    "opt3": "Zero",
+    "opt4": "Line current divided by sqrt(3)",
+    "answer": "Zero",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Surge impedance of an overhead transmission line is typically in the range of:",
-    "options": ["40 ohm to 60 ohm", "100 ohm to 200 ohm", "400 ohm to 600 ohm", "1000 ohm to 2000 ohm"],
-    "correct_option": "400 ohm to 600 ohm",
-    "bengali_meaning": "ওভারহেড লাইনের সার্জ ইম্পিডেন্স সাধারণত কত ওহম হয়?"
+    "opt1": "40 ohm to 60 ohm",
+    "opt2": "100 ohm to 200 ohm",
+    "opt3": "400 ohm to 600 ohm",
+    "opt4": "1000 ohm to 2000 ohm",
+    "answer": "400 ohm to 600 ohm",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The primary function of a fuse in an electrical circuit is to provide protection against:",
-    "options": ["Under-voltage", "Short-circuit and severe overcurrent", "Reverse current", "Open circuits"],
-    "correct_option": "Short-circuit and severe overcurrent",
-    "bengali_meaning": "বৈদ্যুতিক বর্তনীতে ফিউজের মূল কাজ কীসের বিরুদ্ধে সুরক্ষা দেওয়া?"
+    "opt1": "Under-voltage",
+    "opt2": "Short-circuit and severe overcurrent",
+    "opt3": "Reverse current",
+    "opt4": "Open circuits",
+    "answer": "Short-circuit and severe overcurrent",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "What happens to the resistance of a pure semiconductor material (like Silicon or Germanium) when its temperature increases?",
-    "options": ["Increases", "Decreases (Negative Temperature Coefficient)", "Remains constant", "Becomes zero immediately"],
-    "correct_option": "Decreases (Negative Temperature Coefficient)",
-    "bengali_meaning": "উষ্ণতা বাড়লে বিশুদ্ধ অর্ধপরিবাহীর (যেমন সিলিকন) রোধের কী পরিবর্তন হয়?"
+    "opt1": "Increases",
+    "opt2": "Decreases (Negative Temperature Coefficient)",
+    "opt3": "Remains constant",
+    "opt4": "Becomes zero immediately",
+    "answer": "Decreases (Negative Temperature Coefficient)",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Thevenin's theorem replaces an active linear network across two terminals with:",
-    "options": ["A single current source in parallel with a resistance", "A single voltage source in series with a resistance", "A single voltage source in parallel with a resistance", "An ideal voltage source only"],
-    "correct_option": "A single voltage source in series with a resistance",
-    "bengali_meaning": "থেভেনিনের উপপাদ্য যেকোনো রৈখিক বর্তনীকে কিসে রূপান্তর করে?"
+    "opt1": "A single current source in parallel with a resistance",
+    "opt2": "A single voltage source in series with a resistance",
+    "opt3": "A single voltage source in parallel with a resistance",
+    "opt4": "An ideal voltage source only",
+    "answer": "A single voltage source in series with a resistance",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Norton's equivalent resistance (RN) is related to Thevenin's equivalent resistance (Rth) by:",
-    "options": ["RN = 1 / Rth", "RN = Rth", "RN = 2 * Rth", "RN = Rth / 2"],
-    "correct_option": "RN = Rth",
-    "bengali_meaning": "নর্টনের রোধ (RN) এবং থেভেনিনের রোধের (Rth) সম্পর্ক কী?"
+    "opt1": "RN = 1 / Rth",
+    "opt2": "RN = Rth",
+    "opt3": "RN = 2 * Rth",
+    "opt4": "RN = Rth / 2",
+    "answer": "RN = Rth",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a magnetic circuit, the equivalent of electric current (I) is:",
-    "options": ["Reluctance", "Magnetic Flux (Phi)", "Magnetomotive force (MMF)", "Permeability"],
-    "correct_option": "Magnetic Flux (Phi)",
-    "bengali_meaning": "চৌম্বক বর্তনীতে বৈদ্যুতিক কারেন্টের সমতুল্য রাশি কোনটি?"
+    "opt1": "Reluctance",
+    "opt2": "Magnetic Flux (Phi)",
+    "opt3": "Magnetomotive force (MMF)",
+    "opt4": "Permeability",
+    "answer": "Magnetic Flux (Phi)",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "If the length of a wire is doubled and its cross-sectional area is halved, its new resistance will be:",
-    "options": ["Same as initial", "Doubled", "4 times the initial value", "1/4 of initial value"],
-    "correct_option": "4 times the initial value",
-    "bengali_meaning": "তারের দৈর্ঘ্য দ্বিগুণ এবং প্রস্থচ্ছেদ অর্ধেক করলে রোধ কত গুণ হবে?"
+    "opt1": "Same as initial",
+    "opt2": "Doubled",
+    "opt3": "4 times the initial value",
+    "opt4": "1/4 of initial value",
+    "answer": "4 times the initial value",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a balanced Star (Y) connected 3-phase load, the relationship between Line voltage (VL) and Phase voltage (Vph) is:",
-    "options": ["VL = Vph", "VL = sqrt(3) * Vph", "VL = Vph / sqrt(3)", "VL = 3 * Vph"],
-    "correct_option": "VL = sqrt(3) * Vph",
-    "bengali_meaning": "ব্যালান্সড স্টার (Y) সংযোগে লাইন ভোল্টেজ ও ফেজ ভোল্টেজের সম্পর্ক কী?"
+    "opt1": "VL = Vph",
+    "opt2": "VL = sqrt(3) * Vph",
+    "opt3": "VL = Vph / sqrt(3)",
+    "opt4": "VL = 3 * Vph",
+    "answer": "VL = sqrt(3) * Vph",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a balanced Delta connected 3-phase load, the relationship between Line current (IL) and Phase current (Iph) is:",
-    "options": ["IL = Iph", "IL = sqrt(3) * Iph", "IL = Iph / sqrt(3)", "IL = 3 * Iph"],
-    "correct_option": "IL = sqrt(3) * Iph",
-    "bengali_meaning": "ব্যালান্সড ডেল্টা সংযোগে লাইন কারেন্ট ও ফেজ কারেন্টের সম্পর্ক কী?"
+    "opt1": "IL = Iph",
+    "opt2": "IL = sqrt(3) * Iph",
+    "opt3": "IL = Iph / sqrt(3)",
+    "opt4": "IL = 3 * Iph",
+    "answer": "IL = sqrt(3) * Iph",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "The primary purpose of a conservator tank in an oil-cooled power transformer is to:",
-    "options": ["Cool down the oil directly via forced draft", "Accommodate expansion and contraction of oil due to temperature variation", "Trap incoming air moisture", "Prevent short circuit between windings"],
-    "correct_option": "Accommodate expansion and contraction of oil due to temperature variation",
-    "bengali_meaning": "ট্রান্সফরমারে কনজারভেটর ট্যাঙ্কের মূল কাজ কী?"
+    "opt1": "Cool down the oil directly via forced draft",
+    "opt2": "Accommodate expansion and contraction of oil due to temperature variation",
+    "opt3": "Trap incoming air moisture",
+    "opt4": "Prevent short circuit between windings",
+    "answer": "Accommodate expansion and contraction of oil due to temperature variation",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "When the secondary of a current transformer (CT) is in service, it must NEVER be:",
-    "options": ["Short-circuited", "Kept open-circuited", "Connected to an ammeter", "Earthed"],
-    "correct_option": "Kept open-circuited",
-    "bengali_meaning": "কারেন্ট ট্রান্সফরমারের (CT) সেকেন্ডারি কখনো কী রাখা উচিত নয়?"
+    "opt1": "Short-circuited",
+    "opt2": "Kept open-circuited",
+    "opt3": "Connected to an ammeter",
+    "opt4": "Earthed",
+    "answer": "Kept open-circuited",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "In a DC generator, the emf generated in the armature conductors is fundamentally:",
-    "options": ["Alternating (AC)", "Direct (DC)", "Pulsating DC only", "High-frequency radio wave"],
-    "correct_option": "Alternating (AC)",
-    "bengali_meaning": "ডিসি জেনারেটরের আর্মেচারে মূলত কোন ধরনের বিদ্যুৎ উৎপন্ন হয়?"
+    "opt1": "Alternating (AC)",
+    "opt2": "Direct (DC)",
+    "opt3": "Pulsating DC only",
+    "opt4": "High-frequency radio wave",
+    "answer": "Alternating (AC)",
+    "image_path": null
   },
   {
+    "subject": "Electrical Engineering",
     "question": "Which DC motor has the highest starting torque?",
-    "options": ["DC Shunt motor", "DC Series motor", "Differentially compounded motor", "Cumulative compound motor"],
-    "correct_option": "DC Series motor",
-    "bengali_meaning": "কোন ডিসি মোটরের স্টার্টিং টর্ক সবচেয়ে বেশি?"
-  },
-  {
-    "question": "In a 3-phase induction motor, synchronous speed (Ns) is mathematically expressed as:",
-    "options": ["Ns = 120 * P / f", "Ns = 120 * f / P", "Ns = 60 * f / P", "Ns = f * P / 120"],
-    "correct_option": "Ns = 120 * f / P",
-    "bengali_meaning": "৩-ফেজ ইন্ডাকশন মোটরের সিঙ্ক্রোনাস স্পিডের সূত্র কোনটি?"
-  },
-  {
-    "question": "The rotor frequency (fr) of a 3-phase induction motor running at slip s with supply frequency f is:",
-    "options": ["fr = f / s", "fr = s * f", "fr = (1 - s) * f", "fr = s^2 * f"],
-    "correct_option": "fr = s * f",
-    "bengali_meaning": "৩-ফেজ মোটরের রটার ফ্রিকোয়েন্সির (fr) সঠিক সূত্র কোনটি?"
-  },
-  {
-    "question": "An over-excited synchronous motor running without mechanical load acts as:",
-    "options": ["An inductive reactor", "A synchronous condenser (leading power factor)", "A pure resistor", "A step-down transformer"],
-    "correct_option": "A synchronous condenser (leading power factor)",
-    "bengali_meaning": "নো-লোডে ওভার-এক্সাইটেড সিঙ্ক্রোনাস মোটর কীভাবে কাজ করে?"
-  },
-  {
-    "question": "An ideal voltmeter should have an internal resistance of:",
-    "options": ["Zero", "Infinite", "1 ohm", "1000 ohm"],
-    "correct_option": "Infinite",
-    "bengali_meaning": "আদর্শ ভোল্টমিটারের অভ্যন্তরীণ রোধ কত হওয়া উচিত?"
-  },
-  {
-    "question": "An ideal ammeter should have an internal resistance of:",
-    "options": ["Zero", "Infinite", "100 ohm", "Negative"],
-    "correct_option": "Zero",
-    "bengali_meaning": "আদর্শ অ্যামিটারের অভ্যন্তরীণ রোধ কত হওয়া উচিত?"
-  },
-  {
-    "question": "Which bridge is widely used for measuring unknown capacitance with high accuracy?",
-    "options": ["Wheatstone Bridge", "Maxwell's Inductance Bridge", "Schering Bridge", "Kelvin's Double Bridge"],
-    "correct_option": "Schering Bridge",
-    "bengali_meaning": "অজানা ক্যাপাসিট্যান্স নিখুঁতভাবে মাপতে কোন ব্রিজ ব্যবহৃত হয়?"
-  },
-  {
-    "question": "Kelvin's Double Bridge is specifically used for the measurement of:",
-    "options": ["Very high insulation resistance", "Very low resistances (below 1 ohm)", "Self-inductance of coils", "Dielectric loss in cables"],
-    "correct_option": "Very low resistances (below 1 ohm)",
-    "bengali_meaning": "কেলভিন ডাবল ব্রিজ মূলত কী পরিমাপে ব্যবহৃত হয়?"
-  },
-  {
-    "question": "The speed of an alternating-current generator (alternator) is kept strictly constant to maintain:",
-    "options": ["Terminal voltage", "Output frequency", "Power factor", "Rotor temperature"],
-    "correct_option": "Output frequency",
-    "bengali_meaning": "অল্টারনেটরের গতি ধ্রুবক রাখা হয় মূলত কী স্থির রাখার জন্য?"
-  },
-  {
-    "question": "Corona loss in high-voltage overhead lines is higher during:",
-    "options": ["Dry summer weather", "Humid and stormy weather", "Freezing winter nights", "Clear sunny days"],
-    "correct_option": "Humid and stormy weather",
-    "bengali_meaning": "করোনা লস কোন আবহাওয়ায় বেশি হয়?"
-  },
-  {
-    "question": "In a reverse-biased PN-junction diode, the current flowing is mainly due to:",
-    "options": ["Majority charge carriers", "Minority charge carriers", "External electromagnetic fields", "Breakdown of valence bonds only"],
-    "correct_option": "Minority charge carriers",
-    "bengali_meaning": "রিভার্স বায়াসড PN জাংশন ডায়োডে কারেন্ট মূলত কার কারণে প্রবাহিত হয়?"
-  },
-  {
-    "question": "Two resistors of 6 ohm and 3 ohm are connected in parallel. Their equivalent resistance is:",
-    "options": ["9 ohm", "2 ohm", "18 ohm", "0.5 ohm"],
-    "correct_option": "2 ohm",
-    "bengali_meaning": "৬ ওহম এবং ৩ ওহম সমান্তরালে যুক্ত থাকলে সমতুল্য রোধ কত?"
-  },
-  {
-    "question": "A current of 2 A flows through a 10 ohm resistor for 5 seconds. The total heat energy produced is:",
-    "options": ["100 J", "200 J", "50 J", "20 J"],
-    "correct_option": "200 J",
-    "bengali_meaning": "২ অ্যাম্পিয়ার কারেন্ট ১০ ওহম রোধে ৫ সেকেন্ড চললে উৎপন্ন তাপশক্তি কত?"
-  },
-  {
-    "question": "Three capacitors, each of capacitance 9 micro-F, are connected in series. The equivalent capacitance of the combination is:",
-    "options": ["27 micro-F", "3 micro-F", "1 micro-F", "0.33 micro-F"],
-    "correct_option": "3 micro-F",
-    "bengali_meaning": "৯ মাইক্রো-ফ্যারাডের তিনটি ক্যাপাসিটর শ্রেণীতে যুক্ত থাকলে মোট ক্যাপাসিট্যান্স কত?"
-  },
-  {
-    "question": "If two identical inductors of 4 H each are connected in parallel without mutual coupling, their equivalent inductance is:",
-    "options": ["8 H", "2 H", "16 H", "1 H"],
-    "correct_option": "2 H",
-    "bengali_meaning": "৪ হেনরির দুটি ইন্ডাকটর সমান্তরালে যুক্ত থাকলে সমতুল্য ইন্ডাকট্যান্স কত?"
-  },
-  {
-    "question": "The frequency of DC (Direct Current) supply is always:",
-    "options": ["50 Hz", "60 Hz", "Zero", "Infinite"],
-    "correct_option": "Zero",
-    "bengali_meaning": "ডিসি (DC) বিদ্যুতের কম্পাঙ্ক কত?"
-  },
-  {
-    "question": "For an AC sinusoidal voltage v(t) = 200 sin(314t), the RMS value of voltage is approximately:",
-    "options": ["200 V", "141.4 V", "100 V", "282.8 V"],
-    "correct_option": "141.4 V",
-    "bengali_meaning": "v(t) = 200 sin(314t) এর RMS মান কত?"
-  },
-  {
-    "question": "In a purely inductive AC circuit, if supply frequency is doubled, the inductive reactance (XL):",
-    "options": ["Remains unchanged", "Is halved", "Is doubled", "Becomes four times"],
-    "correct_option": "Is doubled",
-    "bengali_meaning": "কম্পাঙ্ক দ্বিগুণ হলে ইন্ডাকটিভ রিঅ্যাকট্যান্সের কী পরিবর্তন হবে?"
-  },
-  {
-    "question": "In an AC circuit, if active power P = 600 W and reactive power Q = 800 VAR, the apparent power (S) is:",
-    "options": ["1400 VA", "1000 VA", "200 VA", "480 VA"],
-    "correct_option": "1000 VA",
-    "bengali_meaning": "P = 600 W এবং Q = 800 VAR হলে মোট আপাত ক্ষমতা (Apparent power) কত?"
-  },
-  {
-    "question": "A 4-pole, 50 Hz 3-phase alternator has a synchronous speed equal to:",
-    "options": ["3000 rpm", "1500 rpm", "1000 rpm", "750 rpm"],
-    "correct_option": "1500 rpm",
-    "bengali_meaning": "৪-পোল, ৫০ হার্টজ অল্টারনেটরের সিঙ্ক্রোনাস গতি কত rpm?"
-  },
-  {
-    "question": "A 3-phase, 4-pole, 50 Hz induction motor runs at a rotor speed of 1440 rpm. The slip (s) of the motor is:",
-    "options": ["2%", "4%", "5%", "6%"],
-    "correct_option": "4%",
-    "bengali_meaning": "৪-পোল, ৫০ হার্টজ মোটর ১৪৪০ rpm গতিতে ঘুরলে স্লিপ (s) কত শতাংশ?"
-  },
-  {
-    "question": "A single-phase transformer has a turns ratio N1/N2 = 4. If secondary voltage is 50 V, the primary voltage is:",
-    "options": ["200 V", "12.5 V", "100 V", "25 V"],
-    "correct_option": "200 V",
-    "bengali_meaning": "N1/N2 = 4 এবং সেকেন্ডারি ভোল্টেজ ৫০ ভোল্ট হলে প্রাইমারি ভোল্টেজ কত?"
-  },
-  {
-    "question": "If the iron loss of a transformer at full load is 500 W, its iron loss at half load will be:",
-    "options": ["250 W", "125 W", "500 W", "Zero"],
-    "correct_option": "500 W",
-    "bengali_meaning": "ফুল লোডে আয়রন লস ৫০০ ওয়াট হলে হাফ লোডে আয়রন লস কত হবে?"
-  },
-  {
-    "question": "If full-load copper loss of a transformer is 1600 W, its copper loss at half load will be:",
-    "options": ["800 W", "400 W", "200 W", "1600 W"],
-    "correct_option": "400 W",
-    "bengali_meaning": "ফুল লোডে কপার লস ১৬০০ ওয়াট হলে হাফ লোডে কপার লস কত হবে?"
-  },
-  {
-    "question": "A DC shunt generator has an armature resistance of 0.5 ohm. If the generated EMF is 230 V and armature current is 20 A, the terminal voltage is:",
-    "options": ["240 V", "220 V", "230 V", "210 V"],
-    "correct_option": "220 V",
-    "bengali_meaning": "Eg = 230 V, Ia = 20 A এবং Ra = 0.5 ওহম হলে টার্মিনাল ভোল্টেজ কত?"
-  },
-  {
-    "question": "In a moving iron ammeter, the deflecting torque is directly proportional to:",
-    "options": ["Current (I)", "Square of current (I^2)", "Square root of current (sqrt(I))", "Cube of current (I^3)"],
-    "correct_option": "Square of current (I^2)",
-    "bengali_meaning": "মুভিং আয়রন অ্যামিটারে ডিফ্লেক্টিং টর্ক কারেন্টের সাথে কীভাবে সম্পর্কিত?"
-  },
-  {
-    "question": "A 0-1 mA meter has an internal resistance of 100 ohm. To extend its range to measure up to 10 mA, the shunt resistance required is approximately:",
-    "options": ["11.1 ohm", "100 ohm", "1000 ohm", "900 ohm"],
-    "correct_option": "11.1 ohm",
-    "bengali_meaning": "১ mA মিটারকে ১০ mA পর্যন্ত মাপার উপযোগী করতে সান্ট রোধ কত লাগবে?"
-  },
-  {
-    "question": "Maxwell's Inductance-Capacitance bridge is used to measure the inductance of coils having a Quality factor (Q) in the range:",
-    "options": ["Q < 1", "1 < Q < 10", "Q > 10", "Q = 0"],
-    "correct_option": "1 < Q < 10",
-    "bengali_meaning": "ম্যাক্সওয়েল L-C ব্রিজ কত Q-ফ্যাক্টরের কয়েল মাপতে ব্যবহৃত হয়?"
-  },
-  {
-    "question": "In a 3-phase balanced Star system, if the phase voltage is 230 V, the line voltage is approximately:",
-    "options": ["230 V", "400 V", "133 V", "690 V"],
-    "correct_option": "400 V",
-    "bengali_meaning": "স্টার সংযোগে ফেজ ভোল্টেজ ২৩০ ভোল্ট হলে লাইন ভোল্টেজ কত?"
-  },
-  {
-    "question": "A circuit breaker is rated at 11 kV, 3-phase, 500 MVA. Its rated symmetrical breaking current is approximately:",
-    "options": ["26.2 kA", "45.4 kA", "15.5 kA", "100 kA"],
-    "correct_option": "26.2 kA",
-    "bengali_meaning": "১১ kV, ৩-ফেজ, ৫০০ MVA ব্রেকারের সিমেট্রিকাল ব্রেকিং কারেন্ট কত?"
-  },
-  {
-    "question": "The ripple factor of a single-phase full-wave rectifier without filter is:",
-    "options": ["1.21", "0.482", "1.11", "0.707"],
-    "correct_option": "0.482",
-    "bengali_meaning": "ফিল্টার ছাড়া ফুল-ওয়েভ রেকটিফায়ারের রিপল ফ্যাক্টর কত?"
-  },
-  {
-    "question": "The power dissipated in a pure inductor or a pure capacitor over a complete cycle of AC is:",
-    "options": ["Maximum", "Dependent on frequency", "Zero", "Infinity"],
-    "correct_option": "Zero",
-    "bengali_meaning": "একটি পূর্ণ এসি চক্রে বিশুদ্ধ ইন্ডাকটর বা ক্যাপাসিটরে গড় ক্ষমতা ক্ষয় কত?"
-  },
-  {
-    "question": "A linear network contains only independent sources and resistors. If the value of all resistances in the circuit is doubled, the Thevenin voltage (Vth) across any two open terminals:",
-    "options": ["Doubles", "Remains unchanged", "Halves", "Becomes four times"],
-    "correct_option": "Remains unchanged",
-    "bengali_meaning": "সব রোধ দ্বিগুণ করলে থেভেনিন ভোল্টেজ (Vth) কত হবে?"
-  },
-  {
-    "question": "In a series R-L-C circuit, the voltage across the inductor (VL) and the voltage across the capacitor (VC) at resonance are:",
-    "options": ["In phase with each other", "Out of phase by 90 deg", "Out of phase by 180 deg and equal in magnitude", "Both equal to zero"],
-    "correct_option": "Out of phase by 180 deg and equal in magnitude",
-    "bengali_meaning": "রেজোন্যান্সে VL এবং VC এর মধ্যে ফেজ পার্থক্য কত থাকে?"
-  },
-  {
-    "question": "A current i(t) = 3 + 4*sqrt(2)*sin(omega*t) flows through a circuit. The true RMS value of this current is:",
-    "options": ["7 A", "5 A", "4 A", "3.5 A"],
-    "correct_option": "5 A",
-    "bengali_meaning": "i(t) = 3 + 4√2 sin(ωt) এর প্রকৃত RMS মান কত?"
-  },
-  {
-    "question": "The primary reason for laminating the armature core of a DC machine, while leaving the main field poles mostly solid, is that:",
-    "options": ["Armature carries DC while poles carry AC", "Armature carries alternating flux (AC) due to rotation", "To reduce the total mechanical weight", "To increase the mechanical strength of field poles"],
-    "correct_option": "Armature carries alternating flux (AC) due to rotation",
-    "bengali_meaning": "ডিসি মেশিনের আর্মেচার কোর ল্যামিনেট করার মূল কারণ কী?"
-  },
-  {
-    "question": "If the field winding of a running DC shunt motor suddenly gets open-circuited under light-load conditions, the motor will:",
-    "options": ["Stop immediately", "Continue running at normal rated speed", "Attain dangerously high speed", "Burn due to zero armature current"],
-    "correct_option": "Attain dangerously high speed",
-    "bengali_meaning": "চলন্ত ডিসি সান্ট মোটরের ফিল্ড ওয়াইন্ডিং হঠাৎ ওপেন হয়ে গেলে কী ঘটবে?"
-  },
-  {
-    "question": "In a transformer, the condition for achieving maximum efficiency occurs when:",
-    "options": ["Copper loss equals half of Iron loss", "Variable loss (Copper loss) equals Constant loss (Iron loss)", "Copper loss is zero", "Eddy current loss equals Hysteresis loss"],
-    "correct_option": "Variable loss (Copper loss) equals Constant loss (Iron loss)",
-    "bengali_meaning": "ট্রান্সফরমারে সর্বোচ্চ দক্ষতার শর্ত কী?"
-  },
-  {
-    "question": "What will happen if a power transformer designed for 50 Hz supply is mistakenly connected to a 50 Hz DC supply of the same voltage rating?",
-    "options": ["It will work with double efficiency", "Output voltage will be doubled", "Primary winding will draw excessive current and burn out", "Secondary winding will burn out"],
-    "correct_option": "Primary winding will draw excessive current and burn out",
-    "bengali_meaning": "৫০ হার্টজের ট্রান্সফরমারকে সমমানের ডিসি সরবরাহে জুড়লে কী হবে?"
-  },
-  {
-    "question": "In a 3-phase induction motor, if the air gap between stator and rotor is increased, it results in:",
-    "options": ["Increased power factor", "Decreased magnetizing current", "Increased magnetizing current and poorer power factor", "Increased starting torque"],
-    "correct_option": "Increased magnetizing current and poorer power factor",
-    "bengali_meaning": "স্ট্যাটর ও রটারের মধ্যে এয়ার গ্যাপ বাড়ালে মোটরে কী प्रभाव पड़े?"
-  },
-  {
-    "question": "The rotor copper loss (Pcu) of a 3-phase induction motor running at slip s with rotor input power Pg is:",
-    "options": ["(1 - s) * Pg", "s * Pg", "Pg / s", "s^2 * Pg"],
-    "correct_option": "s * Pg",
-    "bengali_meaning": "রটার ইনপুট Pg এবং স্লিপ s হলে রটার কপার লসের সূত্র কী?"
-  },
-  {
-    "question": "Damper windings in an alternator (synchronous generator) are primarily provided to:",
-    "options": ["Prevent hunting and provide starting torque", "Increase the generated output voltage", "Improve the cooling of rotor poles", "Compensate for power factor lag"],
-    "correct_option": "Prevent hunting and provide starting torque",
-    "bengali_meaning": "অল্টারনেটরে ড্যাম্পার ওয়াইন্ডিং মূলত কী দূর করতে ব্যবহৃত হয়?"
-  },
-  {
-    "question": "In a moving-coil (PMMC) instrument, the deflecting torque is directly proportional to:",
-    "options": ["Square of the current (I^2)", "Current (I)", "Square root of current (sqrt(I))", "Inverse of current (1/I)"],
-    "correct_option": "Current (I)",
-    "bengali_meaning": "PMMC যন্ত্রে ডিফ্লেক্টিং টর্ক কারেন্টের সাথে কীভাবে সম্পর্কিত?"
-  },
-  {
-    "question": "An ideal current transformer (CT) secondary is always kept closed because an open secondary causes:",
-    "options": ["Zero core flux", "Dangerously high core flux and lethal high voltage across secondary terminals", "Severe cooling of the core", "Zero primary current"],
-    "correct_option": "Dangerously high core flux and lethal high voltage across secondary terminals",
-    "bengali_meaning": "কারেন্ট ট্রান্সফরমারের (CT) সেকেন্ডারি সবসময় শর্ট রাখা হয় কেন?"
-  },
-  {
-    "question": "In a 3-phase circuit power measurement by two-wattmeter method, both wattmeters read identical positive values (W1 = W2) when the load power factor is:",
-    "options": ["0.5 lagging", "0 lagging", "1.0 (Unity)", "0.866 lagging"],
-    "correct_option": "1.0 (Unity)",
-    "bengali_meaning": "দুই-ওয়াটমিটার পদ্ধতিতে W1 = W2 হলে পাওয়ার ফ্যাক্টর কত?"
-  },
-  {
-    "question": "The capacitance of an overhead transmission line has the effect of:",
-    "options": ["Decreasing line charging current", "Improving receiving-end power factor under normal load", "Increasing line resistance", "Making voltage regulation always negative"],
-    "correct_option": "Improving receiving-end power factor under normal load",
-    "bengali_meaning": "ওভারহেড লাইনে ক্যাপাসিট্যান্সের সুবিধা কী?"
-  },
-  {
-    "question": "Which type of circuit breaker is most widely preferred for Extra High Voltage (EHV) and Ultra High Voltage (UHV) transmission substations?",
-    "options": ["Air-break circuit breaker", "Minimum oil circuit breaker", "SF6 (Sulphur Hexafluoride) circuit breaker", "Bulk oil circuit breaker"],
-    "correct_option": "SF6 (Sulphur Hexafluoride) circuit breaker",
-    "bengali_meaning": "EHV এবং UHV সাবস্টেশনে সবচেয়ে বেশি ব্যবহৃত সার্কিট ব্রেকার কোনটি?"
-  },
-  {
-    "question": "The fusing factor of a standard electrical fuse element is always:",
-    "options": ["Equal to 1", "Less than 1", "Greater than 1", "Zero"],
-    "correct_option": "Greater than 1",
-    "bengali_meaning": "ফিউজিং ফ্যাক্টরের মান সবসময় কেমন হয়?"
-  },
-  {
-    "question": "In an unloaded DC generator, the armature reaction magnetic axis is oriented:",
-    "options": ["Along the direct axis (d-axis)", "Along the quadrature axis (q-axis)", "At 45 deg to the main poles", "Completely absent because armature current is zero"],
-    "correct_option": "Completely absent because armature current is zero",
-    "bengali_meaning": "আনলোডেড ডিসি জেনারেটরে আর্মেচার রিঅ্যাকশন কেমন থাকে?"
-  },
-  {
-    "question": "The SI unit of magnetic flux density (B) is:",
-    "options": ["Weber (Wb)", "Tesla (T) or Wb/m^2", "Henry (H)", "Ampere-turn/meter"],
-    "correct_option": "Tesla (T) or Wb/m^2",
-    "bengali_meaning": "চৌম্বক ফ্লাক্স ঘনত্বের (B) এসআই একক কী?"
-  },
-  {
-    "question": "An intrinsic semiconductor at absolute zero temperature (0 Kelvin) behaves exactly as a:",
-    "options": ["Perfect conductor", "Superconductor", "Perfect insulator", "Semiconductor with high electron mobility"],
-    "correct_option": "Perfect insulator",
-    "bengali_meaning": "পরম শূন্য তাপমাত্রায় (0 Kelvin) বিশুদ্ধ অর্ধপরিবাহী কীভাবে আচরণ করে?"
-  },
-  {
-    "question": "The maximum efficiency of a transformer occurs at a power factor of:",
-    "options": ["Zero leading", "Zero lagging", "0.8 lagging", "Unity (1.0)"],
-    "correct_option": "Unity (1.0)",
-    "bengali_meaning": "ট্রান্সফরমার কোন পাওয়ার ফ্যাক্টরে সর্বোচ্চ দক্ষতা দেয়?"
-  },
-  {
-    "question": "If the supply voltage to a transformer is increased by 10% while keeping the frequency constant, what happens to the eddy current loss (We)?",
-    "options": ["Increases by 10%", "Increases by 21%", "Decreases by 10%", "Remains unaffected"],
-    "correct_option": "Increases by 21%",
-    "bengali_meaning": "ভোল্টেজ ১০% বাড়ালে এডি কারেন্ট লসের কী পরিবর্তন হবে?"
-  },
-  {
-    "question": "A DC series motor must never be started with belt-connected loads because:",
-    "options": ["The belt may slip", "If the belt snaps, the motor will race to destructively high speeds", "Starting torque will drop to zero", "Commutator will get shorted"],
-    "correct_option": "If the belt snaps, the motor will race to destructively high speeds",
-    "bengali_meaning": "ডিসি সিরিজ মোটর বেল্ট লোডের সাথে চালানো নিষিদ্ধ কেন?"
-  },
-  {
-    "question": "In a DC shunt motor, armature torque is directly proportional to:",
-    "options": ["Armature current (Ia)", "Square of armature current (Ia^2)", "Back EMF (Eb)", "Square of flux (Phi^2)"],
-    "correct_option": "Armature current (Ia)",
-    "bengali_meaning": "ডিসি সান্ট মোটরে আর্মেচার টর্ক কারেন্টের সাথে কীভাবে পরিবর্তিত হয়?"
-  },
-  {
-    "question": "The crawl speed of a 3-phase induction motor is caused by:",
-    "options": ["High supply voltage", "Seventh space harmonic flux in the air-gap", "Fifth space harmonic flux in the air-gap", "Asymmetrical rotor resistance"],
-    "correct_option": "Seventh space harmonic flux in the air-gap",
-    "bengali_meaning": "৩-ফেজ মোটরে ক্রলিং (Crawling) গতি কার কারণে সৃষ্টি হয়?"
-  },
-  {
-    "question": "Cogging in a 3-phase squirrel cage induction motor occurs when:",
-    "options": ["Number of stator slots equals or has an integral ratio to rotor slots", "The motor runs at synchronous speed", "Frequency fluctuates heavily", "Air gap is made very large"],
-    "correct_option": "Number of stator slots equals or has an integral ratio to rotor slots",
-    "bengali_meaning": "৩-ফেজ মোটরে কগিং বা ম্যাগনেটিক লকিং কখন ঘটে?"
-  },
-  {
-    "question": "In an alternator supplying a purely capacitive load (zero power factor leading), the armature reaction is:",
-    "options": ["Purely demagnetizing", "Purely magnetizing", "Cross-magnetizing", "Zero"],
-    "correct_option": "Purely magnetizing",
-    "bengali_meaning": "জিরো পাওয়ার ফ্যাক্টর লিডিং লোডে অল্টারনেটরের আর্মেচার প্রতিক্রিয়া কেমন হয়?"
-  },
-  {
-    "question": "In an alternator supplying a purely inductive load (zero power factor lagging), the armature reaction is:",
-    "options": ["Purely magnetizing", "Purely demagnetizing", "Cross-magnetizing", "Partially magnetizing"],
-    "correct_option": "Purely demagnetizing",
-    "bengali_meaning": "জিরো পাওয়ার ফ্যাক্টর ল্যাগিং লোডে অল্টারনেটরের আর্মেচার প্রতিক্রিয়া কেমন হয়?"
-  },
-  {
-    "question": "The control torque in indicating instruments is generally provided by a phosphor-bronze hairspring because it has:",
-    "options": ["Very high mechanical strength and magnetic properties", "Low specific resistance and is non-magnetic", "High temperature coefficient of resistance", "Zero fatigue limit"],
-    "correct_option": "Low specific resistance and is non-magnetic",
-    "bengali_meaning": "মিটারের হেয়ারস্প্রিং তৈরিতে ফসফর-ব্রোঞ্জ ব্যবহারের কারণ কী?"
-  },
-  {
-    "question": "The swamping resistor connected in series with a PMMC meter coil is made of:",
-    "options": ["Copper", "Manganin", "Aluminum", "Nichrome"],
-    "correct_option": "Manganin",
-    "bengali_meaning": "PMMC মিটারের সোয়াম্পিং রোধক কোন ধাতু দিয়ে তৈরি হয়?"
-  },
-  {
-    "question": "In a dynamometer-type wattmeter, the pressure coil (voltage coil) is designed to be:",
-    "options": ["Highly inductive", "Purely inductive", "Highly resistive", "Purely capacitive"],
-    "correct_option": "Highly resistive",
-    "bengali_meaning": "ডায়নামোমিটার ওয়াটমিটারের প্রেসার কয়েল কেমন প্রকৃতির হয়?"
-  },
-  {
-    "question": "In the two-wattmeter method, when the load power factor is zero lagging (cos phi = 0), the readings of the two wattmeters satisfy:",
-    "options": ["W1 = W2", "W1 = -W2", "One wattmeter reads zero", "Both wattmeters read zero"],
-    "correct_option": "W1 = -W2",
-    "bengali_meaning": "পাওয়ার ফ্যাক্টর শূন্য হলে দুই ওয়াটমিটারের পাঠ কেমন সম্পর্ক দেখায়?"
-  },
-  {
-    "question": "The dielectric loss in a high-voltage underground cable is directly proportional to:",
-    "options": ["Supply frequency (f)", "Square of supply frequency (f^2)", "Square root of supply frequency (f^2)", "Independent of frequency"],
-    "correct_option": "Supply frequency (f)",
-    "bengali_meaning": "আন্ডারগ্রাউন্ড কেবলে ডাইলেক্ট্রিক লস কম্পাঙ্কের সাথে কীভাবে সম্পর্কিত?"
-  },
-  {
-    "question": "String efficiency of a suspension-type insulator string is maximized when:",
-    "options": ["Voltage across each disc is identical (equal voltage distribution)", "Voltage across the disc nearest to the conductor is zero", "Shunt capacitance is made infinite", "The string has a very large number of units"],
-    "correct_option": "Voltage across each disc is identical (equal voltage distribution)",
-    "bengali_meaning": "সাসপেনশন ইনসুলেটর স্ট্রিং এফিসিয়েন্সি সর্বোচ্চ কখন হয়?"
-  },
-  {
-    "question": "In electric power cables, the metallic sheath is provided primarily to:",
-    "options": ["Provide mechanical protection against sharp blows", "Prevent entry of moisture, gases, and acids from soil into insulation", "Increase electrical conductance of core", "Cool down the conductor"],
-    "correct_option": "Prevent entry of moisture, gases, and acids from soil into insulation",
-    "bengali_meaning": "ভূগর্ভস্থ কেবলে মেটালিক শিথ ব্যবহারের মূল উদ্দেশ্য কী?"
-  },
-  {
-    "question": "The maximum demand of a consumer is 2 kW and the daily energy consumed is 24 kWh. The load factor is:",
-    "options": ["25%", "50%", "75%", "100%"],
-    "correct_option": "50%",
-    "bengali_meaning": "সর্বোচ্চ চাহিদা ২ kW এবং দৈনিক ব্যবহার ২৪ kWh হলে লোড ফ্যাক্টর কত?"
-  },
-  {
-    "question": "In a star-connected generator, third harmonic currents:",
-    "options": ["Flow through the line conductors", "Cannot flow through the line without a neutral connection", "Cause zero neutral current", "Double the line-to-line voltage"],
-    "correct_option": "Cannot flow through the line without a neutral connection",
-    "bengali_meaning": "স্টার কানেক্টেড জেনারেটরে ৩য় হারমোনিক কারেন্ট কীভাবে প্রভাবিত হয়?"
-  },
-  {
-    "question": "Which network theorem can directly determine the change in branch currents due to an impedance variation in that branch?",
-    "options": ["Millman's Theorem", "Compensation Theorem", "Tellegen's Theorem", "Norton's Theorem"],
-    "correct_option": "Compensation Theorem",
-    "bengali_meaning": "ইম্পিডেন্স পরিবর্তনের ফলে কারেন্টের পরিবর্তন বের করতে কোন উপপাদ্য ব্যবহার হয়?"
-  },
-  {
-    "question": "Tellegen's theorem is valid for:",
-    "options": ["Linear networks only", "Non-linear networks only", "Time-invariant networks only", "Any network (linear or non-linear, time-varying or time-invariant)"],
-    "correct_option": "Any network (linear or non-linear, time-varying or time-invariant)",
-    "bengali_meaning": "টেলেগেনস থিওরেম (Tellegen's theorem) কোন ধরনের বর্তনীর জন্য প্রযোজ্য?"
-  },
-  {
-    "question": "A bridge rectifier uses 4 diodes. If the peak secondary voltage of the transformer is Vm, the Peak Inverse Voltage (PIV) rating required for each diode is:",
-    "options": ["2Vm", "Vm", "Vm / 2", "sqrt(2)*Vm"],
-    "correct_option": "Vm",
-    "bengali_meaning": "ব্রিজ রেকটিফায়ারে প্রতিটি ডায়োডের প্রয়োজনীয় PIV রেটিং কত?"
+    "opt1": "DC Shunt motor",
+    "opt2": "DC Series motor",
+    "opt3": "Differentially compounded motor",
+    "opt4": "Cumulative compound motor",
+    "answer": "DC Series motor",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of resistance 4Ω is stretched to twice its original length. What is its new resistance?",
+    "opt1": "8Ω",
+    "opt2": "16Ω",
+    "opt3": "2Ω",
+    "opt4": "1Ω",
+    "answer": "16Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A uniform wire of resistance 10Ω is stretched such that its length increases by 10%. The new resistance is:",
+    "opt1": "11Ω",
+    "opt2": "12.1Ω",
+    "opt3": "12Ω",
+    "opt4": "20Ω",
+    "answer": "12.1Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of resistance 100Ω is stretched to 3 times its original length. The new resistance will be:",
+    "opt1": "300Ω",
+    "opt2": "600Ω",
+    "opt3": "900Ω",
+    "opt4": "100Ω",
+    "answer": "900Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of resistance 16Ω is melted and recast into a wire of half its original length. Its new resistance will be:",
+    "opt1": "8Ω",
+    "opt2": "4Ω",
+    "opt3": "2Ω",
+    "opt4": "32Ω",
+    "answer": "4Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "The radius of a uniform wire of resistance 80Ω is halved by stretching. Its new resistance is:",
+    "opt1": "160Ω",
+    "opt2": "320Ω",
+    "opt3": "640Ω",
+    "opt4": "1280Ω",
+    "answer": "1280Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of resistance R is stretched such that its diameter becomes half (d/2). The new resistance will be:",
+    "opt1": "2R",
+    "opt2": "4R",
+    "opt3": "8R",
+    "opt4": "16R",
+    "answer": "16R",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A uniform wire is stretched to double its original length. The percentage increase in resistance is:",
+    "opt1": "100%",
+    "opt2": "200%",
+    "opt3": "300%",
+    "opt4": "400%",
+    "answer": "300%",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of resistance 27Ω is stretched to 3 times its length, then cut into 3 equal pieces. The resistance of each piece is:",
+    "opt1": "9Ω",
+    "opt2": "81Ω",
+    "opt3": "27Ω",
+    "opt4": "243Ω",
+    "answer": "81Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of resistance 5Ω is drawn out so that its radius is reduced by a factor of 3. Its new resistance is:",
+    "opt1": "15Ω",
+    "opt2": "45Ω",
+    "opt3": "135Ω",
+    "opt4": "405Ω",
+    "answer": "405Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "If the length of a wire increases by 20% on stretching, its resistance increases by:",
+    "opt1": "20%",
+    "opt2": "40%",
+    "opt3": "44%",
+    "opt4": "48%",
+    "answer": "44%",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire has a resistance of 2Ω. It is stretched to 5 times its length. The new resistance is:",
+    "opt1": "10Ω",
+    "opt2": "25Ω",
+    "opt3": "50Ω",
+    "opt4": "100Ω",
+    "answer": "50Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "When a wire is compressed such that its area of cross-section is doubled, its resistance becomes:",
+    "opt1": "Half",
+    "opt2": "One-fourth",
+    "opt3": "Double",
+    "opt4": "Four times",
+    "answer": "One-fourth",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of resistance 64Ω has its diameter reduced to half by drawing. The new resistance is:",
+    "opt1": "256Ω",
+    "opt2": "512Ω",
+    "opt3": "1024Ω",
+    "opt4": "128Ω",
+    "answer": "1024Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "If the length of a conductor is increased by 0.1% by stretching, the percentage change in resistance is:",
+    "opt1": "0.1%",
+    "opt2": "0.2%",
+    "opt3": "0.05%",
+    "opt4": "0.4%",
+    "answer": "0.2%",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of 12Ω is stretched until its length is 4 times its original length. The new resistance is:",
+    "opt1": "48Ω",
+    "opt2": "96Ω",
+    "opt3": "192Ω",
+    "opt4": "240Ω",
+    "answer": "192Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A copper wire is stretched to reduce its radius by 1%. The percentage increase in resistance is approximately:",
+    "opt1": "1%",
+    "opt2": "2%",
+    "opt3": "4%",
+    "opt4": "8%",
+    "answer": "4%",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of resistance R is cut into 4 equal pieces and connected in parallel. The equivalent resistance is:",
+    "opt1": "R/4",
+    "opt2": "R/16",
+    "opt3": "4R",
+    "opt4": "16R",
+    "answer": "R/16",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A cylindrical conductor of resistance 18Ω is drawn so that its length becomes √2 times original. The new resistance is:",
+    "opt1": "18√2 Ω",
+    "opt2": "36Ω",
+    "opt3": "9Ω",
+    "opt4": "72Ω",
+    "answer": "36Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of resistance 50Ω is stretched such that its diameter is reduced to 1/√2 of its original value. The new resistance is:",
+    "opt1": "100Ω",
+    "opt2": "200Ω",
+    "opt3": "400Ω",
+    "opt4": "25Ω",
+    "answer": "200Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of resistance 8Ω is stretched to double its length and then bent into a circle. The resistance between two diametrically opposite points is:",
+    "opt1": "32Ω",
+    "opt2": "16Ω",
+    "opt3": "8Ω",
+    "opt4": "4Ω",
+    "answer": "8Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "For v(t) = 100 sin(200t) V applied to an inductor of L = 0.5 H, find the inductive reactance XL:",
+    "opt1": "50Ω",
+    "opt2": "100Ω",
+    "opt3": "200Ω",
+    "opt4": "400Ω",
+    "answer": "100Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "For ω = 100 rad/s and C = 20 µF, the capacitive reactance XC is:",
+    "opt1": "50Ω",
+    "opt2": "200Ω",
+    "opt3": "500Ω",
+    "opt4": "1000Ω",
+    "answer": "500Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "An inductor has XL = 150Ω when connected to an angular frequency ω = 300 rad/s. The inductance L is:",
+    "opt1": "0.2 H",
+    "opt2": "0.5 H",
+    "opt3": "1 H",
+    "opt4": "2 H",
+    "answer": "0.5 H",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A capacitor has XC = 250Ω at ω = 400 rad/s. The capacitance C is:",
+    "opt1": "5 µF",
+    "opt2": "10 µF",
+    "opt3": "20 µF",
+    "opt4": "25 µF",
+    "answer": "10 µF",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A capacitor of 10 µF has a capacitive reactance of 200Ω. The angular frequency ω is:",
+    "opt1": "100 rad/s",
+    "opt2": "250 rad/s",
+    "opt3": "500 rad/s",
+    "opt4": "1000 rad/s",
+    "answer": "500 rad/s",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series circuit, R = 6Ω and XL = 8Ω. The total impedance Z is:",
+    "opt1": "14Ω",
+    "opt2": "10Ω",
+    "opt3": "2Ω",
+    "opt4": "48Ω",
+    "answer": "10Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series circuit, R = 12Ω and XC = 5Ω. The total impedance Z is:",
+    "opt1": "17Ω",
+    "opt2": "7Ω",
+    "opt3": "13Ω",
+    "opt4": "60Ω",
+    "answer": "13Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "If v(t) = 50 sin(500t) V is applied to C = 5 µF, find XC:",
+    "opt1": "200Ω",
+    "opt2": "400Ω",
+    "opt3": "500Ω",
+    "opt4": "1000Ω",
+    "answer": "400Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A coil has L = 0.2 H and is connected across v(t) = 200 sin(100t) V. The peak current Im is:",
+    "opt1": "5 A",
+    "opt2": "10 A",
+    "opt3": "20 A",
+    "opt4": "50 A",
+    "answer": "10 A",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series R-L circuit with R = 40Ω, L = 0.3 H, and ω = 100 rad/s, the impedance Z is:",
+    "opt1": "70Ω",
+    "opt2": "50Ω",
+    "opt3": "30Ω",
+    "opt4": "10Ω",
+    "answer": "50Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "If C = 50 µF and XC = 100Ω, the angular frequency ω is:",
+    "opt1": "100 rad/s",
+    "opt2": "200 rad/s",
+    "opt3": "500 rad/s",
+    "opt4": "50 rad/s",
+    "answer": "200 rad/s",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A series circuit has R = 8Ω, XL = 10Ω, and XC = 4Ω. Total impedance Z is:",
+    "opt1": "22Ω",
+    "opt2": "10Ω",
+    "opt3": "14Ω",
+    "opt4": "6Ω",
+    "answer": "10Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A voltage v(t) = 141.4 sin(1000t) V is applied across L = 40 mH. The value of XL is:",
+    "opt1": "4Ω",
+    "opt2": "40Ω",
+    "opt3": "400Ω",
+    "opt4": "0.04Ω",
+    "answer": "40Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "At resonance, a series circuit has R = 25Ω, XL = 150Ω, and XC = 150Ω. The total impedance Z is:",
+    "opt1": "325Ω",
+    "opt2": "300Ω",
+    "opt3": "25Ω",
+    "opt4": "0Ω",
+    "answer": "25Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "For an angular frequency ω = 250 rad/s and XC = 80Ω, the capacitance C is:",
+    "opt1": "20 µF",
+    "opt2": "50 µF",
+    "opt3": "100 µF",
+    "opt4": "200 µF",
+    "answer": "50 µF",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A series circuit has R = 30Ω and XC = 40Ω. Total impedance Z is:",
+    "opt1": "70Ω",
+    "opt2": "50Ω",
+    "opt3": "10Ω",
+    "opt4": "1200Ω",
+    "answer": "50Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "An inductor L = 0.05 H is connected to v(t) = 100 sin(400t) V. Find XL:",
+    "opt1": "8Ω",
+    "opt2": "20Ω",
+    "opt3": "80Ω",
+    "opt4": "200Ω",
+    "answer": "20Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series RLC circuit, R = 15Ω, XL = 30Ω, and XC = 10Ω. Total impedance Z is:",
+    "opt1": "55Ω",
+    "opt2": "25Ω",
+    "opt3": "20Ω",
+    "opt4": "35Ω",
+    "answer": "25Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A capacitor of C = 4 µF gives a reactance of XC = 500Ω. The angular frequency ω is:",
+    "opt1": "250 rad/s",
+    "opt2": "500 rad/s",
+    "opt3": "1000 rad/s",
+    "opt4": "2000 rad/s",
+    "answer": "500 rad/s",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A series circuit has R = 9Ω, L = 0.04 H, and ω = 300 rad/s. Total impedance Z is:",
+    "opt1": "21Ω",
+    "opt2": "15Ω",
+    "opt3": "12Ω",
+    "opt4": "39Ω",
+    "answer": "15Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of resistance 9Ω is stretched to 3 times its length and then used in an AC circuit with an inductor having XL = 108Ω. The total impedance Z is:",
+    "opt1": "117Ω",
+    "opt2": "135Ω",
+    "opt3": "81Ω",
+    "opt4": "90Ω",
+    "answer": "135Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "An inductor of L = 0.6 H is connected to v(t) = 200 sin(50t) V. The value of XL is:",
+    "opt1": "300Ω",
+    "opt2": "30Ω",
+    "opt3": "120Ω",
+    "opt4": "83.3Ω",
+    "answer": "30Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "If the radius of a wire is reduced to half (r/2) by drawing it out, by what factor does its resistance increase?",
+    "opt1": "2",
+    "opt2": "4",
+    "opt3": "8",
+    "opt4": "16",
+    "answer": "16",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "An AC supply v(t) = 100 sin(400t) V is applied across a capacitor C = 50 µF. What is XC?",
+    "opt1": "20Ω",
+    "opt2": "50Ω",
+    "opt3": "100Ω",
+    "opt4": "200Ω",
+    "answer": "50Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of resistance 10Ω is stretched uniformly until its length increases by 5%. The new resistance is approximately:",
+    "opt1": "10.5Ω",
+    "opt2": "11.025Ω",
+    "opt3": "12.5Ω",
+    "opt4": "15Ω",
+    "answer": "11.025Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series RLC circuit, R = 20Ω, XL = 40Ω, and XC = 25Ω. The net impedance Z is:",
+    "opt1": "25Ω",
+    "opt2": "35Ω",
+    "opt3": "65Ω",
+    "opt4": "85Ω",
+    "answer": "25Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A uniform wire of resistance 20Ω is stretched such that its diameter is halved, then cut into two equal halves. The resistance of each half is:",
+    "opt1": "160Ω",
+    "opt2": "320Ω",
+    "opt3": "80Ω",
+    "opt4": "40Ω",
+    "answer": "160Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "If a capacitor gives XC = 125Ω at ω = 800 rad/s, the capacitance C is:",
+    "opt1": "10 µF",
+    "opt2": "20 µF",
+    "opt3": "8 µF",
+    "opt4": "15 µF",
+    "answer": "10 µF",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A circuit has R = 40Ω and an inductor with L = 0.1 H connected to ω = 300 rad/s. The total impedance Z is:",
+    "opt1": "70Ω",
+    "opt2": "50Ω",
+    "opt3": "30Ω",
+    "opt4": "10Ω",
+    "answer": "50Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire is stretched so that its length increases by 100%. The percentage change in resistance will be:",
+    "opt1": "100%",
+    "opt2": "200%",
+    "opt3": "300%",
+    "opt4": "400%",
+    "answer": "300%",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "At what angular frequency ω will a 25 µF capacitor have a reactance of 80Ω?",
+    "opt1": "200 rad/s",
+    "opt2": "400 rad/s",
+    "opt3": "500 rad/s",
+    "opt4": "1000 rad/s",
+    "answer": "500 rad/s",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A coil of inductance L = 50 mH is subjected to v(t) = 150 sin(2000t) V. The value of XL is:",
+    "opt1": "10Ω",
+    "opt2": "100Ω",
+    "opt3": "250Ω",
+    "opt4": "1000Ω",
+    "answer": "100Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of resistance 32Ω is melted and recast into a wire of half its original length. The new resistance is:",
+    "opt1": "64Ω",
+    "opt2": "16Ω",
+    "opt3": "8Ω",
+    "opt4": "4Ω",
+    "answer": "8Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series circuit, R = 7Ω and total net reactance (XL - XC) = 24Ω. The total impedance Z is:",
+    "opt1": "31Ω",
+    "opt2": "25Ω",
+    "opt3": "17Ω",
+    "opt4": "20Ω",
+    "answer": "25Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A capacitor C = 10 µF is connected to v(t) = 50 sin(1000t) V. The peak current Im is:",
+    "opt1": "0.25 A",
+    "opt2": "0.5 A",
+    "opt3": "1.0 A",
+    "opt4": "2.0 A",
+    "answer": "0.5 A",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of resistance R is stretched to 1.5 times its original length. The new resistance will be:",
+    "opt1": "1.5R",
+    "opt2": "2.25R",
+    "opt3": "3R",
+    "opt4": "0.75R",
+    "answer": "2.25R",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series R-C circuit, R = 16Ω and XC = 12Ω. The total impedance Z is:",
+    "opt1": "28Ω",
+    "opt2": "20Ω",
+    "opt3": "4Ω",
+    "opt4": "14Ω",
+    "answer": "20Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A wire of 5Ω is stretched until its diameter becomes d/√2. Its new resistance is:",
+    "opt1": "10Ω",
+    "opt2": "20Ω",
+    "opt3": "40Ω",
+    "opt4": "2.5Ω",
+    "answer": "20Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series RLC circuit at resonance, v(t) = 230 sin(314t) V, R = 46Ω, XL = 100Ω, and XC = 100Ω. The peak current Im is:",
+    "opt1": "2.3 A",
+    "opt2": "5 A",
+    "opt3": "0 A",
+    "opt4": "10 A",
+    "answer": "5 A",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A copper wire of resistance 2Ω is stretched until its length is 4 times original (n=4). It is then formed into a square loop. The resistance between any two adjacent corners is:",
+    "opt1": "6Ω",
+    "opt2": "8Ω",
+    "opt3": "7.5Ω",
+    "opt4": "32Ω",
+    "answer": "6Ω",
+    "image_path": null
   }
-[
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of resistance 4Ω is stretched to twice its original length. What is its new resistance?",
-        "opt1": "8Ω",
-        "opt2": "16Ω",
-        "opt3": "2Ω",
-        "opt4": "1Ω",
-        "answer": "16Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A uniform wire of resistance 10Ω is stretched such that its length increases by 10%. The new resistance is:",
-        "opt1": "11Ω",
-        "opt2": "12.1Ω",
-        "opt3": "12Ω",
-        "opt4": "20Ω",
-        "answer": "12.1Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of resistance 100Ω is stretched to 3 times its original length. The new resistance will be:",
-        "opt1": "300Ω",
-        "opt2": "600Ω",
-        "opt3": "900Ω",
-        "opt4": "100Ω",
-        "answer": "900Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of resistance 16Ω is melted and recast into a wire of half its original length. Its new resistance will be:",
-        "opt1": "8Ω",
-        "opt2": "4Ω",
-        "opt3": "2Ω",
-        "opt4": "32Ω",
-        "answer": "4Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "The radius of a uniform wire of resistance 80Ω is halved by stretching. Its new resistance is:",
-        "opt1": "160Ω",
-        "opt2": "320Ω",
-        "opt3": "640Ω",
-        "opt4": "1280Ω",
-        "answer": "1280Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of resistance R is stretched such that its diameter becomes half (d/2). The new resistance will be:",
-        "opt1": "2R",
-        "opt2": "4R",
-        "opt3": "8R",
-        "opt4": "16R",
-        "answer": "16R",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A uniform wire is stretched to double its original length. The percentage increase in resistance is:",
-        "opt1": "100%",
-        "opt2": "200%",
-        "opt3": "300%",
-        "opt4": "400%",
-        "answer": "300%",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of resistance 27Ω is stretched to 3 times its length, then cut into 3 equal pieces. The resistance of each piece is:",
-        "opt1": "9Ω",
-        "opt2": "81Ω",
-        "opt3": "27Ω",
-        "opt4": "243Ω",
-        "answer": "81Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of resistance 5Ω is drawn out so that its radius is reduced by a factor of 3. Its new resistance is:",
-        "opt1": "15Ω",
-        "opt2": "45Ω",
-        "opt3": "135Ω",
-        "opt4": "405Ω",
-        "answer": "405Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "If the length of a wire increases by 20% on stretching, its resistance increases by:",
-        "opt1": "20%",
-        "opt2": "40%",
-        "opt3": "44%",
-        "opt4": "48%",
-        "answer": "44%",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire has a resistance of 2Ω. It is stretched to 5 times its length. The new resistance is:",
-        "opt1": "10Ω",
-        "opt2": "25Ω",
-        "opt3": "50Ω",
-        "opt4": "100Ω",
-        "answer": "50Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "When a wire is compressed such that its area of cross-section is doubled, its resistance becomes:",
-        "opt1": "Half",
-        "opt2": "One-fourth",
-        "opt3": "Double",
-        "opt4": "Four times",
-        "answer": "One-fourth",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of resistance 64Ω has its diameter reduced to half by drawing. The new resistance is:",
-        "opt1": "256Ω",
-        "opt2": "512Ω",
-        "opt3": "1024Ω",
-        "opt4": "128Ω",
-        "answer": "1024Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "If the length of a conductor is increased by 0.1% by stretching, the percentage change in resistance is:",
-        "opt1": "0.1%",
-        "opt2": "0.2%",
-        "opt3": "0.05%",
-        "opt4": "0.4%",
-        "answer": "0.2%",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of 12Ω is stretched until its length is 4 times its original length. The new resistance is:",
-        "opt1": "48Ω",
-        "opt2": "96Ω",
-        "opt3": "192Ω",
-        "opt4": "240Ω",
-        "answer": "192Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A copper wire is stretched to reduce its radius by 1%. The percentage increase in resistance is approximately:",
-        "opt1": "1%",
-        "opt2": "2%",
-        "opt3": "4%",
-        "opt4": "8%",
-        "answer": "4%",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of resistance R is cut into 4 equal pieces and connected in parallel. The equivalent resistance is:",
-        "opt1": "R/4",
-        "opt2": "R/16",
-        "opt3": "4R",
-        "opt4": "16R",
-        "answer": "R/16",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A cylindrical conductor of resistance 18Ω is drawn so that its length becomes √2 times original. The new resistance is:",
-        "opt1": "18√2 Ω",
-        "opt2": "36Ω",
-        "opt3": "9Ω",
-        "opt4": "72Ω",
-        "answer": "36Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of resistance 50Ω is stretched such that its diameter is reduced to 1/√2 of its original value. The new resistance is:",
-        "opt1": "100Ω",
-        "opt2": "200Ω",
-        "opt3": "400Ω",
-        "opt4": "25Ω",
-        "answer": "200Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of resistance 8Ω is stretched to double its length and then bent into a circle. The resistance between two diametrically opposite points is:",
-        "opt1": "32Ω",
-        "opt2": "16Ω",
-        "opt3": "8Ω",
-        "opt4": "4Ω",
-        "answer": "8Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "For v(t) = 100 sin(200t) V applied to an inductor of L = 0.5 H, find the inductive reactance XL:",
-        "opt1": "50Ω",
-        "opt2": "100Ω",
-        "opt3": "200Ω",
-        "opt4": "400Ω",
-        "answer": "100Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "For ω = 100 rad/s and C = 20 µF, the capacitive reactance XC is:",
-        "opt1": "50Ω",
-        "opt2": "200Ω",
-        "opt3": "500Ω",
-        "opt4": "1000Ω",
-        "answer": "500Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "An inductor has XL = 150Ω when connected to an angular frequency ω = 300 rad/s. The inductance L is:",
-        "opt1": "0.2 H",
-        "opt2": "0.5 H",
-        "opt3": "1 H",
-        "opt4": "2 H",
-        "answer": "0.5 H",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A capacitor has XC = 250Ω at ω = 400 rad/s. The capacitance C is:",
-        "opt1": "5 µF",
-        "opt2": "10 µF",
-        "opt3": "20 µF",
-        "opt4": "25 µF",
-        "answer": "10 µF",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A capacitor of 10 µF has a capacitive reactance of 200Ω. The angular frequency ω is:",
-        "opt1": "100 rad/s",
-        "opt2": "250 rad/s",
-        "opt3": "500 rad/s",
-        "opt4": "1000 rad/s",
-        "answer": "500 rad/s",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "In a series circuit, R = 6Ω and XL = 8Ω. The total impedance Z is:",
-        "opt1": "14Ω",
-        "opt2": "10Ω",
-        "opt3": "2Ω",
-        "opt4": "48Ω",
-        "answer": "10Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "In a series circuit, R = 12Ω and XC = 5Ω. The total impedance Z is:",
-        "opt1": "17Ω",
-        "opt2": "7Ω",
-        "opt3": "13Ω",
-        "opt4": "60Ω",
-        "answer": "13Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "If v(t) = 50 sin(500t) V is applied to C = 5 µF, find XC:",
-        "opt1": "200Ω",
-        "opt2": "400Ω",
-        "opt3": "500Ω",
-        "opt4": "1000Ω",
-        "answer": "400Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A coil has L = 0.2 H and is connected across v(t) = 200 sin(100t) V. The peak current Im is:",
-        "opt1": "5 A",
-        "opt2": "10 A",
-        "opt3": "20 A",
-        "opt4": "50 A",
-        "answer": "10 A",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "In a series R-L circuit with R = 40Ω, L = 0.3 H, and ω = 100 rad/s, the impedance Z is:",
-        "opt1": "70Ω",
-        "opt2": "50Ω",
-        "opt3": "30Ω",
-        "opt4": "10Ω",
-        "answer": "50Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "If C = 50 µF and XC = 100Ω, the angular frequency ω is:",
-        "opt1": "100 rad/s",
-        "opt2": "200 rad/s",
-        "opt3": "500 rad/s",
-        "opt4": "50 rad/s",
-        "answer": "200 rad/s",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A series circuit has R = 8Ω, XL = 10Ω, and XC = 4Ω. Total impedance Z is:",
-        "opt1": "22Ω",
-        "opt2": "10Ω",
-        "opt3": "14Ω",
-        "opt4": "6Ω",
-        "answer": "10Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A voltage v(t) = 141.4 sin(1000t) V is applied across L = 40 mH. The value of XL is:",
-        "opt1": "4Ω",
-        "opt2": "40Ω",
-        "opt3": "400Ω",
-        "opt4": "0.04Ω",
-        "answer": "40Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "At resonance, a series circuit has R = 25Ω, XL = 150Ω, and XC = 150Ω. The total impedance Z is:",
-        "opt1": "325Ω",
-        "opt2": "300Ω",
-        "opt3": "25Ω",
-        "opt4": "0Ω",
-        "answer": "25Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "For an angular frequency ω = 250 rad/s and XC = 80Ω, the capacitance C is:",
-        "opt1": "20 µF",
-        "opt2": "50 µF",
-        "opt3": "100 µF",
-        "opt4": "200 µF",
-        "answer": "50 µF",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A series circuit has R = 30Ω and XC = 40Ω. Total impedance Z is:",
-        "opt1": "70Ω",
-        "opt2": "50Ω",
-        "opt3": "10Ω",
-        "opt4": "1200Ω",
-        "answer": "50Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "An inductor L = 0.05 H is connected to v(t) = 100 sin(400t) V. Find XL:",
-        "opt1": "8Ω",
-        "opt2": "20Ω",
-        "opt3": "80Ω",
-        "opt4": "200Ω",
-        "answer": "20Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "In a series RLC circuit, R = 15Ω, XL = 30Ω, and XC = 10Ω. Total impedance Z is:",
-        "opt1": "55Ω",
-        "opt2": "25Ω",
-        "opt3": "20Ω",
-        "opt4": "35Ω",
-        "answer": "25Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A capacitor of C = 4 µF gives a reactance of XC = 500Ω. The angular frequency ω is:",
-        "opt1": "250 rad/s",
-        "opt2": "500 rad/s",
-        "opt3": "1000 rad/s",
-        "opt4": "2000 rad/s",
-        "answer": "500 rad/s",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A series circuit has R = 9Ω, L = 0.04 H, and ω = 300 rad/s. Total impedance Z is:",
-        "opt1": "21Ω",
-        "opt2": "15Ω",
-        "opt3": "12Ω",
-        "opt4": "39Ω",
-        "answer": "15Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of resistance 9Ω is stretched to 3 times its length and then used in an AC circuit with an inductor having XL = 108Ω. The total impedance Z is:",
-        "opt1": "117Ω",
-        "opt2": "135Ω",
-        "opt3": "81Ω",
-        "opt4": "90Ω",
-        "answer": "135Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "An inductor of L = 0.6 H is connected to v(t) = 200 sin(50t) V. The value of XL is:",
-        "opt1": "300Ω",
-        "opt2": "30Ω",
-        "opt3": "120Ω",
-        "opt4": "83.3Ω",
-        "answer": "30Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "If the radius of a wire is reduced to half (r/2) by drawing it out, by what factor does its resistance increase?",
-        "opt1": "2",
-        "opt2": "4",
-        "opt3": "8",
-        "opt4": "16",
-        "answer": "16",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "An AC supply v(t) = 100 sin(400t) V is applied across a capacitor C = 50 µF. What is XC?",
-        "opt1": "20Ω",
-        "opt2": "50Ω",
-        "opt3": "100Ω",
-        "opt4": "200Ω",
-        "answer": "50Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of resistance 10Ω is stretched uniformly until its length increases by 5%. The new resistance is approximately:",
-        "opt1": "10.5Ω",
-        "opt2": "11.025Ω",
-        "opt3": "12.5Ω",
-        "opt4": "15Ω",
-        "answer": "11.025Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "In a series RLC circuit, R = 20Ω, XL = 40Ω, and XC = 25Ω. The net impedance Z is:",
-        "opt1": "25Ω",
-        "opt2": "35Ω",
-        "opt3": "65Ω",
-        "opt4": "85Ω",
-        "answer": "25Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A uniform wire of resistance 20Ω is stretched such that its diameter is halved, then cut into two equal halves. The resistance of each half is:",
-        "opt1": "160Ω",
-        "opt2": "320Ω",
-        "opt3": "80Ω",
-        "opt4": "40Ω",
-        "answer": "160Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "If a capacitor gives XC = 125Ω at ω = 800 rad/s, the capacitance C is:",
-        "opt1": "10 µF",
-        "opt2": "20 µF",
-        "opt3": "8 µF",
-        "opt4": "15 µF",
-        "answer": "10 µF",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A circuit has R = 40Ω and an inductor with L = 0.1 H connected to ω = 300 rad/s. The total impedance Z is:",
-        "opt1": "70Ω",
-        "opt2": "50Ω",
-        "opt3": "30Ω",
-        "opt4": "10Ω",
-        "answer": "50Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire is stretched so that its length increases by 100%. The percentage change in resistance will be:",
-        "opt1": "100%",
-        "opt2": "200%",
-        "opt3": "300%",
-        "opt4": "400%",
-        "answer": "300%",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "At what angular frequency ω will a 25 µF capacitor have a reactance of 80Ω?",
-        "opt1": "200 rad/s",
-        "opt2": "400 rad/s",
-        "opt3": "500 rad/s",
-        "opt4": "1000 rad/s",
-        "answer": "500 rad/s",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A coil of inductance L = 50 mH is subjected to v(t) = 150 sin(2000t) V. The value of XL is:",
-        "opt1": "10Ω",
-        "opt2": "100Ω",
-        "opt3": "250Ω",
-        "opt4": "1000Ω",
-        "answer": "100Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of resistance 32Ω is melted and recast into a wire of half its original length. The new resistance is:",
-        "opt1": "64Ω",
-        "opt2": "16Ω",
-        "opt3": "8Ω",
-        "opt4": "4Ω",
-        "answer": "8Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "In a series circuit, R = 7Ω and total net reactance (XL - XC) = 24Ω. The total impedance Z is:",
-        "opt1": "31Ω",
-        "opt2": "25Ω",
-        "opt3": "17Ω",
-        "opt4": "20Ω",
-        "answer": "25Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A capacitor C = 10 µF is connected to v(t) = 50 sin(1000t) V. The peak current Im is:",
-        "opt1": "0.25 A",
-        "opt2": "0.5 A",
-        "opt3": "1.0 A",
-        "opt4": "2.0 A",
-        "answer": "0.5 A",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of resistance R is stretched to 1.5 times its original length. The new resistance will be:",
-        "opt1": "1.5R",
-        "opt2": "2.25R",
-        "opt3": "3R",
-        "opt4": "0.75R",
-        "answer": "2.25R",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "In a series R-C circuit, R = 16Ω and XC = 12Ω. The total impedance Z is:",
-        "opt1": "28Ω",
-        "opt2": "20Ω",
-        "opt3": "4Ω",
-        "opt4": "14Ω",
-        "answer": "20Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A wire of 5Ω is stretched until its diameter becomes d/√2. Its new resistance is:",
-        "opt1": "10Ω",
-        "opt2": "20Ω",
-        "opt3": "40Ω",
-        "opt4": "2.5Ω",
-        "answer": "20Ω",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "In a series RLC circuit at resonance, v(t) = 230 sin(314t) V, R = 46Ω, XL = 100Ω, and XC = 100Ω. The peak current Im is:",
-        "opt1": "2.3 A",
-        "opt2": "5 A",
-        "opt3": "0 A",
-        "opt4": "10 A",
-        "answer": "5 A",
-        "image_path": null
-    },
-    {
-        "subject": "Electrical Engineering",
-        "question": "A copper wire of resistance 2Ω is stretched until its length is 4 times original (n=4). It is then formed into a square loop. The resistance between any two adjacent corners is:",
-        "opt1": "6Ω",
-        "opt2": "8Ω",
-        "opt3": "7.5Ω",
-        "opt4": "32Ω",
-        "answer": "6Ω",
-        "image_path": null
-    }
-  [
-  
+]
