@@ -2488,5 +2488,485 @@
     "opt4": "Reduce power factor losses",
     "answer": "Ensure safety of human life and equipment against shock",
     "image_path": null
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "On which day of the year is the Earth farthest from the Sun, at a position called aphelion?",
+    "opt1": "4 July",
+    "opt2": "23 October",
+    "opt3": "16 August",
+    "opt4": "12 May",
+    "answer": "4 July",
+    "bengali_meaning": "বছরের কোন দিনে পৃথিবী সূর্য থেকে সবচেয়ে দূরে থাকে, যাকে অপসূর (Aphelion) বলা হয়?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "What is the phenomenon called when the Earth is at its maximum distance from the Sun?",
+    "opt1": "Perihelion",
+    "opt2": "Aphelion",
+    "opt3": "Apogee",
+    "opt4": "Perigee",
+    "answer": "Aphelion",
+    "bengali_meaning": "সূর্য থেকে পৃথিবীর সর্বাধিক দূরত্বের অবস্থানকে কী বলা হয়?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "On which day is the Earth closest to the Sun (Perihelion)?",
+    "opt1": "4 July",
+    "opt2": "3 January",
+    "opt3": "21 June",
+    "opt4": "22 December",
+    "answer": "3 January",
+    "bengali_meaning": "কোন দিনে পৃথিবী সূর্যের সবচেয়ে কাছে থাকে (অনুসূর বা Perihelion)?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "What is the position of minimum distance between the Earth and the Sun known as?",
+    "opt1": "Aphelion",
+    "opt2": "Perigee",
+    "opt3": "Perihelion",
+    "opt4": "Apogee",
+    "answer": "Perihelion",
+    "bengali_meaning": "পৃথিবী ও সূর্যের মধ্যকার সর্বনিম্ন দূরত্বের অবস্থানকে কী বলে?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "In which month does the phenomenon of Aphelion occur?",
+    "opt1": "January",
+    "opt2": "March",
+    "opt3": "July",
+    "opt4": "September",
+    "answer": "July",
+    "bengali_meaning": "অপসূর (Aphelion) ঘটনাটি কোন মাসে ঘটে?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "A ________ is a cloud of dust and gas inside a galaxy.",
+    "opt1": "Chromosphere",
+    "opt2": "Nebula",
+    "opt3": "Black hole",
+    "opt4": "Photosphere",
+    "answer": "Nebula",
+    "bengali_meaning": "একটি ছায়াপথের ভেতরে ধূলিকণা ও গ্যাসের মেঘকে কী বলা হয়?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which astronomical object is primarily composed of interstellar clouds of dust, hydrogen, helium, and other ionized gases?",
+    "opt1": "Nebula",
+    "opt2": "Pulsar",
+    "opt3": "White Dwarf",
+    "opt4": "Quasar",
+    "answer": "Nebula",
+    "bengali_meaning": "কোন জ্যোতির্বিদ্যা সংক্রান্ত বস্তুটি মূলত ধূলিকণা, হাইড্রোজেন, হিলিয়াম এবং অন্যান্য আয়নিত গ্যাসের আন্তঃনাক্ষত্রিক মেঘ দ্বারা গঠিত?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "What is the visible luminous surface layer of the Sun called?",
+    "opt1": "Corona",
+    "opt2": "Chromosphere",
+    "opt3": "Photosphere",
+    "opt4": "Nebula",
+    "answer": "Photosphere",
+    "bengali_meaning": "সূর্যের দৃশ্যমান উজ্জ্বল পৃষ্ঠতলকে কী বলা হয়?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "A region in spacetime where gravity is so strong that nothing, not even light, can escape is called a:",
+    "opt1": "Nebula",
+    "opt2": "Black hole",
+    "opt3": "Supernova",
+    "opt4": "Neutron star",
+    "answer": "Black hole",
+    "bengali_meaning": "মহাকাশের যে অঞ্চলে মহাকর্ষ বল এতটাই তীব্র যে আলোও বেরিয়ে আসতে পারে না, তাকে কী বলে?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "The reddish layer of the Sun's atmosphere located just above the photosphere is known as the:",
+    "opt1": "Chromosphere",
+    "opt2": "Core",
+    "opt3": "Corona",
+    "opt4": "Nebula",
+    "answer": "Chromosphere",
+    "bengali_meaning": "ফটোস্ফিয়ারের ঠিক উপরে অবস্থিত সূর্যের বায়ুমণ্ডলের লালচে স্তরটিকে কী বলা হয়?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which of the following planets has the most number of moons in the Solar System?",
+    "opt1": "Neptune",
+    "opt2": "Saturn",
+    "opt3": "Jupiter",
+    "opt4": "Uranus",
+    "answer": "Saturn",
+    "bengali_meaning": "সৌরজগতের কোন গ্রহের উপগ্রহের সংখ্যা সবচেয়ে বেশি?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which planet in the Solar System possesses the second highest number of known natural satellites?",
+    "opt1": "Saturn",
+    "opt2": "Mars",
+    "opt3": "Jupiter",
+    "opt4": "Uranus",
+    "answer": "Jupiter",
+    "bengali_meaning": "সৌরজগতের কোন গ্রহের দ্বিতীয় সর্বাধিক প্রাকৃতিক উপগ্রহ রয়েছে?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Titan is the largest moon of which planet?",
+    "opt1": "Jupiter",
+    "opt2": "Saturn",
+    "opt3": "Neptune",
+    "opt4": "Uranus",
+    "answer": "Saturn",
+    "bengali_meaning": "টাইটান কোন গ্রহের বৃহত্তম উপগ্রহ?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Ganymede, the largest moon in the Solar System, belongs to which planet?",
+    "opt1": "Saturn",
+    "opt2": "Neptune",
+    "opt3": "Jupiter",
+    "opt4": "Earth",
+    "answer": "Jupiter",
+    "bengali_meaning": "সৌরজগতের বৃহত্তম উপগ্রহ গ্যানিমিড কোন গ্রহের অন্তর্গত?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which two planets in the Solar System do not have any moons?",
+    "opt1": "Mercury and Venus",
+    "opt2": "Venus and Mars",
+    "opt3": "Mercury and Mars",
+    "opt4": "Mars and Uranus",
+    "answer": "Mercury and Venus",
+    "bengali_meaning": "সৌরজগতের কোন দুটি গ্রহের কোনো উপগ্রহ নেই?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which of the following is the second nearest star to Earth?",
+    "opt1": "Proxima Centauri",
+    "opt2": "Polaris",
+    "opt3": "Delta Velorum",
+    "opt4": "Sirius",
+    "answer": "Proxima Centauri",
+    "bengali_meaning": "পৃথিবীর দ্বিতীয় নিকটতম নক্ষত্র কোনটি?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which is the closest star to the planet Earth?",
+    "opt1": "Proxima Centauri",
+    "opt2": "Sun",
+    "opt3": "Sirius",
+    "opt4": "Alpha Centauri A",
+    "answer": "Sun",
+    "bengali_meaning": "পৃথিবীর সবচেয়ে কাছের নক্ষত্র কোনটি?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which is the brightest star visible in the night sky from Earth?",
+    "opt1": "Polaris",
+    "opt2": "Betelgeuse",
+    "opt3": "Sirius (Dog Star)",
+    "opt4": "Proxima Centauri",
+    "answer": "Sirius (Dog Star)",
+    "bengali_meaning": "পৃথিবী থেকে রাতের আকাশে দৃশ্যমান উজ্জ্বলতম নক্ষত্র কোনটি?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "The North Star, used historically for celestial navigation, is also known as:",
+    "opt1": "Sirius",
+    "opt2": "Polaris",
+    "opt3": "Vega",
+    "opt4": "Proxima Centauri",
+    "answer": "Polaris",
+    "bengali_meaning": "দিকনির্ণয়ের জন্য ঐতিহাসিকভাবে ব্যবহৃত ধ্রুবতারা আর কী নামে পরিচিত?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Proxima Centauri is part of which stellar system?",
+    "opt1": "Alpha Centauri system",
+    "opt2": "Ursa Major system",
+    "opt3": "Orion system",
+    "opt4": "Sirius system",
+    "answer": "Alpha Centauri system",
+    "bengali_meaning": "প্রক্সিমা সেন্টরাই কোন নক্ষত্রমণ্ডলীর অন্তর্ভুক্ত?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which celestial body is no longer considered a planet within Earth's Solar System?",
+    "opt1": "Neptune",
+    "opt2": "Mars",
+    "opt3": "Pluto",
+    "opt4": "Uranus",
+    "answer": "Pluto",
+    "bengali_meaning": "কোন মহাজাগতিক বস্তুকে আর আমাদের সৌরজগতের গ্রহ হিসেবে গণ্য করা হয় না?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "In which year was Pluto reclassified from a planet to a dwarf planet by the IAU?",
+    "opt1": "2001",
+    "opt2": "2004",
+    "opt3": "2006",
+    "opt4": "2010",
+    "answer": "2006",
+    "bengali_meaning": "কোন সালে আইএইউ (IAU) প্লুটোকে গ্রহ থেকে বামন গ্রহ হিসেবে পুনর্বিন্যস্ত করে?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which organization officially defined the term 'planet' and demoted Pluto to a dwarf planet?",
+    "opt1": "NASA",
+    "opt2": "International Astronomical Union (IAU)",
+    "opt3": "ISRO",
+    "opt4": "European Space Agency (ESA)",
+    "answer": "International Astronomical Union (IAU)",
+    "bengali_meaning": "কোন সংস্থা আনুষ্ঠানিকভাবে 'গ্রহ'-এর সংজ্ঞা নির্ধারণ করে প্লুটোর মর্যাদা হ্রাস করেছিল?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "What is Pluto currently classified as according to modern astronomy?",
+    "opt1": "Asteroid",
+    "opt2": "Comet",
+    "opt3": "Dwarf planet",
+    "opt4": "Moon",
+    "answer": "Dwarf planet",
+    "bengali_meaning": "আধুনিক জ্যোতির্বিদ্যা অনুসারে প্লুটোকে বর্তমানে কী হিসাবে শ্রেণীবদ্ধ করা হয়েছে?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "How many official primary planets are there in our Solar System following Pluto's reclassification?",
+    "opt1": "7",
+    "opt2": "8",
+    "opt3": "9",
+    "opt4": "10",
+    "answer": "8",
+    "bengali_meaning": "প্লুটোর শ্রেণি পরিবর্তনের পর বর্তমানে আমাদের সৌরজগতে কতটি প্রধান গ্রহ রয়েছে?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which of the following statements most accurately describes the planet Saturn?",
+    "opt1": "Its outer cloud regions consist entirely of solid methane.",
+    "opt2": "Its surface is reddish in colour due to iron oxide.",
+    "opt3": "It is a gas giant made mostly of hydrogen and helium, and its overall density is less than that of water.",
+    "opt4": "It was the seventh planet discovered in the Solar System.",
+    "answer": "It is a gas giant made mostly of hydrogen and helium, and its overall density is less than that of water.",
+    "bengali_meaning": "নিচের কোন বিবৃতিটি শনি গ্রহের বর্ণনা সবচেয়ে নিখুঁতভাবে দেয়?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which planet in the Solar System has a mean density less than that of water (meaning it would theoretically float)?",
+    "opt1": "Jupiter",
+    "opt2": "Saturn",
+    "opt3": "Uranus",
+    "opt4": "Neptune",
+    "answer": "Saturn",
+    "bengali_meaning": "সৌরজগতের কোন গ্রহের গড় ঘনত্ব জলের ঘনত্বের চেয়েও কম?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which two gases constitute the vast majority of Saturn's atmospheric composition?",
+    "opt1": "Oxygen and Nitrogen",
+    "opt2": "Carbon Dioxide and Methane",
+    "opt3": "Hydrogen and Helium",
+    "opt4": "Nitrogen and Argon",
+    "answer": "Hydrogen and Helium",
+    "bengali_meaning": "কোন দুটি গ্যাস শনির বায়ুমণ্ডলের সিংহভাগ গঠন করে?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which planet in the Solar System is famously known for having the most prominent and visible ring system?",
+    "opt1": "Saturn",
+    "opt2": "Jupiter",
+    "opt3": "Neptune",
+    "opt4": "Mars",
+    "answer": "Saturn",
+    "bengali_meaning": "সৌরজগতের কোন গ্রহটি তার স্পষ্ট ও দৃশ্যমান বলয়মণ্ডলীর জন্য বিখ্যাত?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which planet is commonly referred to as the 'Red Planet' due to iron oxide on its surface?",
+    "opt1": "Mercury",
+    "opt2": "Venus",
+    "opt3": "Mars",
+    "opt4": "Saturn",
+    "answer": "Mars",
+    "bengali_meaning": "পৃষ্ঠতলে আয়রন অক্সাইডের উপস্থিতির কারণে কোন গ্রহকে সাধারণত 'লাল গ্রহ' বলা হয়?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "The distance of the Sun from the Earth is approximately ________ light minutes.",
+    "opt1": "6",
+    "opt2": "4.3",
+    "opt3": "12",
+    "opt4": "8",
+    "answer": "8",
+    "bengali_meaning": "সূর্য থেকে পৃথিবীর দূরত্ব প্রায় কত আলোক মিনিট?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Approximately how much time does sunlight take to reach the surface of the Earth?",
+    "opt1": "500 seconds",
+    "opt2": "300 seconds",
+    "opt3": "120 seconds",
+    "opt4": "800 seconds",
+    "answer": "500 seconds",
+    "bengali_meaning": "সূর্যের আলো পৃথিবীর পৃষ্ঠে পৌঁছাতে আনুমানিক কত সময় নেয়?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Light from the nearest star outside our solar system, Proxima Centauri, takes approximately how long to reach Earth?",
+    "opt1": "8.3 minutes",
+    "opt2": "4.24 years",
+    "opt3": "1.3 seconds",
+    "opt4": "100 years",
+    "answer": "4.24 years",
+    "bengali_meaning": "আমাদের সৌরজগতের বাইরের নিকটতম নক্ষত্র প্রক্সিমা সেন্টরাই থেকে আলো পৃথিবীতে পৌঁছাতে কত সময় নেয়?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "How long does reflected light from the Moon take to reach the Earth?",
+    "opt1": "8 minutes",
+    "opt2": "1.3 seconds",
+    "opt3": "60 seconds",
+    "opt4": "5 minutes",
+    "answer": "1.3 seconds",
+    "bengali_meaning": "চাঁদ থেকে প্রতিফলিত আলো পৃথিবীতে পৌঁছাতে কত সময় নেয়?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "What do you call the point in the orbit of the Moon or a satellite at which it is nearest to Earth?",
+    "opt1": "Perigee",
+    "opt2": "Eclipse",
+    "opt3": "Apsis",
+    "opt4": "Apogee",
+    "answer": "Perigee",
+    "bengali_meaning": "চাঁদ বা কোনো উপগ্রহের কক্ষপথের যে বিন্দুটি পৃথিবীর সবচেয়ে কাছে থাকে, তাকে কী বলে?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "What is the point in the orbit of the Moon or an artificial satellite where it is farthest from the Earth called?",
+    "opt1": "Perigee",
+    "opt2": "Aphelion",
+    "opt3": "Apogee",
+    "opt4": "Perihelion",
+    "answer": "Apogee",
+    "bengali_meaning": "চাঁদ বা কোনো কৃত্রিম উপগ্রহের কক্ষপথের যে বিন্দুটি পৃথিবী থেকে সবচেয়ে দূরে থাকে, তাকে কী বলে?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "The collective term for either of the two extreme points (closest or farthest) in an elliptical orbit is:",
+    "opt1": "Solstice",
+    "opt2": "Equinox",
+    "opt3": "Apsis",
+    "opt4": "Node",
+    "answer": "Apsis",
+    "bengali_meaning": "উপবৃত্তাকার কক্ষপথের দুটি চরম বিন্দুর (নিকটতম বা দূরতম) যেকোনো একটিকে কী বলা হয়?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "A 'Supermoon' occurs when a full moon coincides with which orbital position?",
+    "opt1": "Apogee",
+    "opt2": "Perigee",
+    "opt3": "Aphelion",
+    "opt4": "Perihelion",
+    "answer": "Perigee",
+    "bengali_meaning": "পূর্ণিমা যখন কক্ষপথের কোন অবস্থানের সাথে মিলে যায়, তখন 'সুপারমুন' দেখা যায়?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which is, by far, the closest dwarf planet orbiting at only 2.8 times Earth's distance from the Sun?",
+    "opt1": "Makemake",
+    "opt2": "Pluto",
+    "opt3": "Eris",
+    "opt4": "Ceres",
+    "answer": "Ceres",
+    "bengali_meaning": "সূর্য থেকে পৃথিবীর দূরত্বের মাত্র ২.৮ গুণ দূরত্বে অবস্থিত সবচেয়ে কাছের বামন গ্রহ কোনটি?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Where is the dwarf planet Ceres located in our Solar System?",
+    "opt1": "Kuiper Belt",
+    "opt2": "Asteroid Belt (between Mars and Jupiter)",
+    "opt3": "Oort Cloud",
+    "opt4": "Beyond Neptune",
+    "answer": "Asteroid Belt (between Mars and Jupiter)",
+    "bengali_meaning": "বামন গ্রহ সেরিস (Ceres) আমাদের সৌরজগতের কোথায় অবস্থিত?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which is the largest object located in the main asteroid belt?",
+    "opt1": "Vesta",
+    "opt2": "Pallas",
+    "opt3": "Ceres",
+    "opt4": "Hygiea",
+    "answer": "Ceres",
+    "bengali_meaning": "প্রধান গ্রহাণু বলয়ের মধ্যে অবস্থিত বৃহত্তম জ্যোতির্বৈজ্ঞানিক বস্তুটি কোনটি?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which of the following dwarf planets is located in the scattered disc of the Kuiper Belt and is nearly the same size as Pluto?",
+    "opt1": "Ceres",
+    "opt2": "Eris",
+    "opt3": "Io",
+    "opt4": "Europa",
+    "answer": "Eris",
+    "bengali_meaning": "কুইপার বেল্টের বিক্ষিপ্ত অংশে অবস্থিত এবং প্রায় প্লুটোর আকারের সমান বামন গ্রহ কোনটি?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which planet is surrounded by thick white and yellowish clouds of sulfuric acid?",
+    "opt1": "Uranus",
+    "opt2": "Venus",
+    "opt3": "Neptune",
+    "opt4": "Mars",
+    "answer": "Venus",
+    "bengali_meaning": "কোন গ্রহটি সালফিউরিক অ্যাসিডের ঘন সাদা এবং হলুদাভ মেঘে ঘেরা?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which planet is known as Earth's 'Twin' due to its similar size, mass, and proximity?",
+    "opt1": "Mars",
+    "opt2": "Venus",
+    "opt3": "Mercury",
+    "opt4": "Neptune",
+    "answer": "Venus",
+    "bengali_meaning": "অনুরূপ আকার, ভর এবং দূরত্বের কারণে কোন গ্রহটিকে পৃথিবীর 'যমজ' বলা হয়?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which planet in the Solar System is the hottest due to an intense runaway greenhouse effect?",
+    "opt1": "Mercury",
+    "opt2": "Venus",
+    "opt3": "Mars",
+    "opt4": "Jupiter",
+    "answer": "Venus",
+    "bengali_meaning": "তীব্র গ্রিনহাউস প্রতিক্রিয়ার কারণে সৌরজগতের সবচেয়ে উষ্ণ গ্রহ কোনটি?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which gas makes up more than 95% of Venus's thick atmosphere?",
+    "opt1": "Nitrogen",
+    "opt2": "Oxygen",
+    "opt3": "Carbon dioxide",
+    "opt4": "Methane",
+    "answer": "Carbon dioxide",
+    "bengali_meaning": "শুক্র গ্রহের ঘন বায়ুমণ্ডলের ৯৫%-এরও বেশি অংশ কোন গ্যাস দ্বারা গঠিত?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which planet is also widely recognized by the titles 'Morning Star' and 'Evening Star'?",
+    "opt1": "Mars",
+    "opt2": "Venus",
+    "opt3": "Mercury",
+    "opt4": "Jupiter",
+    "answer": "Venus",
+    "bengali_meaning": "কোন গ্রহটি 'শুকতারা' এবং 'সন্ধ্যাতারা' নামেও ব্যাপকভাবে পরিচিত?"
+  },
+  {
+    "subject": "Non-Technical",
+    "question": "Which planet rotates clockwise (retrograde rotation) from East to West, unlike most other planets?",
+    "opt1": "Earth",
+    "opt2": "Mars",
+    "opt3": "Venus",
+    "opt4": "Jupiter",
+    "answer": "Venus",
+    "bengali_meaning": "অধিকাংশ গ্রহের বিপরীতে কোন গ্রহটি ঘড়ির কাঁটার দিকে (পূর্ব থেকে পশ্চিমে) আবর্তন করে?"
   }
 ]
