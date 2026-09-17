@@ -138,7 +138,7 @@ with tab_mock:
         if "Technical Only" in subject_mode:
             pool = [q for q in bank if q.get("subject") == "Technical"]
         elif "Non-Technical Only" in subject_mode:
-            pool = [q for q in bank if q.get("subject") == "Non-Technical"]
+            pool = [q for q in bank if q.get("subject") in ["Non-Technical", "GK GS", "GK / GS"]]
         else:
             pool = bank
 
