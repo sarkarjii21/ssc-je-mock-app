@@ -1652,8 +1652,5 @@
     "options": ["Under-voltage", "Short-circuit and severe overcurrent", "Reverse current", "Open circuits"],
     "correct_option": "Short-circuit and severe overcurrent",
     "bengali_meaning": "বৈদ্যুতিক বর্তনীতে ফিউজের মূল কাজ কীসের বিরুদ্ধে সুরক্ষা দেওয়া?"
-  },
-  {
-    "question": "What happens to the resistance of a pure semiconductor material (like Silicon or Germanium) when its temperature increases?",
-    "options": ["Increases", "Decreases (Negative Temperature Coefficient)", "Remains constant", "Becomes zero immediately"],
-    "correct_option": "Decreases (Negative Te
+  }
+]
