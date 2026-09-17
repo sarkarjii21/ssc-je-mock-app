@@ -22,9 +22,10 @@ def load_db():
         try:
             with open(DB_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                for q in data:
-                    if "subject" not in q:
-                        q["subject"] = "Technical"
+                        for q in data:
+            if not q.get("subject"):
+                q["subject"] = "Technical"
+
                 return data
         except Exception:
             return []
@@ -137,7 +138,7 @@ with tab_mock:
 
         if "Technical Only" in subject_mode:
             pool = [q for q in bank if q.get("subject") == "Technical"]
-        elif "Non-Technical Only" in subject_mode:
+        elif "Non-Technical" in subject_mode:
             pool = [q for q in bank if q.get("subject") in ["Non-Technical", "GK GS", "GK / GS"]]
         else:
             pool = bank
