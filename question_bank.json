@@ -1898,5 +1898,597 @@
     "opt4": "350 VA",
     "answer": "500 VA",
     "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "An electrical load takes an apparent power of 1300 VA and has an active power consumption of 1200 W. The reactive power Q supplied to the load is:",
+    "opt1": "100 VAR",
+    "opt2": "2500 VAR",
+    "opt3": "500 VAR",
+    "opt4": "600 VAR",
+    "answer": "500 VAR",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series R-L circuit, the active power is 60 W and the apparent power is 100 VA. The power factor of the circuit is:",
+    "opt1": "0.6 lagging",
+    "opt2": "0.8 lagging",
+    "opt3": "0.6 leading",
+    "opt4": "0.8 leading",
+    "answer": "0.6 lagging",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A series R-C circuit has R = 8 Ω and XC = 6 Ω. The power factor of the circuit is:",
+    "opt1": "0.6 lagging",
+    "opt2": "0.8 lagging",
+    "opt3": "0.6 leading",
+    "opt4": "0.8 leading",
+    "answer": "0.8 leading",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A single-phase circuit operating at 200 V draws a current of 5 A at 0.8 power factor lagging. The active power P consumed is:",
+    "opt1": "1000 W",
+    "opt2": "800 W",
+    "opt3": "600 W",
+    "opt4": "500 W",
+    "answer": "800 W",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "For the same circuit (V = 200 V, I = 5 A, p.f. = 0.8 lagging), the reactive power Q is:",
+    "opt1": "800 VAR",
+    "opt2": "600 VAR",
+    "opt3": "1000 VAR",
+    "opt4": "400 VAR",
+    "answer": "600 VAR",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "An industrial load has an apparent power rating of 10 kVA with a lagging power factor of 0.6. The reactive power Q is:",
+    "opt1": "6 kVAR",
+    "opt2": "8 kVAR",
+    "opt3": "4 kVAR",
+    "opt4": "10 kVAR",
+    "answer": "8 kVAR",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A series circuit has R = 15 Ω and total net reactance X = 20 Ω. The circuit power factor is:",
+    "opt1": "0.75",
+    "opt2": "0.60",
+    "opt3": "0.80",
+    "opt4": "0.85",
+    "answer": "0.60",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series RLC circuit at resonance, the phase angle between voltage and current is:",
+    "opt1": "90°",
+    "opt2": "45°",
+    "opt3": "0°",
+    "opt4": "180°",
+    "answer": "0°",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "The power factor of an RLC series circuit operating at resonance is:",
+    "opt1": "Zero",
+    "opt2": "0.5 lagging",
+    "opt3": "0.8 leading",
+    "opt4": "Unity (1.0)",
+    "answer": "Unity (1.0)",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "An R-L circuit with R = 24 Ω and XL = 7 Ω is connected to a supply. The circuit power factor is approximately:",
+    "opt1": "0.96 lagging",
+    "opt2": "0.70 lagging",
+    "opt3": "0.28 lagging",
+    "opt4": "0.50 lagging",
+    "answer": "0.96 lagging",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "If an AC circuit draws a total current of 10 A at 0.6 power factor lagging, its active current component (I cos φ) is:",
+    "opt1": "8 A",
+    "opt2": "6 A",
+    "opt3": "10 A",
+    "opt4": "4 A",
+    "answer": "6 A",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "For the circuit (I = 10 A, p.f. = 0.6 lagging), the reactive (wattless) current component (I sin φ) is:",
+    "opt1": "6 A",
+    "opt2": "8 A",
+    "opt3": "4 A",
+    "opt4": "2 A",
+    "answer": "8 A",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In an AC circuit, the ratio of active power to apparent power (P/S) represents:",
+    "opt1": "Form factor",
+    "opt2": "Peak factor",
+    "opt3": "Power factor",
+    "opt4": "Quality factor",
+    "answer": "Power factor",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A circuit consumes 40 W and has an impedance with R = 10 Ω and Z = 20 Ω. The apparent power S is:",
+    "opt1": "40 VA",
+    "opt2": "80 VA",
+    "opt3": "160 VA",
+    "opt4": "20 VA",
+    "answer": "80 VA",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A pure capacitor is connected across an AC voltage source. The active power consumed by the capacitor is:",
+    "opt1": "VI",
+    "opt2": "V^2/XC",
+    "opt3": "0 W",
+    "opt4": "Infinity",
+    "answer": "0 W",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A coil draws 5 A from a 100 V DC source. When connected to a 100 V, 50 Hz AC source, it draws 4 A. The reactance XL of the coil is:",
+    "opt1": "20 Ω",
+    "opt2": "25 Ω",
+    "opt3": "15 Ω",
+    "opt4": "5 Ω",
+    "answer": "15 Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series circuit, VR = 80 V across the resistor and VL = 60 V across the inductor. The total source voltage V is:",
+    "opt1": "140 V",
+    "opt2": "100 V",
+    "opt3": "20 V",
+    "opt4": "70 V",
+    "answer": "100 V",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series RLC circuit, VR = 120 V, VL = 160 V, and VC = 70 V. The supply voltage V is:",
+    "opt1": "350 V",
+    "opt2": "150 V",
+    "opt3": "210 V",
+    "opt4": "250 V",
+    "answer": "150 V",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A load of (6 + j8) Ω is connected across a 100 V AC supply. The total active power P dissipated is:",
+    "opt1": "600 W",
+    "opt2": "800 W",
+    "opt3": "1000 W",
+    "opt4": "100 W",
+    "answer": "600 W",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "An inductor of L = 0.1 H and a capacitor of C = 10 µF are connected in series. The resonant angular frequency ω0 is:",
+    "opt1": "100 rad/s",
+    "opt2": "314 rad/s",
+    "opt3": "1000 rad/s",
+    "opt4": "10,000 rad/s",
+    "answer": "1000 rad/s",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A series RLC circuit has L = 0.4 H and C = 40 µF. The resonant angular frequency ω0 is:",
+    "opt1": "250 rad/s",
+    "opt2": "500 rad/s",
+    "opt3": "100 rad/s",
+    "opt4": "1000 rad/s",
+    "answer": "250 rad/s",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series RLC circuit, if both L and C are doubled, the resonant frequency f0 becomes:",
+    "opt1": "Doubled",
+    "opt2": "Halved",
+    "opt3": "Quadrupled",
+    "opt4": "Remains unchanged",
+    "answer": "Halved",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "If the inductance L in a series resonant circuit is quadrupled (4L) while C is kept constant, the resonant frequency:",
+    "opt1": "Doubles",
+    "opt2": "Halves",
+    "opt3": "Quadruples",
+    "opt4": "Becomes one-fourth",
+    "answer": "Halves",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A series RLC circuit has R = 10 Ω, L = 100 mH, and C = 10 µF. The Quality factor (Q-factor) of the circuit is:",
+    "opt1": "10",
+    "opt2": "100",
+    "opt3": "1",
+    "opt4": "0.1",
+    "answer": "10",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series RLC circuit, the voltages across elements are VR = 40 V, VL = 100 V, and VC = 70 V. The supply voltage is:",
+    "opt1": "210 V",
+    "opt2": "50 V",
+    "opt3": "70 V",
+    "opt4": "110 V",
+    "answer": "50 V",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "At frequencies below the resonant frequency, a series RLC circuit behaves as a:",
+    "opt1": "Purely resistive circuit",
+    "opt2": "Inductive circuit",
+    "opt3": "Capacitive circuit",
+    "opt4": "Non-linear circuit",
+    "answer": "Capacitive circuit",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "At frequencies above the resonant frequency, a series RLC circuit behaves as a:",
+    "opt1": "Capacitive circuit",
+    "opt2": "Inductive circuit",
+    "opt3": "Purely resistive circuit",
+    "opt4": "Open circuit",
+    "answer": "Inductive circuit",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A circuit has R = 16 Ω and impedance Z = 20 Ω. What is the reactive factor (sin φ)?",
+    "opt1": "0.8",
+    "opt2": "0.6",
+    "opt3": "0.75",
+    "opt4": "0.5",
+    "answer": "0.6",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A parallel RLC circuit at resonance has:",
+    "opt1": "Minimum impedance and maximum current",
+    "opt2": "Maximum impedance and minimum current",
+    "opt3": "Zero impedance",
+    "opt4": "Infinite current",
+    "answer": "Maximum impedance and minimum current",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series RLC circuit, R = 5 Ω, L = 0.2 H, and C = 5 µF. The resonant angular frequency ω0 is:",
+    "opt1": "500 rad/s",
+    "opt2": "1000 rad/s",
+    "opt3": "2000 rad/s",
+    "opt4": "100 rad/s",
+    "answer": "1000 rad/s",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "An alternating voltage v(t) = 100 sin(ωt) produces a current i(t) = 10 sin(ωt - 60°). The active power consumed is:",
+    "opt1": "1000 W",
+    "opt2": "500 W",
+    "opt3": "250 W",
+    "opt4": "125 W",
+    "answer": "250 W",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "For Vm = 100 V, Im = 10 A, φ = 60°, the apparent power S is:",
+    "opt1": "1000 VA",
+    "opt2": "500 VA",
+    "opt3": "707 VA",
+    "opt4": "250 VA",
+    "answer": "500 VA",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "An AC circuit has Z = (9 + j12) Ω. The power factor of this circuit is:",
+    "opt1": "0.6 lagging",
+    "opt2": "0.8 lagging",
+    "opt3": "0.75 lagging",
+    "opt4": "0.6 leading",
+    "answer": "0.6 lagging",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "An AC circuit has Z = (20 - j15) Ω. The power factor of this circuit is:",
+    "opt1": "0.6 leading",
+    "opt2": "0.8 leading",
+    "opt3": "0.8 lagging",
+    "opt4": "0.75 lagging",
+    "answer": "0.8 leading",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A series circuit has R = 10 Ω and draws an apparent power of 250 VA when a current of 4 A flows through it. The power factor is:",
+    "opt1": "0.64",
+    "opt2": "0.80",
+    "opt3": "0.40",
+    "opt4": "0.50",
+    "answer": "0.64",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series resonant circuit, the bandwidth is given by the relation:",
+    "opt1": "R/L",
+    "opt2": "L/R",
+    "opt3": "R/(2πL)",
+    "opt4": "ω0 · Q",
+    "answer": "R/(2πL)",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A series RLC circuit with R = 2 Ω, L = 1 mH, and C = 0.1 µF has a resonant angular frequency ω0 = 100,000 rad/s. The circuit bandwidth in rad/s is:",
+    "opt1": "2000 rad/s",
+    "opt2": "1000 rad/s",
+    "opt3": "500 rad/s",
+    "opt4": "200 rad/s",
+    "answer": "2000 rad/s",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "The voltage across a series RLC circuit at resonance is 10 V. If the quality factor Q = 25, the voltage across the inductor VL at resonance is:",
+    "opt1": "10 V",
+    "opt2": "2.5 V",
+    "opt3": "250 V",
+    "opt4": "0.4 V",
+    "answer": "250 V",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "An AC voltage v(t) = 200√2 sin(314t) V is connected across a series combination of R = 30 Ω and XL = 40 Ω. The RMS value of current is:",
+    "opt1": "2.82 A",
+    "opt2": "4.0 A",
+    "opt3": "5.65 A",
+    "opt4": "6.66 A",
+    "answer": "4.0 A",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A load of 8 kW operates at 0.8 power factor lagging from a 200 V line. The line current is:",
+    "opt1": "40 A",
+    "opt2": "50 A",
+    "opt3": "32 A",
+    "opt4": "25 A",
+    "answer": "50 A",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "If an alternating current is expressed as i(t) = 3 + 4 sin(ωt) A, its effective (RMS) value is:",
+    "opt1": "5 A",
+    "opt2": "√17 A",
+    "opt3": "7 A",
+    "opt4": "3.5 A",
+    "answer": "√17 A",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "Two currents are given by i1 = 10 sin(ωt) A and i2 = 10 sin(ωt - 90°) A. The RMS value of the total resultant current (i1 + i2) is:",
+    "opt1": "20 A",
+    "opt2": "14.14 A",
+    "opt3": "10 A",
+    "opt4": "0 A",
+    "answer": "10 A",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "An inductor coil has an impedance of 10 Ω and a power factor of 0.8 lagging. The inductive reactance XL of the coil is:",
+    "opt1": "8 Ω",
+    "opt2": "6 Ω",
+    "opt3": "2 Ω",
+    "opt4": "10 Ω",
+    "answer": "6 Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A capacitive branch has Z = 25 Ω and resistance R = 7 Ω. What is the capacitive reactance XC?",
+    "opt1": "18 Ω",
+    "opt2": "24 Ω",
+    "opt3": "32 Ω",
+    "opt4": "12 Ω",
+    "answer": "24 Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a parallel circuit, Branch 1 draws (6 + j8) A and Branch 2 draws (6 - j8) A. The total current drawn from the supply is:",
+    "opt1": "12 A",
+    "opt2": "16 A",
+    "opt3": "20 A",
+    "opt4": "0 A",
+    "answer": "12 A",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "The power factor of the combined circuit (total current = 12 A with zero imaginary part) is:",
+    "opt1": "0.6 lagging",
+    "opt2": "0.8 leading",
+    "opt3": "Unity (1.0)",
+    "opt4": "Zero",
+    "answer": "Unity (1.0)",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "An AC source of 100 V is applied to a series circuit of R = 60 Ω and XC = 80 Ω. The reactive power Q is:",
+    "opt1": "60 VAR",
+    "opt2": "80 VAR",
+    "opt3": "100 VAR",
+    "opt4": "140 VAR",
+    "answer": "80 VAR",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In an RLC series circuit, the maximum voltage magnification across the inductor at resonance depends directly on:",
+    "opt1": "Supply voltage",
+    "opt2": "Bandwidth",
+    "opt3": "Quality factor (Q)",
+    "opt4": "Resonant frequency",
+    "answer": "Quality factor (Q)",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A circuit draws an active power of 1200 W and an apparent power of 1500 VA. The reactive factor (sin φ) of the circuit is:",
+    "opt1": "0.8",
+    "opt2": "0.6",
+    "opt3": "0.75",
+    "opt4": "0.5",
+    "answer": "0.6",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "The resonant frequency of an LC circuit is 1000 Hz. If both L and C are quadrupled (4L and 4C), the new resonant frequency will be:",
+    "opt1": "4000 Hz",
+    "opt2": "2000 Hz",
+    "opt3": "500 Hz",
+    "opt4": "250 Hz",
+    "answer": "250 Hz",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A coil having resistance R = 15 Ω and inductance L = 0.2 H is connected to a 50 Hz AC line. The impedance Z is approximately:",
+    "opt1": "15 Ω",
+    "opt2": "62.8 Ω",
+    "opt3": "64.6 Ω",
+    "opt4": "77.8 Ω",
+    "answer": "64.6 Ω",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A series RLC circuit has a quality factor Q = 50 and a resonant frequency of 100 kHz. The bandwidth of the circuit is:",
+    "opt1": "2 kHz",
+    "opt2": "5 kHz",
+    "opt3": "50 kHz",
+    "opt4": "0.5 kHz",
+    "answer": "2 kHz",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "An AC load has a complex power S = (800 + j600) VA. What is the power factor?",
+    "opt1": "0.8 lagging",
+    "opt2": "0.6 lagging",
+    "opt3": "0.8 leading",
+    "opt4": "0.6 leading",
+    "answer": "0.8 lagging",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "For the complex power S = (1200 - j500) VA, the nature of the power factor is:",
+    "opt1": "Lagging",
+    "opt2": "Leading",
+    "opt3": "Unity",
+    "opt4": "Zero",
+    "answer": "Leading",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In an AC circuit, the voltage and current are given by v(t) = 100 sin(ωt + 30°) V and i(t) = 5 sin(ωt - 30°) A. The power factor is:",
+    "opt1": "0.5 lagging",
+    "opt2": "0.866 lagging",
+    "opt3": "0.5 leading",
+    "opt4": "0.866 leading",
+    "answer": "0.5 lagging",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "For Vm = 100 V, Im = 5 A, φ = 60°, the average power consumed is:",
+    "opt1": "250 W",
+    "opt2": "125 W",
+    "opt3": "500 W",
+    "opt4": "216.5 W",
+    "answer": "125 W",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "A resistor R = 40 Ω and an inductor XL = 30 Ω are connected in parallel across a 120 V source. The total active power consumed is:",
+    "opt1": "288 W",
+    "opt2": "360 W",
+    "opt3": "480 W",
+    "opt4": "120 W",
+    "answer": "360 W",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "In a series RLC circuit, at the half-power frequencies, the current magnitude is:",
+    "opt1": "Equal to the maximum current I0",
+    "opt2": "Half of the maximum current (0.5 I0)",
+    "opt3": "1/√2 times the maximum current (0.707 I0)",
+    "opt4": "Twice the maximum current (2 I0)",
+    "answer": "1/√2 times the maximum current (0.707 I0)",
+    "image_path": null
+  },
+  {
+    "subject": "Electrical Engineering",
+    "question": "The power factor of a series RLC circuit at half-power frequencies is:",
+    "opt1": "1.0",
+    "opt2": "0.707",
+    "opt3": "0.5",
+    "opt4": "Zero",
+    "answer": "0.707",
+    "image_path": null
   }
 ]
+
+    
