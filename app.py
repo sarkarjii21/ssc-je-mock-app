@@ -22,10 +22,9 @@ def load_db():
         try:
             with open(DB_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                        for q in data:
-            if not q.get("subject"):
-                q["subject"] = "Technical"
-
+                for q in data:
+                    if not q.get("subject"):
+                        q["subject"] = "Technical"
                 return data
         except Exception:
             return []
