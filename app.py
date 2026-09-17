@@ -195,6 +195,11 @@ with tab_mock:
             if q.get("bengali_meaning"):
                 with st.expander(f"🇧🇩 প্রশ্ন {i+1} এর বাংলা অর্থ (Show Meaning)"):
                     st.write(q["bengali_meaning"])
+            if "options" not in q:
+            q["options"] = [q.get("opt1"), q.get("opt2"), q.get("opt3"), q.get("opt4")]
+            if "correct_option" not in q:
+            q["correct_option"] = q.get("answer")
+            
 
             current_choice = st.session_state.user_answers.get(i, None)
             default_index = None
